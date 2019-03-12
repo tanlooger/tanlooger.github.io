@@ -12,3 +12,8 @@ https://www.cnblogs.com/2zhyi/p/3403760.html
 
 sudo apt-get install ubuntu-desktop
 接着在字符界面输入命令： startx  ，这就进入图形界面
+
+如果要每次开机都进入到命令行模式的话，需要在/etc/default/grub里面配置。
+将GRUB_CMDLINE_LINUX_DEFAULT一行中改为"quiet splash 3"。
+保存退出后，使用update-grub命令来基于这些更改重新生成/boot下的GRUB2配置文件。
+重启即可进入命令行模式了。
