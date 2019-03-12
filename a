@@ -4,3 +4,7 @@ https://blog.yandere.moe/moe/psiphon-on-macos/88.html
 https://blog.csdn.net/fafactx/article/details/83034112
 
 https://www.cnblogs.com/2zhyi/p/3403760.html
+
+
+命令行下使用复制、粘贴功能，安装gpm
+使用时 systemctl start gpm
