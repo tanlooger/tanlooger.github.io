@@ -17,3 +17,5 @@ sudo apt-get install ubuntu-desktop
 将GRUB_CMDLINE_LINUX_DEFAULT一行中改为"quiet splash 3"。
 保存退出后，使用update-grub命令来基于这些更改重新生成/boot下的GRUB2配置文件。
 重启即可进入命令行模式了。
+
+sudo mount -t vboxsf share ./share
