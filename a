@@ -8,3 +8,7 @@ https://www.cnblogs.com/2zhyi/p/3403760.html
 
 命令行下使用复制、粘贴功能，安装gpm
 使用时 systemctl start gpm
+
+
+sudo apt-get install ubuntu-desktop
+接着在字符界面输入命令： startx  ，这就进入图形界面
