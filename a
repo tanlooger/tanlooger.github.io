@@ -19,3 +19,11 @@ sudo apt-get install ubuntu-desktop
 重启即可进入命令行模式了。
 
 sudo mount -t vboxsf share ./share
+
+
+
+
+
+
+Cannot fit requested classes in a single dex file
+https://www.jianshu.com/p/95211b445154
