@@ -7,7 +7,17 @@
 
 const arr = [
   "",
-  '周纪',
+  '五言古诗',
+  '五古·乐府',
+  '七言古诗',
+  '七古·乐府',
+  '五言律诗',
+  '七言律诗',
+  '七律·乐府',
+  '五言绝句',
+  '五绝·乐府',
+  '七言绝句',
+  '七绝·乐府',
 ]
 
 const CHAPTER = 9
@@ -47,7 +57,7 @@ const data = ''
 
 console.log('adsfsd '+myArray.length)
 
-for(let i=1; i<=20; i++){
+for(let i=1; i<=11; i++){
   //for(let i=1; i<=myArray.length; i++){
     //console.log(i)
   //const chapter = myArray[i].split("adfdsdeo97j")
@@ -55,9 +65,9 @@ for(let i=1; i<=20; i++){
 
   json.push({
     //"slug": "cn/53/"+CHAPTER+'/'+i,
-    "slug": "cn/81/"+i,
-    //"title": arr[i],
-    "title": "",
+    "slug": "cn/82/"+i,
+    "title": arr[i],
+    //"title": "",
     //"title": chapter[0],
     "child": []
   })
@@ -70,7 +80,8 @@ for(let i=1; i<=20; i++){
    //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
   fs.writeFileSync('bookchap.json', JSON.stringify(json));
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0]+"\n---\n\n");
-  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
+  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+arr[i]+"\n---\n\n");
+  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
 
 }
 

@@ -1,0 +1,18 @@
+{
+  "slug": "cn/82",
+  "title": "唐诗三百首",
+  "child": [
+    { "slug": "cn/82/1", "title": "五言古诗", "child": [] },
+    { "slug": "cn/82/2", "title": "五古·乐府", "child": [] },
+    { "slug": "cn/82/3", "title": "七言古诗", "child": [] },
+    { "slug": "cn/82/4", "title": "七古·乐府", "child": [] },
+    { "slug": "cn/82/5", "title": "五言律诗", "child": [] },
+    { "slug": "cn/82/6", "title": "七言律诗", "child": [] },
+    { "slug": "cn/82/7", "title": "七律·乐府", "child": [] },
+    { "slug": "cn/82/8", "title": "五言绝句", "child": [] },
+    { "slug": "cn/82/9", "title": "五绝·乐府", "child": [] },
+    { "slug": "cn/82/10", "title": "七言绝句", "child": [] },
+    { "slug": "cn/82/11", "title": "七绝·乐府", "child": [] },
+    { "slug": "cn/82/12", "title": "诗人简介"}
+  ]
+}
