@@ -47,7 +47,7 @@ const data = ''
 
 console.log('adsfsd '+myArray.length)
 
-for(let i=1; i<=60; i++){
+for(let i=1; i<=20; i++){
   //for(let i=1; i<=myArray.length; i++){
     //console.log(i)
   //const chapter = myArray[i].split("adfdsdeo97j")
@@ -55,17 +55,17 @@ for(let i=1; i<=60; i++){
 
   json.push({
     //"slug": "cn/53/"+CHAPTER+'/'+i,
-    "slug": "cn/53/2023/"+i,
+    "slug": "cn/81/"+i,
     //"title": arr[i],
     "title": "",
     //"title": chapter[0],
-    //"child": []
+    "child": []
   })
 
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 睡前消息"+i+"期：\n---\n\n日睡前消息文字版第"+i+"期");
   //fs.writeFileSync(CHAPTER+'/'+i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
-   //fs.mkdirSync(i.toString())
+   fs.mkdirSync(i.toString())
   //if(!fs.existsSync('a'))fs.mkdirSync('a')
    //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
   fs.writeFileSync('bookchap.json', JSON.stringify(json));
