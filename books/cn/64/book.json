@@ -1,0 +1,17 @@
+{
+  "slug": "cn/64",
+  "title": "活着-余华",
+  "child": [
+    { "slug": "cn/64/1", "title": "第一章" },
+    { "slug": "cn/64/2", "title": "第二章" },
+    { "slug": "cn/64/3", "title": "第三章" },
+    { "slug": "cn/64/4", "title": "第四章" },
+    { "slug": "cn/64/5", "title": "第五章" },
+    { "slug": "cn/64/6", "title": "第六章" },
+    { "slug": "cn/64/7", "title": "第七章" },
+    { "slug": "cn/64/8", "title": "第八章" },
+    { "slug": "cn/64/9", "title": "第九章" },
+    { "slug": "cn/64/10", "title": "第十章" },
+    { "slug": "cn/64/11", "title": "外文版评论摘要" }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "slug": "en/6",
+  "title": "The Dark Elf Trilogy",
+  "child": [
+    {
+      "title": "Homeland",
+      "slug": "en/6/1",
+      "open": true,
+      "child": [
+        {
+          "title": "Part 1 Station",
+          "slug": "en/6/1/1",
+          "child": [
+            {
+              "title": "1 Menzoberranzan",
+              "slug": "en/6/1/1/1"            
+            },
+            {
+              "title": "2 The Fall of House DeVir",
+              "slug": "en/6/1/1/2"            
+            },
+            {
+              "title": "3 The Eyes of the Child",
+              "slug": "en/6/1/1/3"            
+            },
+            {
+              "title": "4 Tbe First House",
+              "slug": "en/6/1/1/4"            
+            },
+            {
+              "title": "5 Weaning",
+              "slug": "en/6/1/1/5"            
+            }
+          ]
+        },
+        {
+          "title": "Part 2 The Weapon Master",
+          "slug": "en/6/1/2",
+          "child": [
+            {
+              "title": "6 \"Two-Hands\"",
+              "slug": "en/6/1/2/6"            
+            },
+            {
+              "title": "7 Dark Secrets",
+              "slug": "en/6/1/2/7"            
+            },
+            {
+              "title": "8 Kindred",
+              "slug": "en/6/1/2/8"            
+            },
+            {
+              "title": "9 Families",
+              "slug": "en/6/1/2/9"            
+            },
+            {
+              "title": "10 The Stain of Blood",
+              "slug": "en/6/1/2/10"            
+            },
+            {
+              "title": "11 Grim Preference",
+              "slug": "en/6/1/2/11"            
+            }
+          ]
+        },
+        {
+          "title": "Part 3 The Academy",
+          "slug": "en/6/1/3",
+          "child": [
+            {
+              "title": "12 This Enemy,\"They\"",
+              "slug": "en/6/1/3/12"            
+            },
+            {
+              "title": "13 The Price of Winning",
+              "slug": "en/6/1/3/13"            
+            },
+            {
+              "title": "14 Proper Respect",
+              "slug": "en/6/1/3/14"            
+            },
+            {
+              "title": "15 On The DarkSide",
+              "slug": "en/6/1/3/15"            
+            },
+            {
+              "title": "16 Sacrilege",
+              "slug": "en/6/1/3/16"            
+            }
+          ]
+        },
+        {
+          "title": "Part 4 Guenhwyvar",
+          "slug": "en/6/1/4",
+          "child": [
+            {
+              "title": "17 Homecoming",
+              "slug": "en/6/1/4/17"            
+            },
+            {
+              "title": "18 The Black Room",
+              "slug": "en/6/1/4/18"            
+            },
+            {
+              "title": "19 Promises of Glory",
+              "slug": "en/6/1/4/19"            
+            },
+            {
+              "title": "20 That Foreign World",
+              "slug": "en/6/1/4/20"            
+            },
+            {
+              "title": "21 May It Please The Goddess",
+              "slug": "en/6/1/4/21"            
+            },
+            {
+              "title": "22 Gnomes,Wicked Gnomes",
+              "slug": "en/6/1/4/22"            
+            },
+            {
+              "title": "23 A Single Clean Blow",
+              "slug": "en/6/1/4/23"            
+            }
+          ]
+        },
+        {
+          "title": "Part 5 Zaknafein",
+          "slug": "en/6/1/5",
+          "child": [
+            {
+              "title": "24 To Know Our Enemies",
+              "slug": "en/6/1/5/24"            
+            },
+            {
+              "title": "25 The Weapon Masters",
+              "slug": "en/6/1/5/25"            
+            },
+            {
+              "title": "26 Angler Of The Underdark",
+              "slug": "en/6/1/5/26"            
+            },
+            {
+              "title": "27 Untroubled Dreams",
+              "slug": "en/6/1/5/27"            
+            },
+            {
+              "title": "28 Rightful Owner",
+              "slug": "en/6/1/5/28"            
+            },
+            {
+              "title": "29 Alone",
+              "slug": "en/6/1/5/29"            
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Exile",
+      "slug": "en/6/2",
+      "open": true,
+      "child": [
+        {
+          "title": "Part 1 THE HUNTER",
+          "slug": "en/6/2/1",
+          "child": [
+            {
+              "title": "1 ANNIVERSARY PRESENT",
+              "slug": "en/6/2/1/1"            
+            },
+            {
+              "title": "2 Voices in the Dark",
+              "slug": "en/6/2/1/2"            
+            },
+            {
+              "title": "3 Snakes And Swords",
+              "slug": "en/6/2/1/3"            
+            },
+            {
+              "title": "4 Flight From The Hunter",
+              "slug": "en/6/2/1/4"            
+            },
+            {
+              "title": "5 UNHOLY ALLY",
+              "slug": "en/6/2/1/5"            
+            },
+            {
+              "title": "6 BLINGDENSTONE",
+              "slug": "en/6/2/1/6"            
+            }
+          ]
+        },
+        {
+          "title": "Part 2 BELWAR",
+          "slug": "en/6/2/2",
+          "child": [
+            {
+              "title": "7 MOST HONORED BURROW-WARDEN",
+              "slug": "en/6/2/2/7"            
+            },
+            {
+              "title": "8 STRANGERS",
+              "slug": "en/6/2/2/8"            
+            },
+            {
+              "title": "9 WHISPERS IN THE TUNNELS",
+              "slug": "en/6/2/2/9"            
+            },
+            {
+              "title": "10 BELWAR'S GUILT",
+              "slug": "en/6/2/2/10"            
+            },
+            {
+              "title": "11 THE INFORMANT",
+              "slug": "en/6/2/2/11"            
+            }
+          ]
+        },
+        {
+          "title": "Part 3 Friends And Foes",
+          "slug": "en/6/2/3",
+          "child": [
+            {
+              "title": "12 Wilds, Wilds, Wilds",
+              "slug": "en/6/2/3/12"            
+            },
+            {
+              "title": "13 A LITTLE PLACE TO CALL HOME",
+              "slug": "en/6/2/3/13"            
+            },
+            {
+              "title": "14 CLACKER",
+              "slug": "en/6/2/3/14"            
+            },
+            {
+              "title": "15 POINTED REMINDERS",
+              "slug": "en/6/2/3/15"            
+            }
+          ]
+        },
+        {
+          "title": "Part 4 HELPLESS",
+          "slug": "en/6/2/4",
+          "child": [
+            {
+              "title": "16 INSIDIOUS CHAINS",
+              "slug": "en/6/2/4/16"            
+            },
+            {
+              "title": "17 A DELICATE BALANCE",
+              "slug": "en/6/2/4/17"            
+            },
+            {
+              "title": "18 THE ELEMENT OF SURPRISE",
+              "slug": "en/6/2/4/18"            
+            },
+            {
+              "title": "19 HEADACHES",
+              "slug": "en/6/2/4/19"            
+            },
+            {
+              "title": "20 FATHER, MY FATHER",
+              "slug": "en/6/2/4/20"            
+            },
+            {
+              "title": "21 LOST AND FOUND",
+              "slug": "en/6/2/4/21"            
+            }
+          ]
+        },
+        {
+          "title": "Part 5 SPIRIT",
+          "slug": "en/6/2/5",
+          "child": [
+            {
+              "title": "22 WITHOUT DIRECTION",
+              "slug": "en/6/2/5/22"            
+            },
+            {
+              "title": "23 RIPPLES",
+              "slug": "en/6/2/5/23"            
+            },
+            {
+              "title": "24 FAITH",
+              "slug": "en/6/2/5/24"            
+            },
+            {
+              "title": "25 CONSEQUENCES",
+              "slug": "en/6/2/5/25"            
+            },
+            {
+              "title": "26 LIGHTS IN THE CEILING",
+              "slug": "en/6/2/5/26"            
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Sojourn",
+      "slug": "en/6/3",
+      "open": true,
+      "child": [
+        {
+          "title": "Part 1 Sunrise",
+          "slug": "en/6/3/1",
+          "child": [
+            {
+              "title": "1 Poignant Lessons",
+              "slug": "en/6/3/1/1"            
+            },
+            {
+              "title": "2 Questions of Conscience",
+              "slug": "en/6/3/1/2"            
+            },
+            {
+              "title": "3 The Whelps",
+              "slug": "en/6/3/1/3"            
+            },
+            {
+              "title": "4 Worries",
+              "slug": "en/6/3/1/4"            
+            },
+            {
+              "title": "5 The Stalk of Doom",
+              "slug": "en/6/3/1/5"            
+            }
+          ]
+        },
+        {
+          "title": "Part 2 The Ranger",
+          "slug": "en/6/3/2",
+          "child": [
+            {
+              "title": "6 Sundabar",
+              "slug": "en/6/3/2/6"            
+            },
+            {
+              "title": "7 Simmering Rage",
+              "slug": "en/6/3/2/7"            
+            },
+            {
+              "title": "8 Clues and Riddles",
+              "slug": "en/6/3/2/8"            
+            },
+            {
+              "title": "9 The Chase",
+              "slug": "en/6/3/2/9"            
+            },
+            {
+              "title": "10 A Question of Honor",
+              "slug": "en/6/3/2/10"            
+            }
+          ]
+        },
+        {
+          "title": "Part 3 Montolio",
+          "slug": "en/6/3/3",
+          "child": [
+            {
+              "title": "11 Winter",
+              "slug": "en/6/3/3/11"            
+            },
+            {
+              "title": "12 To Know Your Enemies",
+              "slug": "en/6/3/3/12"            
+            },
+            {
+              "title": "13 Montolio",
+              "slug": "en/6/3/3/13"            
+            },
+            {
+              "title": "14 Montolio’s Test",
+              "slug": "en/6/3/3/14"            
+            },
+            {
+              "title": "15 A Shadow over Sanctuary",
+              "slug": "en/6/3/3/15"            
+            }
+          ]
+        },
+        {
+          "title": "Part 4 Resolutions",
+          "slug": "en/6/3/4",
+          "child": [
+            {
+              "title": "16 Of Gods and Purpose",
+              "slug": "en/6/3/4/16"            
+            },
+            {
+              "title": "17 Outnumbered",
+              "slug": "en/6/3/4/17"            
+            },
+            {
+              "title": "18 The Battle of Mooshie’s Grove",
+              "slug": "en/6/3/4/18"            
+            },
+            {
+              "title": "19 Separate Ways",
+              "slug": "en/6/3/4/19"            
+            }
+          ]
+        },
+        {
+          "title": "Part 5 Sojourn",
+          "slug": "en/6/3/5",
+          "child": [
+            {
+              "title": "20 Years and Miles",
+              "slug": "en/6/3/5/20"            
+            },
+            {
+              "title": "21 Hephaestus",
+              "slug": "en/6/3/5/21"            
+            },
+            {
+              "title": "22 Homeward Bound",
+              "slug": "en/6/3/5/22"            
+            },
+            {
+              "title": "23 A Memory Come to Life",
+              "slug": "en/6/3/5/23"            
+            },
+            {
+              "title": "24 Revelations",
+              "slug": "en/6/3/5/24"            
+            },
+            {
+              "title": "25 Dwarven Banter",
+              "slug": "en/6/3/5/25"            
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Epilogue",
+      "slug": "en/6/4"      
+    }
+  ]
+}

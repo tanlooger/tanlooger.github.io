@@ -1,0 +1,28 @@
+{
+  "slug": "en/27",
+  "title": "Charlotte’s Web",
+  "child": [
+    { "slug": "en/27/1", "title": "I.Before Breakfast" },
+    { "slug": "en/27/2", "title": "II.Wilbur" },
+    { "slug": "en/27/3", "title": "III.Escape" },
+    { "slug": "en/27/4", "title": "IV.Loneliness" },
+    { "slug": "en/27/5", "title": "V.Charlotte" },
+    { "slug": "en/27/6", "title": "VI.Summer Days" },
+    { "slug": "en/27/7", "title": "VII.Bad News" },
+    { "slug": "en/27/8", "title": "VIII.A Talk at Home" },
+    { "slug": "en/27/9", "title": "IX.Wilbur’s Boast" },
+    { "slug": "en/27/10", "title": "X.An Explosion" },
+    { "slug": "en/27/11", "title": "XI.The Miracle" },
+    { "slug": "en/27/12", "title": "XII.A Meeting" },
+    { "slug": "en/27/13", "title": "XIII.Good Progress" },
+    { "slug": "en/27/14", "title": "XIV.Dr. Dorian" },
+    { "slug": "en/27/15", "title": "XV.The Crickets" },
+    { "slug": "en/27/16", "title": "XVI.Off to the Fair" },
+    { "slug": "en/27/17", "title": "XVII.Uncle" },
+    { "slug": "en/27/18", "title": "XVIII.The Cool of the Evening" },
+    { "slug": "en/27/19", "title": "XIX.The Egg Sac" },
+    { "slug": "en/27/20", "title": "XX.The Hour of Triumph" },
+    { "slug": "en/27/21", "title": "XXI.Last Day" },
+    { "slug": "en/27/22", "title": "XXII.A Warm Wind" }
+  ]
+}

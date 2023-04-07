@@ -1,0 +1,27 @@
+{
+  "slug": "cn/68",
+  "title": "淮南子",
+  "child": [
+    { "slug": "cn/68/1", "title": "原道训" },
+    { "slug": "cn/68/2", "title": "俶真训" },
+    { "slug": "cn/68/3", "title": "天文训" },
+    { "slug": "cn/68/4", "title": "地形训" },
+    { "slug": "cn/68/5", "title": "时则训" },
+    { "slug": "cn/68/6", "title": "览冥训" },
+    { "slug": "cn/68/7", "title": "精神训" },
+    { "slug": "cn/68/8", "title": "本经训" },
+    { "slug": "cn/68/9", "title": "主术训" },
+    { "slug": "cn/68/10", "title": "缪称训" },
+    { "slug": "cn/68/11", "title": "齐俗训" },
+    { "slug": "cn/68/12", "title": "道应训" },
+    { "slug": "cn/68/13", "title": "汜论训" },
+    { "slug": "cn/68/14", "title": "诠言训" },
+    { "slug": "cn/68/15", "title": "兵略训" },
+    { "slug": "cn/68/16", "title": "说山训" },
+    { "slug": "cn/68/17", "title": "说林训" },
+    { "slug": "cn/68/18", "title": "人间训" },
+    { "slug": "cn/68/19", "title": "修务训" },
+    { "slug": "cn/68/20", "title": "泰族训" },
+    { "slug": "cn/68/21", "title": "要略" }
+  ]
+}

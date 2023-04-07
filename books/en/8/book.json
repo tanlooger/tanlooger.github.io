@@ -1,0 +1,86 @@
+{
+  "slug": "en/8",
+  "title": "The adventures of Robinson Crusoe",
+  "child": [
+    {
+      "title": "1 Start in life", 
+      "slug": "en/8/1"
+    },
+    {
+      "title": "2 Slavery and escape", 
+      "slug": "en/8/2"
+    },
+    {
+      "title": "3 Wrecked on a desert island", 
+      "slug": "en/8/3"
+    },
+    {
+      "title": "4 First weeks on the island", 
+      "slug": "en/8/4"
+    },
+    {
+      "title": "5 Builds a house", 
+      "slug": "en/8/5"
+    },
+    {
+      "title": "6 Ill and conscience-stricken", 
+      "slug": "en/8/6"
+    },
+    {
+      "title": "7 Agriculture experience", 
+      "slug": "en/8/7"
+    },
+    {
+      "title": "8 Surveys his position", 
+      "slug": "en/8/8"
+    },
+    {
+      "title": "9 A boat", 
+      "slug": "en/8/9"
+    },
+    {
+      "title": "10 Tames goats", 
+      "slug": "en/8/10"
+    },
+    {
+      "title": "11 Finds print of man's foot on the sand", 
+      "slug": "en/8/11"
+    },
+    {
+      "title": "12 A cave retreat", 
+      "slug": "en/8/12"
+    },
+    {
+      "title": "13 Wreck of a spanish ship", 
+      "slug": "en/8/13"
+    },
+    {
+      "title": "14 A dream realised", 
+      "slug": "en/8/14"
+    },
+    {
+      "title": "15 Friday's education", 
+      "slug": "en/8/15"
+    },
+    {
+      "title": "16 Rescue of prisoners from cannibals", 
+      "slug": "en/8/16"
+    },
+    {
+      "title": "17 Visit of mutineers", 
+      "slug": "en/8/17"
+    },
+    {
+      "title": "18 The ship recovered", 
+      "slug": "en/8/18"
+    },
+    {
+      "title": "19 Return to England", 
+      "slug": "en/8/19"
+    },
+    {
+      "title": "20 Fight between Friday and a bear", 
+      "slug": "en/8/20"
+    }
+  ]
+}

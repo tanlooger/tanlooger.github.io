@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+  ABLoopPlayer.html
+
+  Player for YouTube and local video and audio files with A-B loop,
+  slow motion and bookmarking functionality.
+
+  Copyright (C) 2016--2022  Alexander Grahn
+
+  This file is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This file is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<html lang="en"/>
+<head>
+  <title>AB Loop Player</title>
+  <meta charset="utf-8"/>
+  <meta name="application-name" content="ABLoopPlayer"/>
+  <meta name="description" content="Online player for YouTube and local video
+    and audio files with A-B repeat, loop bookmarking and slow/fast motion.
+    (ab looper, ab repeater, lecteur boucle ab)"/>
+  <meta name="keywords" content="AB, loop, looper, A-B, repeat, repeater,
+    bookmark, YouTube, video, audio, file"/>
+  <meta name="author" content="Alexander Grahn"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery framework -->
+  <link href="jquery-ui/jquery-ui.css" rel="stylesheet"/>
+  <script src="jquery-ui/external/jquery/jquery.js"></script>
+  <script src="jquery-ui/jquery-ui.js"></script>
+
+
+  <!-- hack for mobile devices -->
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+
+  <!-- styles used in this document -->
+  <link href="css/main.css" rel="stylesheet"/>
+
+  <!-- main code that implements the video player -->
+  <script src="js/main.js"></script>
+</head>
+
+<body style="margin-left: 1em; margin-right: 1em; min-width: max-content; display: inline-block;">
+
+
+<div style="margin-bottom: 3px; padding: 5px; background-color: #ddd;">
+  <div style="display: flex;">
+  <label for="inputYT">YouTube URL | video ID | list ID :</label><!--
+  --><input id="inputYT" list="YTids" autocomplete onfocus="this.select()"
+    onkeypress="if(event && event.keyCode == 13) queryYT(this.value)" onchange="queryYT(this.value)"
+    style="margin-left: 5px; margin-right: 1px; flex: 1 1 auto;" disabled/><datalist id="YTids"></datalist><!--
+    --><span style="float: right;"><!--
+      --><button id="searchButtonYT" onclick="queryYT(inputYT.value)"
+           style="margin-left: 0px; padding: 0;" disabled><!--
+        --><span class="ui-icon ui-icon-play"></span></button>
+      <input type="checkbox" onchange="contextHelp(this)" id="help"/><label for="help">?</label>
+    </span>
+  </div>
+  <label for="inputVT">Media file:</label> <input id="inputVT" accept="video/*,audio/*" type="file"/>
+  <input type="checkbox" onchange="toggleAudio(this, help)" id="aonly"/><label for="aonly">audio only</label>
+</div>
+
+<div id="myResizable" style="background: #ddd;"></div><!-- takes one of the players -->
+<div id="scrub" style="margin-top: 4px;"></div>
+
+<div id="timeInputs" style="margin: 3px 0px 0px 0px;">
+  <!-- placeholder for jQuery range slider -->
+  <div id="slider" style="margin-top: 0px; margin-bottom: 2px;"></div>
+  <div style="margin: 3px 0px 0px 0px; padding: 5px; background-color: #ddd;">
+  <label for="myTimeA">A:</label> <input id="myTimeA" onchange="onInputTime(this,0)" size="8"/>
+  <label for="myTimeB">B:</label> <input id="myTimeB" onchange="onInputTime(this,1)" size="8"/>
+  <button id="bmkAddButton" style="padding:0px 2px;font-size:110%;">&#9734;</button>&emsp;&emsp;
+  <button id="loopBackwardsButton" style="padding:0px 2px;font-size:110%;" onclick="onLoopBackwards()">&laquo;</button>
+  <button id="loopHalveButton" style="padding:0px 2px;font-size:110%;" onclick="onLoopHalve()">&times;&frac12;</button>
+  <button id="loopDoubleButton" style="padding:0px 2px;font-size:110%;" onclick="onLoopDouble()">&times;2</button>
+  <button id="loopForwardsButton" style="padding:0px 2px;font-size:110%;" onclick="onLoopForwards()">&raquo;</button>
+  </div>
+</div>
+
+<div id="bottom" style="margin: 3px 0px 0px 0px; padding: 5px; background-color: #ddd;position:relative;">
+<label for="loopButton">A-B Loop:</label> <button id="loopButton" onmousedown="onLoopDown()" onmouseup="this.blur()"/>A</button>
+<span id="myBmkSpan" hidden>
+  <style>select:invalid { color: gray; }</style>
+  <select id="myBookmarks" size="1"
+    ontouchstart="showNote(this.options[this.selectedIndex]);"
+    ontouchend="hideNote(this.options[this.selectedIndex]);"
+    ontouchcancel="hideNote(this.options[this.selectedIndex]);"
+    onmousedown="this.size=Math.min(5,this.options.length)"
+    onblur="onBmkSelect(this.selectedIndex);this.size=1;"
+  >
+    <option value="" selected disabled>Bookmarked</option>
+  </select><!--
+  --><button id="annotButton" style="width:1.5em; padding: 0px;"
+    onclick="onClickAddNote(myBookmarks.selectedIndex)" disabled
+    ><span class="ui-icon ui-icon-comment"></span></button><!--
+  --><button id="trashButton" style="width:1.5em; padding: 0px;"
+    onclick="onClickTrash(myBookmarks.selectedIndex)"
+  ><span class="ui-icon ui-icon-trash"></span></button>
+</span> <input type="checkbox" onchange="toggleIntro(this, help)" id="intro"/><label for="intro">play intro</label><br/>
+<label for="speed">Speed:</label> <div id="speed"><div id="speed-handle" class="ui-slider-handle"></div></div>
+<span style="position:absolute;bottom:3px;right:5px">
+  <button id="shareButton" style="width:1.5em;padding:0px;margin:0px;"
+      onclick="onClickShare()"
+    ><img src="png/sharelink.png" alt="share video link with current loop setting and playback rate" width="100%"/></button><!--
+  --><button id="exportButton" style="width:1.5em;padding:0px;margin:0px;"
+      onclick="onClickExport()"
+    ><img src="png/export.png" alt="export loop and app data" width="100%"/></button><!--
+  --><button id="importButton" style="width:1.5em;padding:0px;margin:0px;"
+      onclick="onClickImport()"
+    ><img src="png/import.png" alt="import loop and app data" width="100%"/></button>
+</span>
+</div>
+<hr class="double" style="margin-top: 0px;"/>
+© 2016–2022 Alexander Grahn
+<a href="https://gitlab.com/agrahn/ABLoopPlayer" style="float: right; margin-right: 5px;">
+  Visit project on <img src="svg/gitlab.svg" alt="GitLab logo" style="height:0.9em;"/>
+</a>
+
+<div id="test"
+  style="visibility: hidden; white-space: nowrap; width: auto;position: absolute;">
+Player for <em><b>YouTube</b></em> and <em><b>video and audio files</b></em> in the MP4/WebM/Ogg/MP3/WAV formats</div>
+
+<div id="introText">
+  Player for <em><b>YouTube</b></em> and <em><b>video and audio files</b></em> in the MP4/WebM/Ogg/MP3/WAV formats with
+  A-B repeat, loop bookmarking and slow/fast motion. Supports <em><b>YouTube playlists</b></em>.
+  </div>
+</body>
+</html>

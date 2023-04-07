@@ -1,0 +1,114 @@
+{
+  "slug": "en/18",
+  "title": "Sapiens： a brief history of humankind",
+  "child": [
+    {
+      "slug": "en/18/1",
+      "title": "Part One The Cognitive Revolution",
+      "child": [
+        {
+          "slug": "en/18/1/1",
+          "title": "1 An Animal of No Significance"
+        },
+        {
+          "slug": "en/18/1/2",
+          "title": "2 The Tree of Knowledge"
+        },
+        {
+          "slug": "en/18/1/3",
+          "title": "3 A Day in the Life of Adam and Eve"
+        },
+        {
+          "slug": "en/18/1/4",
+          "title": "4 The Flood"
+        }
+      ]
+    },
+    {
+      "slug": "en/18/2",
+      "title": "Part Two The Agricultural Revolution",
+      "child": [
+        {
+          "slug": "en/18/2/5",
+          "title": "5 History’s Biggest Fraud"
+        },
+        {
+          "slug": "en/18/2/6",
+          "title": "6 Building Pyramids"
+        },
+        {
+          "slug": "en/18/2/7",
+          "title": "7 Memory Overload"
+        },
+        {
+          "slug": "en/18/2/8",
+          "title": "8 There is No Justice in History"
+        }
+      ]
+    },
+    {
+      "slug": "en/18/3",
+      "title": "Part Three The Unification of Humankind",
+      "child": [
+        {
+          "slug": "en/18/3/9",
+          "title": "9 The Arrow of History"
+        },
+        {
+          "slug": "en/18/3/10",
+          "title": "10 The Scent of Money"
+        },
+        {
+          "slug": "en/18/3/11",
+          "title": "11 Imperial Visions"
+        },
+        {
+          "slug": "en/18/3/12",
+          "title": "12 The Law of Religion"
+        },
+        {
+          "slug": "en/18/3/13",
+          "title": "13 The Secret of Success"
+        }
+      ]
+    },
+    {
+      "slug": "en/18/4",
+      "title": "Part Four The Scientific Revolution",
+      "child": [
+        {
+          "slug": "en/18/4/14",
+          "title": "14 The Discovery of Ignorance"
+        },
+        {
+          "slug": "en/18/4/15",
+          "title": "15 The Marriage of Science and Empire"
+        },
+        {
+          "slug": "en/18/4/16",
+          "title": "16 The Capitalist Creed"
+        },
+        {
+          "slug": "en/18/4/17",
+          "title": "17 The Wheels of Industry"
+        },
+        {
+          "slug": "en/18/4/18",
+          "title": "18 A Permanent Revolution"
+        },
+        {
+          "slug": "en/18/4/19",
+          "title": "19 And They Lived Happily Ever After"
+        },
+        {
+          "slug": "en/18/4/20",
+          "title": "20 The End of Homo Sapiens"
+        }
+      ]
+    },
+    {
+      "slug": "en/18/5",
+      "title": "Afterword： The Animal that Became a God"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "en/19",
+  "title": "The Giver - Lois Lowry",
+  "child": [
+    { "slug": "en/19/1", "title": "One" },
+    { "slug": "en/19/2", "title": "Two" },
+    { "slug": "en/19/3", "title": "Three" },
+    { "slug": "en/19/4", "title": "Four" },
+    { "slug": "en/19/5", "title": "Five" },
+    { "slug": "en/19/6", "title": "Six" },
+    { "slug": "en/19/7", "title": "Seven" },
+    { "slug": "en/19/8", "title": "Eight" },
+    { "slug": "en/19/9", "title": "Nine" },
+    { "slug": "en/19/10", "title": "Ten" },
+    { "slug": "en/19/11", "title": "Eleven" },
+    { "slug": "en/19/12", "title": "Twelve" },
+    { "slug": "en/19/13", "title": "Thirteen" },
+    { "slug": "en/19/14", "title": "Fourteen" },
+    { "slug": "en/19/15", "title": "Fifteen" },
+    { "slug": "en/19/16", "title": "Sixteen" },
+    { "slug": "en/19/17", "title": "Seventeen" },
+    { "slug": "en/19/18", "title": "Eighteen" },
+    { "slug": "en/19/19", "title": "Nineteen" },
+    { "slug": "en/19/20", "title": "Twenty" },
+    { "slug": "en/19/21", "title": "Twenty-one" },
+    { "slug": "en/19/22", "title": "Twenty-two" },
+    { "slug": "en/19/23", "title": "Twenty-three" }
+  ]
+}

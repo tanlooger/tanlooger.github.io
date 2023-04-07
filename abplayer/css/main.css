@@ -1,0 +1,103 @@
+/*
+  common.css
+
+  Copyright (C) 2016  Alexander Grahn
+
+  This file is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This file is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* suppress close button in dialog title bar */
+.noTitlebar .ui-dialog-titlebar {
+  display: none;
+}
+
+/* move resizable handle out of the video display */
+.ui-resizable-se {
+  bottom: -10px;
+  right: -10px;
+}
+
+hr.double {
+  height: 3px; border: 1px solid #888;
+}
+
+#slider .ui-slider-handle {
+  text-align: center;
+  height: 1em; width: 1em; top: 0px;
+  border: 0px;
+  padding: 0;
+  color: #000000;
+}
+
+#slider .ui-slider-handle:focus {
+  background-color: #fcc;
+}
+
+#slider .ui-state-default {
+  background: none;
+}
+
+#slider .ui-slider-range {
+  background-color: #888;
+}
+
+#scrub .ui-slider-range {
+  background-color: #F00;
+}
+
+#scrub .ui-slider-handle {
+  display: none;
+}
+
+#speed {
+  height: 6px;
+  display: inline-block;
+  width: 20ex;
+  margin-left:1.1em;
+  margin-top:0.7em;
+  background: #aaaaaa;
+}
+
+#speed .ui-slider-handle {
+  width: 2.2em;
+  height: 1.2em;
+  top: 50%;
+  margin-top: -0.8em;
+  margin-left: -1.1em;
+  text-align: center;
+  line-height: 1.2em;
+  border-left-color: #e0e0e0;
+  border-top-color: #e0e0e0;
+  border-right-color: #959595;
+  border-bottom-color: #959595;
+  border-width: 2px;
+  font-family: serif;
+  color: #000000;
+}
+
+/* remove rounded corners */
+.ui-corner-all {border-radius: 0px;}
+
+button {
+  border-width: 2px;
+  border-radius: 0;
+  color: #000000;
+  border-left-color: #e0e0e0;
+  border-top-color: #e0e0e0;
+  border-right-color: #959595;
+  border-bottom-color: #959595;
+}
+
+button:disabled{opacity:0.5;}
+

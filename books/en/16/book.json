@@ -1,0 +1,39 @@
+{
+  "slug": "en/16",
+  "title": "Charlie and the Chocolate Factory",
+  "child": [
+    { "slug": "en/16/1", "title": "1 Here Comes Charlie" },
+    { "slug": "en/16/2", "title": "2 Mr Willy Wonka’s Factory" },
+    { "slug": "en/16/3", "title": "3 Mr Wonka and the Indian Prince" },
+    { "slug": "en/16/4", "title": "4 The Secret Workers" },
+    { "slug": "en/16/5", "title": "5 The Golden Tickets" },
+    { "slug": "en/16/6", "title": "6 The First Two Finders" },
+    { "slug": "en/16/7", "title": "7 Charlie’s Birthday" },
+    { "slug": "en/16/8", "title": "8 Two More Golden Tickets Found" },
+    { "slug": "en/16/9", "title": "9 Grandpa Joe Takes a Gamble" },
+    { "slug": "en/16/10", "title": "10 The Family Begins to Starve" },
+    { "slug": "en/16/11", "title": "11 The Miracle" },
+    { "slug": "en/16/12", "title": "12 What It Said on the Golden Ticket" },
+    { "slug": "en/16/13", "title": "13 The Big Day Arrives" },
+    { "slug": "en/16/14", "title": "14 Mr Willy Wonka" },
+    { "slug": "en/16/15", "title": "15 The Chocolate Room" },
+    { "slug": "en/16/16", "title": "16 The Oompa-Loompas" },
+    { "slug": "en/16/17", "title": "17 Augustus Gloop Goes up the Pipe" },
+    { "slug": "en/16/18", "title": "18 Down the Chocolate River" },
+    {
+      "slug": "en/16/19",
+      "title": "19 The Inventing Room – Everlasting Gobstoppers and Hair Toffee"
+    },
+    { "slug": "en/16/20", "title": "20 The Great Gum Machine" },
+    { "slug": "en/16/21", "title": "21 Good-bye Violet" },
+    { "slug": "en/16/22", "title": "22 Along the Corridor" },
+    { "slug": "en/16/23", "title": "23 Square Sweets That Look Round" },
+    { "slug": "en/16/24", "title": "24 Veruca in the Nut Room" },
+    { "slug": "en/16/25", "title": "25 The Great Glass Lift" },
+    { "slug": "en/16/26", "title": "26 The Television-Chocolate Room" },
+    { "slug": "en/16/27", "title": "27 Mike Teavee is Sent by Television" },
+    { "slug": "en/16/28", "title": "28 Only Charlie Left" },
+    { "slug": "en/16/29", "title": "29 The Other Children Go Home" },
+    { "slug": "en/16/30", "title": "30 Charlie’s Chocolate Factory" }
+  ]
+}

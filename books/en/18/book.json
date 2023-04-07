@@ -1,0 +1,21 @@
+{
+  "slug": "en/18",
+  "title": "The Wind in the Willows",
+  "child": [
+    { "slug": "en/18/1", "title": "I. THE RIVER BANK" },
+    { "slug": "en/18/2", "title": "II. THE OPEN ROAD" },
+    { "slug": "en/18/3", "title": "III. THE WILD WOOD" },
+    { "slug": "en/18/4", "title": "IV. MR. BADGER" },
+    { "slug": "en/18/5", "title": "V. DULCE DOMUM" },
+    { "slug": "en/18/6", "title": "VI. MR. TOAD" },
+    { "slug": "en/18/7", "title": "VII. THE PIPER AT THE GATES OF DAWN" },
+    { "slug": "en/18/8", "title": "VIII. TOAD’S ADVENTURES" },
+    { "slug": "en/18/9", "title": "IX. WAYFARERS ALL" },
+    { "slug": "en/18/10", "title": "X. THE FURTHER ADVENTURES OF TOAD" },
+    {
+      "slug": "en/18/11",
+      "title": "XI. ‘LIKE SUMMER TEMPESTS CAME HIS TEARS’"
+    },
+    { "slug": "en/18/12", "title": "XII. THE RETURN OF ULYSSES" }
+  ]
+}
