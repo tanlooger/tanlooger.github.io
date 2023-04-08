@@ -23,8 +23,8 @@ const arr = [
 const CHAPTER = 9
 
 //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
-//const data = fs.readFileSync('../77/'+'a.txt', 'utf8');
-const data = ''
+const data = fs.readFileSync('../82/'+'a.txt', 'utf8');
+//const data = ''
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
  //const re = '\n\n([一二三四五六七八九十]{1,2})\n\n'
@@ -41,6 +41,7 @@ const data = ''
  re = '\n\n([ⅠⅡⅢⅣⅤⅥⅦⅧⅨ] .*)\n\n'
  re = '\n\n(第[一二三四五六七八九十]{1,3}章 .*)\n\n'
  re = '\n\n(自卑有多副面孔，自豪只有一副|19世纪太长，长得让人沮丧；20世纪太短，短得令人心慌|唯一一个工业化人口将届10亿的国家|中国，每天都是新的；但愿它每天都是新的)\n\n'
+ re = '\n@(.*)\n'
 
  const reg = new RegExp(re, 'g')
  console.log(reg)
@@ -57,30 +58,30 @@ const data = ''
 
 console.log('adsfsd '+myArray.length)
 
-for(let i=1; i<=11; i++){
-  //for(let i=1; i<=myArray.length; i++){
+//for(let i=1; i<=11; i++){
+  for(let i=1; i<=myArray.length; i++){
     //console.log(i)
-  //const chapter = myArray[i].split("adfdsdeo97j")
+  const chapter = myArray[i].split("adfdsdeo97j")
 
 
   json.push({
     //"slug": "cn/53/"+CHAPTER+'/'+i,
     "slug": "cn/82/"+i,
-    "title": arr[i],
+    //"title": arr[i],
     //"title": "",
-    //"title": chapter[0],
-    "child": []
+    "title": i+chapter[0],
+    //"child": []
   })
 
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 睡前消息"+i+"期：\n---\n\n日睡前消息文字版第"+i+"期");
   //fs.writeFileSync(CHAPTER+'/'+i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
-   fs.mkdirSync(i.toString())
+  // fs.mkdirSync(i.toString())
   //if(!fs.existsSync('a'))fs.mkdirSync('a')
    //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
   fs.writeFileSync('bookchap.json', JSON.stringify(json));
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0]+"\n---\n\n");
-  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+arr[i]+"\n---\n\n");
+  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+arr[i]+"\n---\n\n");
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
 
 }
