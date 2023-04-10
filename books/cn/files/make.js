@@ -23,7 +23,7 @@ const arr = [
 const CHAPTER = 9
 
 //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
-const data = fs.readFileSync('../82/'+'a.txt', 'utf8');
+const data = fs.readFileSync('../83/'+'a.txt', 'utf8');
 //const data = ''
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -39,9 +39,10 @@ const data = fs.readFileSync('../82/'+'a.txt', 'utf8');
  //re = '\n\n([一二三四五六七八九十]{1,2})\n\n'
  re = '\n\n(Chapter [0-9]{1,2} .*)\n\n'
  re = '\n\n([ⅠⅡⅢⅣⅤⅥⅦⅧⅨ] .*)\n\n'
- re = '\n\n(第[一二三四五六七八九十]{1,3}章 .*)\n\n'
  re = '\n\n(自卑有多副面孔，自豪只有一副|19世纪太长，长得让人沮丧；20世纪太短，短得令人心慌|唯一一个工业化人口将届10亿的国家|中国，每天都是新的；但愿它每天都是新的)\n\n'
  re = '\n@(.*)\n'
+ re = '\n\n(第[一二三四五六七八九十]{1,3}章 .*)\n\n'
+
 
  const reg = new RegExp(re, 'g')
  console.log(reg)
@@ -66,16 +67,16 @@ console.log('adsfsd '+myArray.length)
 
   json.push({
     //"slug": "cn/53/"+CHAPTER+'/'+i,
-    "slug": "cn/82/"+i,
+    "slug": "cn/83/"+i,
     //"title": arr[i],
     //"title": "",
-    "title": i+chapter[0],
+    "title": i+'.'+chapter[0],
     //"child": []
   })
 
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 睡前消息"+i+"期：\n---\n\n日睡前消息文字版第"+i+"期");
   //fs.writeFileSync(CHAPTER+'/'+i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
-  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
+  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
   // fs.mkdirSync(i.toString())
   //if(!fs.existsSync('a'))fs.mkdirSync('a')
    //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
