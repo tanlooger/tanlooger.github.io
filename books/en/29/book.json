@@ -1,11 +1,11 @@
 {
   "slug": "en/29",
   "title": "The Disappearance of Childhood",
-  "open": true,
   "child": [
     {
       "title": "PART 1 The Invention of Childhood",
       "slug": "en/29/1",
+      "open": true,
       "child": [
         { "slug": "en/29/1/1", "title": "1 When There Were No Children" },
         {
