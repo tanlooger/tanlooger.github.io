@@ -1,0 +1,41 @@
+{
+  "slug": "cn/84",
+  "title": "smoothdoc",
+  "child": [
+    {
+      "title": "GUIDES",
+      "slug": "cn/90/1",
+      "child": [
+        {
+          "title": "getting-started",
+          "slug": "cn/90/1/1"
+        },
+        {
+          "title": "Write MDX",
+          "slug": "cn/90/1/2"
+        }
+      ]
+    },
+    {
+      "title": "COMPONENTS",
+      "slug": "cn/90/2",
+      "menu": { "role": 1004 }
+    },
+    {
+      "slug": "cn/90/3",
+      "title": "REFERENCE",
+      "child": [
+        {
+          "slug": "cn/90/3/1",
+          "title": "Chapter 1 Menzoberranzan",
+          "child": [
+            {
+              "slug": "cn/90/3/1/1",
+              "title": "《书籍》"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
