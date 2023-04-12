@@ -5,12 +5,20 @@ const fs = require('fs');
 
 const arr = [
  // "",
- 'One',
+ 'I',
+ 'II',
+ 'III',
+ 'IV',
+ 'V',
+ 'VI',
+ 'VII',
+ 'VIII',
+ 'IX',
   ]
 
   const CHAPTER = 1
 
-  const data = fs.readFileSync('../29/a.txt', 'utf8');
+  const data = fs.readFileSync('../30/a.txt', 'utf8');
   //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -28,6 +36,7 @@ const arr = [
  re = '\n\n\n\n((X|I|V){1,5}\..*)\n\n'
  re = '\n\\[ ([0-9]{1,3}) \\]\n'
  re = '\n(Chapter [0-9] .*)\n'
+ re = '\n\n('+arr.join('|').trim()+')\n\n'
 
  const reg = new RegExp(re, 'g')
  console.log(reg)
@@ -50,8 +59,8 @@ console.log('adsfsd'+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    //"slug": "en/29/"+i,
-    "slug": "en/29/"+CHAPTER+'/'+i,
+    "slug": "en/30/"+i,
+    //"slug": "en/29/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
     //"child":[]
