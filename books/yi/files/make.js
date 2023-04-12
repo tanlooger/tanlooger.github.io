@@ -5,15 +5,18 @@
 
 const arr = [
   "",
- '第一部分 从伊甸园到卡哈马卡',
- '第二部分 食物生产的兴起与扩散 ',
- '第三部分 从食物到枪炮、病菌与钢铁',
- '第四部分 环游世界'
+ '第1部 无生命的宇宙',
+ '第2部 地球上的生命', //4
+ '第3部 早期人类的历史：许多世界', //6
+ '第4部 全新世：几个世界', //8
+ '第5部 近代：一个世界', //11
+ '第6部 未来面面观', //15
+ '附录'
   ]
 
   const CHAPTER = 1
 
-  const data = fs.readFileSync('../21/a.txt', 'utf8');
+  const data = fs.readFileSync('../22/a.txt', 'utf8');
   //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
  // 　　　　　　　　　　　　　　　　　　　　　　　　　中文空格
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -38,7 +41,6 @@ const arr = [
  re = '\n(第[0-9]{1,2}章 .*)\n'
 
 
-
  
  const reg = new RegExp(re, 'g')
  console.log(reg)
@@ -61,8 +63,8 @@ console.log('adsfsd '+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    //"slug": "yi/21/"+i,
-    "slug": "yi/21/"+CHAPTER+'/'+i,
+    //"slug": "yi/22/"+i,
+    "slug": "yi/22/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
     //"title": '第'+chapter[0]+'章',
