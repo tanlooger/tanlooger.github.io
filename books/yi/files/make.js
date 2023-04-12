@@ -5,15 +5,15 @@
 
 const arr = [
   "",
- '国富论-冉明志译',
- '国富论-杨敬年译',
- '国富论-罗卫东译',
- '国富论-胡长明译'
+ '第一部分 从伊甸园到卡哈马卡',
+ '第二部分 粮食生产的出现和传播',
+ '第三部分 从粮食到枪炮、病菌与钢铁',
+ '第四部分 在五章中环游世界'
   ]
 
-  const CHAPTER = 5
+  const CHAPTER = 1
 
-  const data = fs.readFileSync('../19/a.txt', 'utf8');
+  const data = fs.readFileSync('../20/a.txt', 'utf8');
   //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
  // 　　　　　　　　　　　　　　　　　　　　　　　　　中文空格
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -34,6 +34,7 @@ const arr = [
  re = '\n\n(第.篇　.*)\n\n'
  re = '\n\n(第.篇)\n\n'
  re = '\n(第[一二三四五六七八九十]{1,3}章 .*)\n'
+ re = '\n(第.*章 .*)\n'
 
 
 
@@ -59,8 +60,8 @@ console.log('adsfsd '+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    "slug": "yi/19/"+i,
-    //"slug": "yi/16/"+CHAPTER+'/'+i,
+    //"slug": "yi/20/"+i,
+    "slug": "yi/20/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
     //"title": '第'+chapter[0]+'章',

@@ -1,0 +1,42 @@
+{
+  "slug": "yi/9",
+  "title": "smoothdoc",
+  "child": [
+    {
+      "title": "GUIDES",
+      "slug": "yi/9/1",
+      "child": [
+        {
+          "title": "getting-started",
+          "slug": "yi/9/1/1"
+        },
+        { 
+          "title": "Write MDX",
+          "slug": "yi/9/1/2"
+        }
+        
+      ]
+    },
+    {
+      "title": "COMPONENTS", 
+      "slug": "yi/9/2", 
+      "menu": { "role": 1004 } 
+    },
+    {
+      "slug": "yi/9/3",
+      "title": "REFERENCE",
+      "child": [
+        {
+          "slug": "yi/9/3/1",
+          "title": "Chapter 1 Menzoberranzan",
+          "child": [
+            {
+              "slug": "yi/9/3/1/1",
+              "title": "《书籍》"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
