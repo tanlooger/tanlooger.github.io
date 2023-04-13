@@ -5,6 +5,7 @@
     {
       "slug": "yi/23/1",
       "title": "第一编 改革",
+      "open": true,
       "child": [
         {
           "slug": "yi/23/1/1",
@@ -41,6 +42,7 @@
     {
       "slug": "yi/23/2",
       "title": "第二编 新思维和世界",
+      "open": true,
       "child": [
         {
           "slug": "yi/23/2/3",
