@@ -1,0 +1,41 @@
+{
+  "slug": "yi/24",
+  "title": "年代四部曲之《革命的年代：1789—1848》-王章辉译",
+  "child": [
+    {
+      "title": "第一部分 发展",
+      "slug": "yi/24/1",
+      "child": [
+        {
+          "title": "getting-started",
+          "slug": "yi/9/1/1"
+        },
+        { 
+          "title": "Write MDX",
+          "slug": "yi/9/1/2"
+        }
+        
+      ]
+    },
+    {
+      "title": "第二部分 结果",
+      "slug": "yi/24/2",
+      "child": [
+        {
+          "title": "getting-started",
+          "slug": "yi/9/1/1"
+        },
+        { 
+          "title": "Write MDX",
+          "slug": "yi/9/1/2"
+        }
+        
+      ]
+    },
+    {
+      "title": "注释",
+      "slug": "yi/9/1/1"
+    }
+
+  ]
+}

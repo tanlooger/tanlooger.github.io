@@ -1,40 +1,36 @@
 {
   "slug": "yi/24",
-  "title": "年代四部曲之《革命的年代：1789—1848》-王章辉译",
+  "title": "共产党宣言-中央编译局译",
   "child": [
     {
-      "title": "第一部分 发展",
-      "slug": "yi/24/1",
+      "title": "序言",
+      "slug": "yi/24/0",
       "child": [
-        {
-          "title": "getting-started",
-          "slug": "yi/9/1/1"
-        },
-        { 
-          "title": "Write MDX",
-          "slug": "yi/9/1/2"
-        }
-        
+        { "slug": "yi/24/0/1", "title": "1872年德文版序言" },
+        { "slug": "yi/24/0/2", "title": "1882年俄文版序言" },
+        { "slug": "yi/24/0/3", "title": "1883年德文版序言" },
+        { "slug": "yi/24/0/4", "title": "1888年英文版序言" },
+        { "slug": "yi/24/0/5", "title": "1890年德文版序言" },
+        { "slug": "yi/24/0/6", "title": "1892年波兰文版序言" },
+        { "slug": "yi/24/0/7", "title": "1893年意大利文版序言致意大利读者" }
       ]
+      
     },
     {
-      "title": "第二部分 结果",
-      "slug": "yi/24/2",
-      "child": [
-        {
-          "title": "getting-started",
-          "slug": "yi/9/1/1"
-        },
-        { 
-          "title": "Write MDX",
-          "slug": "yi/9/1/2"
-        }
-        
-      ]
+      "title": "一、资产者和无产者", 
+      "slug": "yi/24/1"
     },
     {
-      "title": "注释",
-      "slug": "yi/9/1/1"
+      "title": "二、无产者和共产党人", 
+      "slug": "yi/24/2"
+    },
+    {
+      "title": "三、社会主义的和共产主义的文献", 
+      "slug": "yi/24/3"
+    },
+    {
+      "title": "四、共产党人对各种反对党派的态度", 
+      "slug": "yi/24/4"
     }
 
   ]
