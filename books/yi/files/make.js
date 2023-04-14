@@ -24,8 +24,8 @@ const arr = [
 
   const CHAPTER = 7
 
-  //const data = fs.readFileSync('../23/a.txt', 'utf8');
-  const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
+  const data = fs.readFileSync('../24/a.txt', 'utf8');
+  //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
  // 　　　　　　　　　　　　　　　　　　　　　　　　　中文空格
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
  //const re = /(● .*\n\n)/g
@@ -47,6 +47,7 @@ const arr = [
  re = '\n(第[0-9]{1,2}章 .*)\n'
  re = '\n(第[一二三四五六七八九十]{1,3}章 .*)\n'
  re = '\n('+arr.join('|')+')\n'
+ re = '\n(目录)\n'
 
 
  
@@ -71,8 +72,8 @@ console.log('adsfsd '+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    //"slug": "yi/23/"+i,
-    "slug": "yi/23/2/"+CHAPTER+'/'+i,
+    "slug": "yi/23/"+i,
+    //"slug": "yi/23/2/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
     //"title": '第'+chapter[0]+'章',
@@ -82,16 +83,16 @@ console.log('adsfsd '+myArray.length)
   })
 
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 睡前消息"+i+"期：\n---\n\n日睡前消息文字版第"+i+"期");
-  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
+  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 第"+chapter[0]+"章\n---\n\n"+chapter[1].trim());
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 第"+i+"章\n---\n\n"+chapter[1].trim());
   
    //fs.mkdirSync(i+'')
-   //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
+   fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
    //fs.writeFileSync('a/'+i+'.txt', '');
    //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0]+"\n---\n\n");
 
-  fs.writeFileSync('bookchap.json', JSON.stringify(json));
+  //fs.writeFileSync('bookchap.json', JSON.stringify(json));
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+arr[i]+"\n---\n\n");
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
 
