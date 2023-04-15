@@ -1,41 +1,166 @@
 {
-  "slug": "yi/24",
-  "title": "年代四部曲之《革命的年代：1789—1848》-王章辉译",
+  "slug": "yi/25",
+  "title": "十日谈-方平、王科一译",
   "child": [
     {
-      "title": "第一部分 发展",
-      "slug": "yi/24/1",
+      "slug": "yi/25/1",
+      "title": "第一天",
       "child": [
-        {
-          "title": "getting-started",
-          "slug": "yi/9/1/1"
-        },
-        { 
-          "title": "Write MDX",
-          "slug": "yi/9/1/2"
-        }
-        
+        { "slug": "yi/25/1/1", "title": "故事第一" },
+        { "slug": "yi/25/1/2", "title": "故事第二" },
+        { "slug": "yi/25/1/3", "title": "故事第三" },
+        { "slug": "yi/25/1/4", "title": "故事第四" },
+        { "slug": "yi/25/1/5", "title": "故事第五" },
+        { "slug": "yi/25/1/6", "title": "故事第六" },
+        { "slug": "yi/25/1/7", "title": "故事第七" },
+        { "slug": "yi/25/1/8", "title": "故事第八" },
+        { "slug": "yi/25/1/9", "title": "故事第九" },
+        { "slug": "yi/25/1/10", "title": "故事第十" }
       ]
     },
     {
-      "title": "第二部分 结果",
-      "slug": "yi/24/2",
+      "slug": "yi/25/2",
+      "title": "第二天",
       "child": [
-        {
-          "title": "getting-started",
-          "slug": "yi/9/1/1"
-        },
-        { 
-          "title": "Write MDX",
-          "slug": "yi/9/1/2"
-        }
-        
+        { "slug": "yi/25/2/1", "title": "故事第一" },
+        { "slug": "yi/25/2/2", "title": "故事第二" },
+        { "slug": "yi/25/2/3", "title": "故事第三" },
+        { "slug": "yi/25/2/4", "title": "故事第四" },
+        { "slug": "yi/25/2/5", "title": "故事第五" },
+        { "slug": "yi/25/2/6", "title": "故事第六" },
+        { "slug": "yi/25/2/7", "title": "故事第七" },
+        { "slug": "yi/25/2/8", "title": "故事第八" },
+        { "slug": "yi/25/2/9", "title": "故事第九" },
+        { "slug": "yi/25/2/10", "title": "故事第十" }
       ]
     },
     {
-      "title": "注释",
-      "slug": "yi/9/1/1"
+      "slug": "yi/25/3",
+      "title": "第三天",
+      "child": [
+        { "slug": "yi/25/3/1", "title": "故事第一" },
+        { "slug": "yi/25/3/2", "title": "故事第二" },
+        { "slug": "yi/25/3/3", "title": "故事第三" },
+        { "slug": "yi/25/3/4", "title": "故事第四" },
+        { "slug": "yi/25/3/5", "title": "故事第五" },
+        { "slug": "yi/25/3/6", "title": "故事第六" },
+        { "slug": "yi/25/3/7", "title": "故事第七" },
+        { "slug": "yi/25/3/8", "title": "故事第八" },
+        { "slug": "yi/25/3/9", "title": "故事第九" },
+        { "slug": "yi/25/3/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/4",
+      "title": "第四天",
+      "child": [
+        { "slug": "yi/25/4/1", "title": "故事第一" },
+        { "slug": "yi/25/4/2", "title": "故事第二" },
+        { "slug": "yi/25/4/3", "title": "故事第三" },
+        { "slug": "yi/25/4/4", "title": "故事第四" },
+        { "slug": "yi/25/4/5", "title": "故事第五" },
+        { "slug": "yi/25/4/6", "title": "故事第六" },
+        { "slug": "yi/25/4/7", "title": "故事第七" },
+        { "slug": "yi/25/4/8", "title": "故事第八" },
+        { "slug": "yi/25/4/9", "title": "故事第九" },
+        { "slug": "yi/25/4/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/5",
+      "title": "第五天",
+      "child": [
+        { "slug": "yi/25/5/1", "title": "故事第一" },
+        { "slug": "yi/25/5/2", "title": "故事第二" },
+        { "slug": "yi/25/5/3", "title": "故事第三" },
+        { "slug": "yi/25/5/4", "title": "故事第四" },
+        { "slug": "yi/25/5/5", "title": "故事第五" },
+        { "slug": "yi/25/5/6", "title": "故事第六" },
+        { "slug": "yi/25/5/7", "title": "故事第七" },
+        { "slug": "yi/25/5/8", "title": "故事第八" },
+        { "slug": "yi/25/5/9", "title": "故事第九" },
+        { "slug": "yi/25/5/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/6",
+      "title": "第六天",
+      "child": [
+        { "slug": "yi/25/6/1", "title": "故事第一" },
+        { "slug": "yi/25/6/2", "title": "故事第二" },
+        { "slug": "yi/25/6/3", "title": "故事第三" },
+        { "slug": "yi/25/6/4", "title": "故事第四" },
+        { "slug": "yi/25/6/5", "title": "故事第五" },
+        { "slug": "yi/25/6/6", "title": "故事第六" },
+        { "slug": "yi/25/6/7", "title": "故事第七" },
+        { "slug": "yi/25/6/8", "title": "故事第八" },
+        { "slug": "yi/25/6/9", "title": "故事第九" },
+        { "slug": "yi/25/6/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/7",
+      "title": "第七天",
+      "child": [
+        { "slug": "yi/25/7/1", "title": "故事第一" },
+        { "slug": "yi/25/7/2", "title": "故事第二" },
+        { "slug": "yi/25/7/3", "title": "故事第三" },
+        { "slug": "yi/25/7/4", "title": "故事第四" },
+        { "slug": "yi/25/7/5", "title": "故事第五" },
+        { "slug": "yi/25/7/6", "title": "故事第六" },
+        { "slug": "yi/25/7/7", "title": "故事第七" },
+        { "slug": "yi/25/7/8", "title": "故事第八" },
+        { "slug": "yi/25/7/9", "title": "故事第九" },
+        { "slug": "yi/25/7/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/8",
+      "title": "第八天",
+      "child": [
+        { "slug": "yi/25/8/1", "title": "故事第一" },
+        { "slug": "yi/25/8/2", "title": "故事第二" },
+        { "slug": "yi/25/8/3", "title": "故事第三" },
+        { "slug": "yi/25/8/4", "title": "故事第四" },
+        { "slug": "yi/25/8/5", "title": "故事第五" },
+        { "slug": "yi/25/8/6", "title": "故事第六" },
+        { "slug": "yi/25/8/7", "title": "故事第七" },
+        { "slug": "yi/25/8/8", "title": "故事第八" },
+        { "slug": "yi/25/8/9", "title": "故事第九" },
+        { "slug": "yi/25/8/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/9",
+      "title": "第九天",
+      "child": [
+        { "slug": "yi/25/9/1", "title": "故事第一" },
+        { "slug": "yi/25/9/2", "title": "故事第二" },
+        { "slug": "yi/25/9/3", "title": "故事第三" },
+        { "slug": "yi/25/9/4", "title": "故事第四" },
+        { "slug": "yi/25/9/5", "title": "故事第五" },
+        { "slug": "yi/25/9/6", "title": "故事第六" },
+        { "slug": "yi/25/9/7", "title": "故事第七" },
+        { "slug": "yi/25/9/8", "title": "故事第八" },
+        { "slug": "yi/25/9/9", "title": "故事第九" },
+        { "slug": "yi/25/9/10", "title": "故事第十" }
+      ]
+    },
+    {
+      "slug": "yi/25/10",
+      "title": "第十天",
+      "child": [
+        { "slug": "yi/25/10/1", "title": "故事第一" },
+        { "slug": "yi/25/10/2", "title": "故事第二" },
+        { "slug": "yi/25/10/3", "title": "故事第三" },
+        { "slug": "yi/25/10/4", "title": "故事第四" },
+        { "slug": "yi/25/10/5", "title": "故事第五" },
+        { "slug": "yi/25/10/6", "title": "故事第六" },
+        { "slug": "yi/25/10/7", "title": "故事第七" },
+        { "slug": "yi/25/10/8", "title": "故事第八" },
+        { "slug": "yi/25/10/9", "title": "故事第九" },
+        { "slug": "yi/25/10/10", "title": "故事第十" }
+      ]
     }
-
   ]
 }

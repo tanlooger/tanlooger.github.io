@@ -4,28 +4,23 @@
 // ([^\x00-\xff])\n([^\x00-\xff])
 
 const arr = [
-  //"",
-  '我们对美利坚合众国抱有什么期望？',
-  '美国是“辉煌灿烂的天国山城”吗？',
-  '“敌人形象”',
-  '为什么进行军备竞赛？谁需要军备竞赛？',
-  '再论现实。争取实现国际关系的非意识形态化',
-  '疏远是坏事',
-  '在通往日内瓦的道路上',
-  '日内瓦会晤',
-  '日内瓦会晤以后',
-  '暂停核试验',
-  '日内瓦会晤后的美国',
-  '切尔诺贝利的教训',
-  '雷克雅未克会晤',
-  '雷克雅未克会晤之后',
-  '莫斯科讨论会和中程导弹',
+  "",
+  '第一天',
+  '第二天',
+  '第三天',
+  '第四天',
+  '第五天',
+  '第六天',
+  '第七天',
+  '第八天',
+  '第九天',
+  '第十天',
   ]
 
-  const CHAPTER = 0
+  const CHAPTER = 10
 
-  const data = fs.readFileSync('../24/a.txt', 'utf8');
-  //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
+  //const data = fs.readFileSync('../25/a.txt', 'utf8');
+  const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
  // 　　　　　　　　　　　　　　　　　　　　　　　　　中文空格
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
  //const re = /(● .*\n\n)/g
@@ -49,6 +44,8 @@ const arr = [
  re = '\n('+arr.join('|')+')\n'
  re = '\n(目录)\n'
  re = '\n(.*文版序言.*)\n'
+ re = '\n◆◆◆◆ ◆◆◆◆\n'
+ re = '\n(故事第.)\n'
 
 
  
@@ -73,7 +70,7 @@ console.log('adsfsd '+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    //"slug": "yi/23/"+i,
+    //"slug": "yi/25/"+i,
     "slug": "yi/24/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
