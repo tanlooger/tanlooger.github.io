@@ -16,10 +16,10 @@ const arr = [
  'IX',
   ]
 
-  const CHAPTER = 1
+  const CHAPTER = 3
 
-  const data = fs.readFileSync('../32/a.txt', 'utf8');
-  //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
+  //const data = fs.readFileSync('../33/a.txt', 'utf8');
+  const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
  //const re = '\n\n([一二三四五六七八九十]{1,2})\n\n'
@@ -38,6 +38,8 @@ const arr = [
  re = '\n(Chapter [0-9] .*)\n'
  re = '\n\n('+arr.join('|').trim()+')\n\n'
  re = '\n(Chapter [0-9]{1,2} .*)\n'
+ re = '\n(Book the .*)\n'
+ re = '\n(CHAPTER (X|I|V){1,5}. .*)\n'
 
 
  const reg = new RegExp(re, 'g')
@@ -61,8 +63,8 @@ console.log('adsfsd'+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    "slug": "en/32/"+i,
-    //"slug": "en/29/"+CHAPTER+'/'+i,
+    //"slug": "en/33/"+i,
+    "slug": "en/33/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
     //"child":[]
