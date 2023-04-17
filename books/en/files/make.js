@@ -18,7 +18,7 @@ const arr = [
 
   const CHAPTER = 1
 
-  const data = fs.readFileSync('../31/a.txt', 'utf8');
+  const data = fs.readFileSync('../32/a.txt', 'utf8');
   //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -61,7 +61,7 @@ console.log('adsfsd'+myArray.length)
   //console.log(chapter[0])
 
   json.push({
-    "slug": "en/31/"+i,
+    "slug": "en/32/"+i,
     //"slug": "en/29/"+CHAPTER+'/'+i,
     //"title": arr[i],
     "title": chapter[0],
