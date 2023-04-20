@@ -99,7 +99,7 @@ function getTrees(pid='') {
         // 如果没有父id（第一次递归的时候）将所有父级查询出来
         return allchapter.filter(item => !item.parent_id).map(item => {
             // 通过父节点ID查询所有子节点
-            let a = {title: item.title, slug:item.slug.join('/')}
+            let a = {slug:item.slug.join('/'), title: item.title}
             const n = getTrees(item.id)
             n==false ? '' : a.child = n
             return a
@@ -107,7 +107,7 @@ function getTrees(pid='') {
     } else {
         return allchapter.filter(item => item.parent_id === pid).map(item => {
             // 通过父节点ID查询所有子节点
-            let a = {title: item.title, slug:item.slug.join('/')}
+            let a = {slug:item.slug.join('/'), title: item.title}
             const n = getTrees(item.id)
             n==false ? '' : a.child = n
             return a
