@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const bookid = 26;
+const relevels = [3]
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
@@ -36,6 +37,7 @@ for (i = 0; i < chaps.length; i++) {
   let prevslug = i?allchapter[i-1].slug.slice(0, level):[0]
 
   if(levelprev+1 == level){
+    if(relevels.includes(level))levelcount[level]=1
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
@@ -61,7 +63,8 @@ for (i = 0; i < chaps.length; i++) {
 
   if(i)mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
   else mkdirsSync(allchapter[i].slug.join('/'))
-  fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", "\n" + bookdata.substring(0, nextindex));
+  const mdxtext = bookdata.substring(0, nextindex).trim().replace(/^(.*)$/m, "---\n---\n---\ntitle: $1\n---\n\n")
+  fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", mdxtext);
   //fs.writeFileSync(i+'.mdx', bookdata)
   bookdata = bookdata.substring(nextindex);
   //bookdata = tmp.slice(1).join()
