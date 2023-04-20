@@ -41,7 +41,9 @@ for (i = 0; i < chaps.length; i++) {
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
-    allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:allchapter[allchapter[i-1].parent_id].parent_id+'', title:chaps[i].trim()})
+    console.log('level='+level)
+    //console.log(allchapter[i-1].slug[level].parent_id)
+    allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:getParent_id(i-1, levelprev-level), title:chaps[i].trim()})
   }else{
     if(i>0)
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:i?allchapter[i-1].parent_id+'':'', title:chaps[i].trim()})
@@ -77,7 +79,7 @@ for (i = 0; i < chaps.length; i++) {
 // mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
 // fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", bookdata);
 
-console.log(allchapter)
+//console.log(allchapter)
 
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
@@ -118,4 +120,14 @@ function getTrees(pid='') {
             return a
         })
     }
+}
+
+
+function getParent_id(i, count){
+  if(count){
+    console.log('count.....'+count)
+    return getParent_id(allchapter[i].parent_id, count-1)
+  }
+
+  return allchapter[i].parent_id
 }
