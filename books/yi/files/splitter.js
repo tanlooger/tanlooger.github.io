@@ -30,11 +30,10 @@ let allchapter = []
 let levelprev = 0
 let json = {}
 let levelcount = []
-for (i = 0; i < chaps.length - 1; i++) {
+for (i = 0; i < chaps.length; i++) {
   const level = chaps[i].search(/(?!　)/);
   levelcount[level]== undefined ? levelcount[level]=1 : levelcount[level]++
   let prevslug = i?allchapter[i-1].slug.slice(0, level):[0]
-  if(i)console.log(allchapter[i-1].slug)
 
   if(levelprev+1 == level){
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
@@ -54,15 +53,17 @@ for (i = 0; i < chaps.length - 1; i++) {
 
 
 
-  const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
+  const nextindex = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata.length;
 
   //const tmp = bookdata.split(re)
   //fs.writeFileSync(i+'.mdx', (i?chaps[i-1].trim():'')+'\n\n'+tmp[0])
-  //console.log(tmp[0])
-  mkdirsSync(allchapter[i].slug.slice(-1).join('/'))
-  fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", "\n" + bookdata.substring(0, firstindex));
+  console.log(i+allchapter[i].slug.slice(0, -1).join('/'))
+
+  if(i)mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
+  else mkdirsSync(allchapter[i].slug.join('/'))
+  fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", "\n" + bookdata.substring(0, nextindex));
   //fs.writeFileSync(i+'.mdx', bookdata)
-  bookdata = bookdata.substring(firstindex);
+  bookdata = bookdata.substring(nextindex);
   //bookdata = tmp.slice(1).join()
   //preindex = firstindex
 
@@ -70,9 +71,10 @@ for (i = 0; i < chaps.length - 1; i++) {
     //fs.writeFileSync((i+1)+'.mdx', (chaps[i].trim())+'\n\n'+bookdata)
   }
 }
-fs.writeFileSync(i + ".mdx", bookdata);
+// mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
+// fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", bookdata);
 
-fs.writeFileSync("book.json", JSON.stringify(getTrees()[0]));
+fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
 //chaps.map(v=>console.log(v.trim()))
 
