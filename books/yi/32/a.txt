@@ -1,4 +1,4 @@
-目录
+人工不智能——计算机如何误解世界-陈少芸译
 
 导言 计算机没有改变社会
 
@@ -44,6 +44,66 @@
 
 
 
+
+图书在版编目（CIP）数据
+
+
+
+
+
+人工不智能 : 计算机如何误解世界 / （美）梅瑞狄斯·布鲁萨德著 ; 陈少芸译. -- 北京 : 中信出版社，2021.5
+
+书名原文： Artificial Unintelligence：How Computers Misunderstand the World
+
+ISBN 978-7-5217-2495-0
+
+Ⅰ. ①人… Ⅱ. ①梅… ②陈… Ⅲ. ①人工智能－应用－研究 Ⅳ. ①TP18
+
+中国版本图书馆CIP数据核字(2020)第231125号
+
+
+
+
+
+Artificial Unintelligence: How Computers Misunderstand the World by Meredith Broussard
+
+Copyright ©2018 Meredith Broussard
+
+Simplified Chinese edition copyright © 2021 by CITIC Press Corporation
+
+ALL RIGHTS RESERVED
+
+
+
+
+
+人工不智能 ——计算机如何误解世界
+
+著者：［ 美］ 梅瑞狄斯·布鲁萨德
+
+译者：陈少芸
+
+出版发行：中信出版集团股份有限公司
+
+（北京市朝阳区惠新东街甲4号富盛大厦2座 邮编100029）
+
+
+
+
+
+字数：218千字
+
+版次：2021年5月第1版
+
+京权图字：01-2020-0344
+
+书号：ISBN 978-7-5217-2495-0
+
+
+
+
+
+版权所有·侵权必究
 
 
 导言
@@ -3196,64 +3256,3 @@ ENIAC在玻璃墙后显得很不起眼。原机器占据了整个地下室。一
 
 
 
-
-
-图书在版编目（CIP）数据
-
-
-
-
-
-人工不智能 : 计算机如何误解世界 / （美）梅瑞狄斯·布鲁萨德著 ; 陈少芸译. -- 北京 : 中信出版社，2021.5
-
-书名原文： Artificial Unintelligence：How Computers Misunderstand the World
-
-ISBN 978-7-5217-2495-0
-
-Ⅰ. ①人… Ⅱ. ①梅… ②陈… Ⅲ. ①人工智能－应用－研究 Ⅳ. ①TP18
-
-中国版本图书馆CIP数据核字(2020)第231125号
-
-
-
-
-
-Artificial Unintelligence: How Computers Misunderstand the World by Meredith Broussard
-
-Copyright ©2018 Meredith Broussard
-
-Simplified Chinese edition copyright © 2021 by CITIC Press Corporation
-
-ALL RIGHTS RESERVED
-
-
-
-
-
-人工不智能 ——计算机如何误解世界
-
-著者：［ 美］ 梅瑞狄斯·布鲁萨德
-
-译者：陈少芸
-
-出版发行：中信出版集团股份有限公司
-
-（北京市朝阳区惠新东街甲4号富盛大厦2座 邮编100029）
-
-
-
-
-
-字数：218千字
-
-版次：2021年5月第1版
-
-京权图字：01-2020-0344
-
-书号：ISBN 978-7-5217-2495-0
-
-
-
-
-
-版权所有·侵权必究
