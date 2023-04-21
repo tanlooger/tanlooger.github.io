@@ -27,10 +27,14 @@ bookdata = bookdata.replace(chaps[0], chaps[0]+'\n```')
 bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```')
 
 let i = 0;
+let bookdata2 = bookdata
 for (i = 0; i < chaps.length - 1; i++) {
-  const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
+  //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
+  const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
+  bookdata2 = bookdata2.substring(nextindex);
+
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
-  if (firstindex <= 0) {
+  if (nextindex <= 0) {
     console.log(chaps[i + 1] + "　未找到");
     process.exit(1);
   }
