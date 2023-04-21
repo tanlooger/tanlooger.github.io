@@ -32,7 +32,7 @@ for (i = 0; i < chaps.length - 1; i++) {
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
   if (firstindex <= 0) {
     console.log(chaps[i + 1] + "　未找到");
-    //process.exit(1);
+    process.exit(1);
   }
 }
 
