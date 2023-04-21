@@ -51,9 +51,14 @@ for (i = 0; i < chaps.length; i++) {
   levelcount[level]== undefined ? levelcount[level]=1 : levelcount[level]++
   let prevslug = i?allchapter[i-1].slug.slice(0, level):[0]
 
-  if(levelprev+1 == level){
+  if(levelprev < level){
     if(relevels.includes(level+''))levelcount[level]=1
-    allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
+    let zero = []
+    for(let j=0; j<level-levelprev-1; j++){
+      console.log(chaps[i])
+      zero.push(0)
+    }
+    allchapter.push({slug:[...prevslug, ...zero, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
     console.log('level='+level)
@@ -94,7 +99,7 @@ for (i = 0; i < chaps.length; i++) {
 // mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
 // fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", bookdata);
 
-//console.log(allchapter)
+console.log(allchapter)
 
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
@@ -115,10 +120,29 @@ function mkdirsSync(dirname) {
 }
 
 
+function getTrees(pslug='') {
+  if(pslug == 'yi/46') {
+      // 如果没有父id（第一次递归的时候）将所有父级查询出来
+      return allchapter.filter(item => item.slug.toString()=='yi/46').map(item => {
+          // 通过父节点ID查询所有子节点
+          let a = {slug:item.slug.join('/'), title: item.title}
+          const n = getTrees(item.slug.toString())
+          n==false ? '' : a.child = n
+          return a
+      })
+  } else {
+      return allchapter.filter(item => item.slug.slice(0, -1).toString() == pslug).map(item => {
+          // 通过父节点ID查询所有子节点
+          let a = {slug:item.slug.join('/'), title: item.title}
+          const n = getTrees(item.slug.toString())
+          n==false ? '' : a.child = n
+          return a
+      })
+  }
+}
 
 
-
-function getTrees(pid='') {
+function _getTrees(pid='') {
     if(!pid) {
         // 如果没有父id（第一次递归的时候）将所有父级查询出来
         return allchapter.filter(item => !item.parent_id).map(item => {
