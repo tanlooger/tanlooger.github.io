@@ -3,7 +3,7 @@ const { assert } = require("console");
 const fs = require("fs");
 const path = require("path");
 
-const bookid = 32;
+const bookid = 33;
 const relevels = [3]
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
 
