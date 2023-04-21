@@ -3,8 +3,8 @@ const { assert } = require("console");
 const fs = require("fs");
 const path = require("path");
 
-const bookid = 41;
-const relevels = [4]
+const bookid = 39;
+const relevels = [3]
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
