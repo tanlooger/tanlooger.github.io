@@ -3,7 +3,7 @@ const { assert } = require("console");
 const fs = require("fs");
 const path = require("path");
 
-const bookid = 30;
+const bookid = 31;
 const relevels = [3]
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
 
@@ -81,7 +81,7 @@ for (i = 0; i < chaps.length; i++) {
 
 //console.log(allchapter)
 
-fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
+fs.writeFileSync(allchapter[0].slug+"/book.json", '```\n'+JSON.stringify(getTrees()[0])+'\n```');
 
 //chaps.map(v=>console.log(v.trim()))
 
