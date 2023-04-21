@@ -3,8 +3,14 @@ const { assert } = require("console");
 const fs = require("fs");
 const path = require("path");
 
-const bookid = 39;
-const relevels = [3]
+//console.log(process.argv.slice(2))
+//process.exit(0)
+
+const bookid = process.argv[2];
+const relevels = process.argv.slice(3)   // [3, 4, 9]
+//console.log(relevels)
+//process.exit(0)
+
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
@@ -42,7 +48,7 @@ for (i = 0; i < chaps.length; i++) {
   let prevslug = i?allchapter[i-1].slug.slice(0, level):[0]
 
   if(levelprev+1 == level){
-    if(relevels.includes(level))levelcount[level]=1
+    if(relevels.includes(level+''))levelcount[level]=1
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
