@@ -116,7 +116,7 @@ for (i = 0; i < chaps.length; i++) {
 // mkdirsSync(allchapter[i].slug.slice(0, -1).join('/'))
 // fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", bookdata);
 
-console.log(allchapter)
+//console.log(allchapter)
 
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
