@@ -69,7 +69,7 @@ for (i = 0; i < chaps.length; i++) {
     if(i>0)
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:i?allchapter[i-1].parent_id+'':'', title:chaps[i].trim()})
     else
-    allchapter.push({slug:['cn/'+bookid], id:i+'', parent_id:i?allchapter[i-1].parent_id+'':'', title:chaps[i].trim()})
+    allchapter.push({slug:['yi/'+bookid], id:i+'', parent_id:i?allchapter[i-1].parent_id+'':'', title:chaps[i].trim()})
   }
 
   levelprev = level
@@ -90,7 +90,7 @@ for (i = 0; i < chaps.length; i++) {
 
   if(nextindex < 0){
     console.log(i+' nextindex wrong '+nextindex+chaps[i].trim())
-    if (fs.existsSync('cn'))fs.rmdirSync('cn', { recursive: true, force: true })
+    if (fs.existsSync('yi'))fs.rmdirSync('yi', { recursive: true, force: true })
     process.exit(1)
   }
 
