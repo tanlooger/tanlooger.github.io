@@ -58,7 +58,7 @@ for (i = 0; i < chaps.length; i++) {
       console.log(chaps[i])
       zero.push(0)
     }
-    allchapter.push({slug:[...prevslug, ...zero, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
+    allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
     console.log('level='+level)
