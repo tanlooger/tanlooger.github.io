@@ -5,6 +5,7 @@
     {
       "slug": "yi/29/1",
       "title": "第一部分　大灾难的年代",
+      "open": true,
       "child": [
         {
           "slug": "yi/29/1/1",
@@ -87,6 +88,7 @@
     {
       "slug": "yi/29/2",
       "title": "第二部分　黄金时代",
+      "open": true,
       "child": [
         {
           "slug": "yi/29/2/8",
@@ -155,6 +157,7 @@
     {
       "slug": "yi/29/3",
       "title": "第三部分　天崩地裂",
+      "open": true,
       "child": [
         {
           "slug": "yi/29/3/14",
