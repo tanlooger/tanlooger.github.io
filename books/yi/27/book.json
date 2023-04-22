@@ -5,6 +5,7 @@
     {
       "slug": "yi/27/1",
       "title": "第一部分　前奏",
+      "open": true,
       "child": [
         {
           "slug": "yi/27/1/1",
@@ -19,6 +20,7 @@
     {
       "slug": "yi/27/2",
       "title": "第二部分　发展",
+      "open": true,
       "child": [
         {
           "slug": "yi/27/2/2",
@@ -88,6 +90,7 @@
     {
       "slug": "yi/27/3",
       "title": "第三部分　结果",
+      "open": true,
       "child": [
         {
           "slug": "yi/27/3/10",
