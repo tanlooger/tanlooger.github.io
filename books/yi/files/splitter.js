@@ -29,6 +29,7 @@ bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```'
 let i = 0;
 let bookdata2 = bookdata
 for (i = 0; i < chaps.length - 1; i++) {
+  if(chaps[i + 1].trim() === '0')continue
   //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
   const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
   bookdata2 = bookdata2.substring(nextindex);
@@ -48,16 +49,16 @@ let json = {}
 let levelcount = []
 for (i = 0; i < chaps.length; i++) {
   const level = chaps[i].search(/(?!　)/);
-  levelcount[level]== undefined ? levelcount[level]=1 : levelcount[level]++
+  levelcount[level]== undefined ? levelcount[level]=(chaps[i].trim()==='0'? 0:1) : levelcount[level]++
   let prevslug = i?allchapter[i-1].slug.slice(0, level):[0]
 
   if(levelprev < level){
     if(relevels.includes(level+''))levelcount[level]=1
-    let zero = []
-    for(let j=0; j<level-levelprev-1; j++){
-      console.log(chaps[i])
-      zero.push(0)
-    }
+    // let zero = []
+    // for(let j=0; j<level-levelprev-1; j++){
+    //   console.log(chaps[i])
+    //   zero.push(0)
+    // }
     allchapter.push({slug:[...prevslug, levelcount[level]], id:i+'', parent_id:(i-1)+'', title:chaps[i].trim()})
   }else
   if(levelprev > level){
@@ -75,9 +76,25 @@ for (i = 0; i < chaps.length; i++) {
 
 
 
+  let nextChapsIndex = i + 1
+  if(i<chaps.length-1){
+    while(chaps[nextChapsIndex].trim() === '0'){
+      console.log(nextChapsIndex)
+      nextChapsIndex++
+    }
+  }
 
 
-  const nextindex = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata.length;
+
+  const nextindex = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n") : bookdata.length;
+
+  if(nextindex < 0){
+    console.log(i+' nextindex wrong '+nextindex+chaps[i].trim())
+    if (fs.existsSync('yi'))fs.rmdirSync('yi', { recursive: true, force: true })
+    process.exit(1)
+  }
+
+
 
   //const tmp = bookdata.split(re)
   //fs.writeFileSync(i+'.mdx', (i?chaps[i-1].trim():'')+'\n\n'+tmp[0])
@@ -120,29 +137,8 @@ function mkdirsSync(dirname) {
 }
 
 
-function getTrees(pslug='') {
-  if(pslug == 'yi/46') {
-      // 如果没有父id（第一次递归的时候）将所有父级查询出来
-      return allchapter.filter(item => item.slug.toString()=='yi/46').map(item => {
-          // 通过父节点ID查询所有子节点
-          let a = {slug:item.slug.join('/'), title: item.title}
-          const n = getTrees(item.slug.toString())
-          n==false ? '' : a.child = n
-          return a
-      })
-  } else {
-      return allchapter.filter(item => item.slug.slice(0, -1).toString() == pslug).map(item => {
-          // 通过父节点ID查询所有子节点
-          let a = {slug:item.slug.join('/'), title: item.title}
-          const n = getTrees(item.slug.toString())
-          n==false ? '' : a.child = n
-          return a
-      })
-  }
-}
 
-
-function _getTrees(pid='') {
+function getTrees(pid='') {
     if(!pid) {
         // 如果没有父id（第一次递归的时候）将所有父级查询出来
         return allchapter.filter(item => !item.parent_id).map(item => {
