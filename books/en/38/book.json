@@ -1,0 +1,57 @@
+{
+  "slug": "en/38",
+  "title": "Tell Me Your Dreams - Sidney Sheldon",
+  "child": [
+    {
+      "slug": "en/38/1",
+      "title": "Book One",
+      "open": true,
+      "child": [
+        { "slug": "en/38/1/1", "title": "Chapter One" },
+        { "slug": "en/38/1/2", "title": "Chapter Two" },
+        { "slug": "en/38/1/3", "title": "Chapter Three" },
+        { "slug": "en/38/1/4", "title": "Chapter Four" },
+        { "slug": "en/38/1/5", "title": "Chapter Five" },
+        { "slug": "en/38/1/6", "title": "Chapter Six" },
+        { "slug": "en/38/1/7", "title": "Chapter Seven" },
+        { "slug": "en/38/1/8", "title": "Chapter Eight" },
+        { "slug": "en/38/1/9", "title": "Chapter Nine" },
+        { "slug": "en/38/1/10", "title": "Chapter Ten" }
+      ]
+    },
+    {
+      "slug": "en/38/2",
+      "title": "Book Two",
+      "open": true,
+      "child": [
+        { "slug": "en/38/2/11", "title": "Chapter Eleven" },
+        { "slug": "en/38/2/12", "title": "Chapter Twelve" },
+        { "slug": "en/38/2/13", "title": "Chapter Thirteen" },
+        { "slug": "en/38/2/14", "title": "Chapter Fourteen" },
+        { "slug": "en/38/2/15", "title": "Chapter Fifteen" },
+        { "slug": "en/38/2/16", "title": "Chapter Sixteen" },
+        { "slug": "en/38/2/17", "title": "Chapter Seventeen" },
+        { "slug": "en/38/2/18", "title": "Chapter Eighteen" },
+        { "slug": "en/38/2/19", "title": "Chapter Nineteen" },
+        { "slug": "en/38/2/20", "title": "Chapter Twenty" },
+        { "slug": "en/38/2/21", "title": "Chapter Twenty-one" }
+      ]
+    },
+    {
+      "slug": "en/38/3",
+      "title": "Book Three",
+      "open": true,
+      "child": [
+        { "slug": "en/38/3/22", "title": "Chapter Twenty-two" },
+        { "slug": "en/38/3/23", "title": "Chapter Twenty-three" },
+        { "slug": "en/38/3/24", "title": "Chapter Twenty-four" },
+        { "slug": "en/38/3/25", "title": "Chapter Twenty-five" },
+        { "slug": "en/38/3/26", "title": "Chapter Twenty-six" },
+        { "slug": "en/38/3/27", "title": "Chapter Twenty-seven" },
+        { "slug": "en/38/3/28", "title": "Chapter Twenty-eight" },
+        { "slug": "en/38/3/29", "title": "Chapter Twenty-nine" },
+        { "slug": "en/38/3/30", "title": "Author’s Note" }
+      ]
+    }
+  ]
+}
