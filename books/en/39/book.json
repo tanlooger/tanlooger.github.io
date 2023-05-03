@@ -1,0 +1,12 @@
+{
+  "slug": "en/39",
+  "title": "The Pearl by John Steinbeck",
+  "child": [
+    { "slug": "en/39/1", "title": "I" },
+    { "slug": "en/39/2", "title": "II" },
+    { "slug": "en/39/3", "title": "III" },
+    { "slug": "en/39/4", "title": "IV" },
+    { "slug": "en/39/5", "title": "V" },
+    { "slug": "en/39/6", "title": "VI" }
+  ]
+}
