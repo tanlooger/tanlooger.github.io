@@ -36,7 +36,7 @@ for (i = 0; i < chaps.length - 1; i++) {
 
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
   if (nextindex <= 0) {
-    console.log(chaps[i + 1] + "　未找到");
+    console.log(chaps[i + 1] + "　未找到 "+i);
     process.exit(1);
   }
 }
