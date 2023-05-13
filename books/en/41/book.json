@@ -1,0 +1,31 @@
+{
+  "slug": "en/41",
+  "title": "The Theory of Everything: The Origin and Fate of the Universe",
+  "child": [
+    {
+      "slug": "en/41/1",
+      "title": "Chapter 1 - FIRST LECTURE - IDEAS ABOUT THE UNIVERSE"
+    },
+    {
+      "slug": "en/41/2",
+      "title": "Chapter 2 - SECOND LECTURE - THE EXPANDING UNIVERSE"
+    },
+    { "slug": "en/41/3", "title": "Chapter 3 - THIRD LECTURE - BLACK HOLES" },
+    {
+      "slug": "en/41/4",
+      "title": "Chapter 4 - FOURTH LECTURE - BLACK HOLES AIN’T SO BLACK"
+    },
+    {
+      "slug": "en/41/5",
+      "title": "Chapter 5 - FIFTH LECTURE - THE ORIGIN AND FATE OF THE..."
+    },
+    {
+      "slug": "en/41/6",
+      "title": "Chapter 6 - SIXTH LECTURE - THE DIRECTION OF TIME"
+    },
+    {
+      "slug": "en/41/7",
+      "title": "Chapter 7 - SEVENTH LECTURE - THE THEORY OF EVERYTHING"
+    }
+  ]
+}
