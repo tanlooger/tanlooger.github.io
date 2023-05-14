@@ -1,0 +1,30 @@
+{
+  "slug": "en/42",
+  "title": "The Hunt for Red October",
+  "child": [
+    { "slug": "en/42/1", "title": "THE FIRST DAY：FRIDAY, 3 DECEMBER" },
+    { "slug": "en/42/2", "title": "THE SECOND DAY：SATURDAY, 4 DECEMBER" },
+    { "slug": "en/42/3", "title": "THE THIRD DAY：SUNDAY, 5 DECEMBER" },
+    { "slug": "en/42/4", "title": "THE FOURTH DAY：MONDAY, 6 DECEMBER" },
+    { "slug": "en/42/5", "title": "THE FIFTH DAY：TUESDAY, 7 DECEMBER" },
+    { "slug": "en/42/6", "title": "THE SIXTH DAY：WEDNESDAY, 8 DECEMBER" },
+    { "slug": "en/42/7", "title": "THE SEVENTH DAY：THURSDAY, 9 DECEMBER" },
+    { "slug": "en/42/8", "title": "THE EIGHTH DAY：FRIDAY, 10 DECEMBER" },
+    { "slug": "en/42/9", "title": "THE NINTH DAY：SATURDAY, 11 DECEMBER" },
+    { "slug": "en/42/10", "title": "THE TENTH DAY：SUNDAY, 12 DECEMBER" },
+    { "slug": "en/42/11", "title": "THE ELEVENTH DAY：MONDAY, 13 DECEMBER" },
+    { "slug": "en/42/12", "title": "THE TWELFTH DAY：TUESDAY, 14 DECEMBER" },
+    {
+      "slug": "en/42/13",
+      "title": "THE THIRTEENTH DAY：WEDNESDAY, 15 DECEMBER"
+    },
+    {
+      "slug": "en/42/14",
+      "title": "THE FOURTEENTH DAY：THURSDAY, 16 DECEMBER"
+    },
+    { "slug": "en/42/15", "title": "THE FIFTEENTH DAY：FRIDAY, 17 DECEMBER" },
+    { "slug": "en/42/16", "title": "THE SIXTEENTH DAY：SATURDAY, 18 DECEMBER" },
+    { "slug": "en/42/17", "title": "THE SEVENTEENTH DAY：SUNDAY, 19 DECEMBER" },
+    { "slug": "en/42/18", "title": "THE EIGHTEENTH DAY：MONDAY, 20 DECEMBER" }
+  ]
+}
