@@ -7,15 +7,15 @@
       "title": "Part I The Best of Times",
       "open": true,
       "child": [
-        { "slug": "en/46/1/1", "title": "Chapter 1 New Age Economics" },
-        { "slug": "en/46/1/2", "title": "Chapter 2 Golden Globe" },
+        { "slug": "en/46/1/1", "title": "1 New Age Economics" },
+        { "slug": "en/46/1/2", "title": "2 Golden Globe" },
         {
           "slug": "en/46/1/3",
-          "title": "Chapter 3 Competing on a Violent Scale"
+          "title": "3 Competing on a Violent Scale"
         },
-        { "slug": "en/46/1/4", "title": "Chapter 4 By Legislation or Fiat" },
-        { "slug": "en/46/1/5", "title": "Chapter 5 Where Credit Is Due" },
-        { "slug": "en/46/1/6", "title": "Chapter 6 Castles in Spain" }
+        { "slug": "en/46/1/4", "title": "4 By Legislation or Fiat" },
+        { "slug": "en/46/1/5", "title": "5 Where Credit Is Due" },
+        { "slug": "en/46/1/6", "title": "6 Castles in Spain" }
       ]
     },
     {
@@ -23,17 +23,17 @@
       "title": "Part II The Worst of Times",
       "open": true,
       "child": [
-        { "slug": "en/46/2/7", "title": "Chapter 7 Spent Bullets" },
-        { "slug": "en/46/2/8", "title": "Chapter 8 The Next Leg Down" },
-        { "slug": "en/46/2/9", "title": "Chapter 9 On Europe’s Shores" },
+        { "slug": "en/46/2/7", "title": "7 Spent Bullets" },
+        { "slug": "en/46/2/8", "title": "8 The Next Leg Down" },
+        { "slug": "en/46/2/9", "title": "9 On Europe’s Shores" },
         {
           "slug": "en/46/2/10",
-          "title": "Chapter 10 Will America Topple Too?"
+          "title": "10 Will America Topple Too?"
         },
-        { "slug": "en/46/2/11", "title": "Chapter 11 Largely Contained" },
-        { "slug": "en/46/2/12", "title": "Chapter 12 Scant Evidence" },
-        { "slug": "en/46/2/13", "title": "Chapter 13 The Spiral" },
-        { "slug": "en/46/2/14", "title": "Chapter 14 Fish or Foul" }
+        { "slug": "en/46/2/11", "title": "11 Largely Contained" },
+        { "slug": "en/46/2/12", "title": "12 Scant Evidence" },
+        { "slug": "en/46/2/13", "title": "13 The Spiral" },
+        { "slug": "en/46/2/14", "title": "14 Fish or Foul" }
       ]
     },
     {
@@ -41,13 +41,13 @@
       "title": "Part III Toward Better Times",
       "open": true,
       "child": [
-        { "slug": "en/46/3/15", "title": "Chapter 15 Revival or Reform" },
-        { "slug": "en/46/3/16", "title": "Chapter 16 Something for Everyone" },
-        { "slug": "en/46/3/17", "title": "Chapter 17 Takahashi’s Revenge" },
-        { "slug": "en/46/3/18", "title": "Chapter 18 Dip Again" },
-        { "slug": "en/46/3/19", "title": "Chapter 19 Preventing the Worst" },
-        { "slug": "en/46/3/20", "title": "Chapter 20 Stressed and Stimulated" },
-        { "slug": "en/46/3/21", "title": "Chapter 21 Unconventional Policy" }
+        { "slug": "en/46/3/15", "title": "15 Revival or Reform" },
+        { "slug": "en/46/3/16", "title": "16 Something for Everyone" },
+        { "slug": "en/46/3/17", "title": "17 Takahashi’s Revenge" },
+        { "slug": "en/46/3/18", "title": "18 Dip Again" },
+        { "slug": "en/46/3/19", "title": "19 Preventing the Worst" },
+        { "slug": "en/46/3/20", "title": "20 Stressed and Stimulated" },
+        { "slug": "en/46/3/21", "title": "21 Unconventional Policy" }
       ]
     },
     {
@@ -57,18 +57,18 @@
       "child": [
         {
           "slug": "en/46/4/22",
-          "title": "Chapter 22 Wall Street and Main Street"
+          "title": "22 Wall Street and Main Street"
         },
         {
           "slug": "en/46/4/23",
-          "title": "Chapter 23 Normalization in an Abnormal Economy"
+          "title": "23 Normalization in an Abnormal Economy"
         },
         {
           "slug": "en/46/4/24",
-          "title": "Chapter 24 Making Things as Difficult as Possible"
+          "title": "24 Making Things as Difficult as Possible"
         },
-        { "slug": "en/46/4/25", "title": "Chapter 25 Men in Black" },
-        { "slug": "en/46/4/26", "title": "Chapter 26 Euro or Not" }
+        { "slug": "en/46/4/25", "title": "25 Men in Black" },
+        { "slug": "en/46/4/26", "title": "26 Euro or Not" }
       ]
     },
     { "slug": "en/46/5", "title": "Conclusion" }
