@@ -1,0 +1,284 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>The New Optimum Nutrition Bible</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="PrimaryID" opf:scheme="ISBN">978-0-307-78588-6</dc:identifier>
+		<dc:creator opf:file-as="Holford, Patrick" opf:role="aut">Patrick Holford</dc:creator>
+		<dc:publisher>Potter/Ten Speed/Harmony/Rodale</dc:publisher>
+		<dc:date opf:event="publication">2011-03-30</dc:date>
+		<dc:rights>Copyright © 2004 by Patrick Holford</dc:rights>
+		<meta content="cover-image" name="cover"/>
+			<meta content="1.1" name="epubcheckversion"/>
+			<meta content="2011-03-14" name="epubcheckdate"/>
+	<description xmlns="http://purl.org/dc/elements/1.1/">&lt;p&gt;Since it was first published in 1997, THE OPTIMUM NUTRITION BIBLE has revolutionized health by showing more than half a million readers how to achieve a profound sense of well-being by devising the best possible intake of nutrients for their unique biochemical makeup. THE NEW OPTIMUM NUTRITION BIBLE presents the latest research from Britain'&amp;#172;?s top nutrition expert Patrick Holford, with new chapters on stimulants, water, eating right for your blood type, detox, homocysteine, and toxic minerals. You'&amp;#172;?ll learn to analyze your symptoms, lifestyle, and eating habits in order to formulate a personal ideal diet and vitamin regimen. Once optimum nutrition is in place, you can look forward to a consistent high level of energy, emotional balance, alertness, physical fitness, resilience against infectious diseases, and longevity.&lt;li&gt;A revised edition of the best-selling nutritional guide, with an A-to-Z guide to specific health problems and how to heal them with optimum...</description>
+</metadata>
+	<manifest>
+		<item href="Holf_9780307785886_epub_ncx_r1.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_cvi_r1.htm" id="cvi" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_tp_r1.htm" id="tp" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_cop_r1.htm" id="cop" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_ded_r1.htm" id="ded" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_toc_r1.htm" id="toc" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_ack_r1.htm" id="ack" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_col1_r1.htm" id="col1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_itr_r1.htm" id="itr" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p01_r1.htm" id="p01" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c01_r1.htm" id="c01" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c02_r1.htm" id="c02" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c03_r1.htm" id="c03" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c04_r1.htm" id="c04" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c05_r1.htm" id="c05" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c06_r1.htm" id="c06" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p02_r1.htm" id="p02" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c07_r1.htm" id="c07" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c08_r1.htm" id="c08" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c09_r1.htm" id="c09" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c10_r1.htm" id="c10" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c11_r1.htm" id="c11" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c12_r1.htm" id="c12" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c13_r1.htm" id="c13" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c14_r1.htm" id="c14" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c15_r1.htm" id="c15" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c16_r1.htm" id="c16" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c17_r1.htm" id="c17" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c18_r1.htm" id="c18" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c19_r1.htm" id="c19" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c20_r1.htm" id="c20" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p03_r1.htm" id="p03" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c21_r1.htm" id="c21" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c22_r1.htm" id="c22" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c23_r1.htm" id="c23" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c24_r1.htm" id="c24" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c25_r1.htm" id="c25" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c26_r1.htm" id="c26" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c27_r1.htm" id="c27" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p04_r1.htm" id="p04" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c28_r1.htm" id="c28" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c29_r1.htm" id="c29" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c30_r1.htm" id="c30" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c31_r1.htm" id="c31" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c32_r1.htm" id="c32" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c33_r1.htm" id="c33" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c34_r1.htm" id="c34" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c35_r1.htm" id="c35" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c36_r1.htm" id="c36" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c37_r1.htm" id="c37" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c38_r1.htm" id="c38" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p05_r1.htm" id="p05" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c39_r1.htm" id="c39" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c40_r1.htm" id="c40" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c41_r1.htm" id="c41" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c42_r1.htm" id="c42" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p06_r1.htm" id="p06" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c43_r1.htm" id="c43" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c44_r1.htm" id="c44" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c45_r1.htm" id="c45" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c46_r1.htm" id="c46" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c47_r1.htm" id="c47" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c48_r1.htm" id="c48" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c49_r1.htm" id="c49" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p07_r1.htm" id="p07" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c50_r1.htm" id="c50" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p08_r1.htm" id="p08" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c51_r1.htm" id="c51" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_p09_r1.htm" id="p09" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_c52_r1.htm" id="c52" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_bm1_r1.htm" id="bm1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_bm2_r1.htm" id="bm2" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_bm3_r1.htm" id="bm3" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/Holf_9780307785886_epub_css_r1.css" id="css" media-type="text/css"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_001_r1.jpg" id="f001" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_002_r1.jpg" id="f002" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_003_r1.jpg" id="f003" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_004_r1.jpg" id="f004" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_005_r1.jpg" id="f005" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_006_r1.jpg" id="f006" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_007_r1.jpg" id="f007" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_008_r1.jpg" id="f008" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_009_r1.jpg" id="f009" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_010_r1.jpg" id="f010" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_011_r1.jpg" id="f011" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_012_r1.jpg" id="f012" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_013_r1.jpg" id="f013" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_014_r1.jpg" id="f014" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_015_r1.jpg" id="f015" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_016_r1.jpg" id="f016" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_017_r1.jpg" id="f017" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_018_r1.jpg" id="f018" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_019_r1.jpg" id="f019" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_020_r1.jpg" id="f020" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_021_r1.jpg" id="f021" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_022_r1.jpg" id="f022" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_023_r1.jpg" id="f023" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_024_r1.jpg" id="f024" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_025_r1.jpg" id="f025" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_026_r1.jpg" id="f026" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_027_r1.jpg" id="f027" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_028_r1.jpg" id="f028" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_029_r1.jpg" id="f029" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_030_r1.jpg" id="f030" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_031_r1.jpg" id="f031" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_032_r1.jpg" id="f032" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_033_r1.jpg" id="f033" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_034_r1.jpg" id="f034" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_035_r1.jpg" id="f035" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_036_r1.jpg" id="f036" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_037_r1.jpg" id="f037" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_038_r1.jpg" id="f038" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_039_r1.jpg" id="f039" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_040_r1.jpg" id="f040" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_041_r1.jpg" id="f041" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_042_r1.jpg" id="f042" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_043_r1.jpg" id="f043" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_044_r1.jpg" id="f044" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_045_r1.jpg" id="f045" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_046_r1.jpg" id="f046" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_047_r1.jpg" id="f047" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_048_r1.jpg" id="f048" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_049_r1.jpg" id="f049" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_050_r1.jpg" id="f050" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_051_r1.jpg" id="f051" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_052_r1.jpg" id="f052" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_053_r1.jpg" id="f053" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_054_r1.jpg" id="f054" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_055_r1.jpg" id="f055" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_056_r1.jpg" id="f056" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_057_r1.jpg" id="f057" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_058_r1.jpg" id="f058" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_059_r1.jpg" id="f059" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_060_r1.jpg" id="f060" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_061_r1.jpg" id="f061" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_062_r1.jpg" id="f062" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_063_r1.jpg" id="f063" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_064_r1.jpg" id="f064" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_065_r1.jpg" id="f065" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_066_r1.jpg" id="f066" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_067_r1.jpg" id="f067" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_068_r1.jpg" id="f068" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_069_r1.jpg" id="f069" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_070_r1.jpg" id="f070" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_071_r1.jpg" id="f071" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_072_r1.jpg" id="f072" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_073_r1.jpg" id="f073" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_074_r1.jpg" id="f074" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_075_r1.jpg" id="f075" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_076_r1.jpg" id="f076" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_077_r1.jpg" id="f077" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_078_r1.jpg" id="f078" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_079_r1.jpg" id="f079" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_080_r1.jpg" id="f080" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_081_r1.jpg" id="f081" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_082_r1.jpg" id="f082" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_083_r1.jpg" id="f083" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_084_r1.jpg" id="f084" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_085_r1.jpg" id="f085" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_086_r1.jpg" id="f086" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_087_r1.jpg" id="f087" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_088_r1.jpg" id="f088" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_089_r1.jpg" id="f089" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_090_r1.jpg" id="f090" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_091_r1.jpg" id="f091" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_092_r1.jpg" id="f092" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_093_r1.jpg" id="f093" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_094_r1.jpg" id="f094" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_095_r1.jpg" id="f095" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_096_r1.jpg" id="f096" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_097_r1.jpg" id="f097" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_098_r1.jpg" id="f098" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_099_r1.jpg" id="f099" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_100_r1.jpg" id="f100" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_101_r1.jpg" id="f101" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_cvi_r1.jpg" id="cover-image" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_cvt_r1.jpg" id="fcvt" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_L02_r1.jpg" id="fL02" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_L03_r1.jpg" id="fL03" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_L05_r1.jpg" id="fL05" media-type="image/jpeg"/>
+		<item href="OEBPS/images/Holf_9780307785886_epub_tp_r1.jpg" id="ftp" media-type="image/jpeg"/>
+		<item href="OEBPS/page-template.xpgt" id="page" media-type="application/vnd.adobe-page-template+xml"/>
+		<item href="OEBPS/fonts/CharisSILB.ttf" id="font1" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILBI.ttf" id="font2" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILI.ttf" id="font3" media-type="application/x-font-ttf"/>
+		<item href="OEBPS/fonts/CharisSILR.ttf" id="font4" media-type="application/x-font-ttf"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cvi" linear="yes"/>
+		<itemref idref="tp" linear="yes"/>
+		<itemref idref="cop" linear="yes"/>
+		<itemref idref="ded" linear="yes"/>
+		<itemref idref="toc" linear="yes"/>
+		<itemref idref="ack" linear="yes"/>
+		<itemref idref="col1" linear="yes"/>
+		<itemref idref="itr" linear="yes"/>
+		<itemref idref="p01" linear="yes"/>
+		<itemref idref="c01" linear="yes"/>
+		<itemref idref="c02" linear="yes"/>
+		<itemref idref="c03" linear="yes"/>
+		<itemref idref="c04" linear="yes"/>
+		<itemref idref="c05" linear="yes"/>
+		<itemref idref="c06" linear="yes"/>
+		<itemref idref="p02" linear="yes"/>
+		<itemref idref="c07" linear="yes"/>
+		<itemref idref="c08" linear="yes"/>
+		<itemref idref="c09" linear="yes"/>
+		<itemref idref="c10" linear="yes"/>
+		<itemref idref="c11" linear="yes"/>
+		<itemref idref="c12" linear="yes"/>
+		<itemref idref="c13" linear="yes"/>
+		<itemref idref="c14" linear="yes"/>
+		<itemref idref="c15" linear="yes"/>
+		<itemref idref="c16" linear="yes"/>
+		<itemref idref="c17" linear="yes"/>
+		<itemref idref="c18" linear="yes"/>
+		<itemref idref="c19" linear="yes"/>
+		<itemref idref="c20" linear="yes"/>
+		<itemref idref="p03" linear="yes"/>
+		<itemref idref="c21" linear="yes"/>
+		<itemref idref="c22" linear="yes"/>
+		<itemref idref="c23" linear="yes"/>
+		<itemref idref="c24" linear="yes"/>
+		<itemref idref="c25" linear="yes"/>
+		<itemref idref="c26" linear="yes"/>
+		<itemref idref="c27" linear="yes"/>
+		<itemref idref="p04" linear="yes"/>
+		<itemref idref="c28" linear="yes"/>
+		<itemref idref="c29" linear="yes"/>
+		<itemref idref="c30" linear="yes"/>
+		<itemref idref="c31" linear="yes"/>
+		<itemref idref="c32" linear="yes"/>
+		<itemref idref="c33" linear="yes"/>
+		<itemref idref="c34" linear="yes"/>
+		<itemref idref="c35" linear="yes"/>
+		<itemref idref="c36" linear="yes"/>
+		<itemref idref="c37" linear="yes"/>
+		<itemref idref="c38" linear="yes"/>
+		<itemref idref="p05" linear="yes"/>
+		<itemref idref="c39" linear="yes"/>
+		<itemref idref="c40" linear="yes"/>
+		<itemref idref="c41" linear="yes"/>
+		<itemref idref="c42" linear="yes"/>
+		<itemref idref="p06" linear="yes"/>
+		<itemref idref="c43" linear="yes"/>
+		<itemref idref="c44" linear="yes"/>
+		<itemref idref="c45" linear="yes"/>
+		<itemref idref="c46" linear="yes"/>
+		<itemref idref="c47" linear="yes"/>
+		<itemref idref="c48" linear="yes"/>
+		<itemref idref="c49" linear="yes"/>
+		<itemref idref="p07" linear="yes"/>
+		<itemref idref="c50" linear="yes"/>
+		<itemref idref="p08" linear="yes"/>
+		<itemref idref="c51" linear="yes"/>
+		<itemref idref="p09" linear="yes"/>
+		<itemref idref="c52" linear="yes"/>
+		<itemref idref="bm1" linear="yes"/>
+		<itemref idref="bm2" linear="yes"/>
+		<itemref idref="bm3" linear="yes"/>
+	</spine>
+	<guide>
+		<reference href="OEBPS/Holf_9780307785886_epub_itr_r1.htm" title="Start" type="start"/>
+
+		<reference href="OEBPS/Holf_9780307785886_epub_cvi_r1.htm" title="cover" type="cover"/>
+		<reference href="OEBPS/images/Holf_9780307785886_epub_cvt_r1.jpg" title="thumbimagestandard" type="thumbimagestandard"/>
+		<reference href="OEBPS/Holf_9780307785886_epub_cop_r1.htm" title="Copyright" type="copyright-page"/>
+	</guide>
+</package>

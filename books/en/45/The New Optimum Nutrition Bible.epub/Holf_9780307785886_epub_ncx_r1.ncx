@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+	<head>
+		<meta name="dtb:uid" content="978-0-307-78588-6"/>
+		<meta name="dtb:depth" content="2"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+	<docTitle><text>The New Optimum Nutrition Bible</text></docTitle>
+	<docAuthor><text>Patrick Holford</text></docAuthor>
+	<navMap>
+		<navPoint class="cover" id="cvi" playOrder="1">
+			<navLabel><text>Cover</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_cvi_r1.htm"/>
+		</navPoint>
+		<navPoint class="titlepage" id="tp" playOrder="2">
+			<navLabel><text>Title Page</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_tp_r1.htm"/>
+		</navPoint>
+		<navPoint class="copyright" id="cop" playOrder="3">
+			<navLabel><text>Copyright</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_cop_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="ded" playOrder="4">
+			<navLabel><text>Dedication</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_ded_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="toc" playOrder="5">
+			<navLabel><text>Contents</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_toc_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="ack" playOrder="6">
+			<navLabel><text>Acknowledgments</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_ack_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="col1" playOrder="7">
+			<navLabel><text>Guide to Abbreviations, Measures, and References</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_col1_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="itr" playOrder="8">
+			<navLabel><text>Introduction</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_itr_r1.htm"/>
+		</navPoint>
+		<navPoint class="part" id="p01" playOrder="9">
+			<navLabel><text>Part 1 - What is Optimum?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p01_r1.htm"/>
+		<navPoint class="chapter" id="c01" playOrder="10">
+			<navLabel><text>1. Health&#x2014;Who Wants to be Average?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c01_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c02" playOrder="11">
+			<navLabel><text>2. Defining Optimum Nutrition</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c02_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c03" playOrder="12">
+			<navLabel><text>3. From Monkeys to Man&#x2014;Nutrition and Evolution</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c03_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c04" playOrder="13">
+			<navLabel><text>4. You are Unique</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c04_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c05" playOrder="14">
+			<navLabel><text>5. Synergy&#x2014;The Whole Is Greater</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c05_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c06" playOrder="15">
+			<navLabel><text>6. Antinutrients&#x2014;Avoiding the Vitamin Robbers</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c06_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p02" playOrder="16">
+			<navLabel><text>Part 2 - Defining the Perfect Diet</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p02_r1.htm"/>
+		<navPoint class="chapter" id="c07" playOrder="17">
+			<navLabel><text>7. The Myth of the Well-Balanced Diet</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c07_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c08" playOrder="18">
+			<navLabel><text>8. The Protein Controversy</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c08_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c09" playOrder="19">
+			<navLabel><text>9. The Fats of Life</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c09_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c10" playOrder="20">
+			<navLabel><text>10. Sugar&#x2014;The Sweet Truth</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c10_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c11" playOrder="21">
+			<navLabel><text>11. Stimulants&#x2014;Are You Addicted?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c11_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c12" playOrder="22">
+			<navLabel><text>12. The Vitamin Scandal</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c12_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c13" playOrder="23">
+			<navLabel><text>13. Elemental Health from Calcium to Zinc</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c13_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c14" playOrder="24">
+			<navLabel><text>14. Toxic Minerals from Aluminium to Mercury</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c14_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c15" playOrder="25">
+			<navLabel><text>15. Antioxidants&#x2014;The Power of Prevention</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c15_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c16" playOrder="26">
+			<navLabel><text>16. Homocysteine&#x2014;Your Most Important Health Statistic</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c16_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c17" playOrder="27">
+			<navLabel><text>17. Living Food&#x2014;The Phytochemical Revolution</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c17_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c18" playOrder="28">
+			<navLabel><text>18. Your Body Is 66 Percent Water</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c18_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c19" playOrder="29">
+			<navLabel><text>19. Food Combining&#x2014;Facts and Fallacies</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c19_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c20" playOrder="30">
+			<navLabel><text>20. Eat Right for Your Blood Type</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c20_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p03" playOrder="31">
+			<navLabel><text>Part 3 - The Wonderful World Within</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p03_r1.htm"/>
+		<navPoint class="chapter" id="c21" playOrder="32">
+			<navLabel><text>21. You Are What You Eat</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c21_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c22" playOrder="33">
+			<navLabel><text>22. Improving Your Digestion</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c22_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c23" playOrder="34">
+			<navLabel><text>23. Secrets for a Healthy Heart</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c23_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c24" playOrder="35">
+			<navLabel><text>24. Boosting Your Immune System</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c24_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c25" playOrder="36">
+			<navLabel><text>25. Balancing Hormones Naturally</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c25_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c26" playOrder="37">
+			<navLabel><text>26. Bone Health&#x2014;A Skeleton in the Cupboard</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c26_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c27" playOrder="38">
+			<navLabel><text>27. Skin Health&#x2014;Eat Yourself Beautiful</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c27_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p04" playOrder="39">
+			<navLabel><text>Part 4 - The Benefits of Optimum Nutrition</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p04_r1.htm"/>
+		<navPoint class="chapter" id="c28" playOrder="40">
+			<navLabel><text>28. Improving Intelligence, Memory, and Mood</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c28_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c29" playOrder="41">
+			<navLabel><text>29. Increasing Your Energy and Resistance to Stress</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c29_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c30" playOrder="42">
+			<navLabel><text>30. Achieving Peak Physical Performance</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c30_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c31" playOrder="43">
+			<navLabel><text>31. Turning Back the Clock</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c31_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c32" playOrder="44">
+			<navLabel><text>32. Conquering Cancer</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c32_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c33" playOrder="45">
+			<navLabel><text>33. Fighting Infections Naturally</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c33_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c34" playOrder="46">
+			<navLabel><text>34. Unraveling Allergies</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c34_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c35" playOrder="47">
+			<navLabel><text>35. Detoxing Your Body</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c35_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c36" playOrder="48">
+			<navLabel><text>36. Breaking the Fat Barrier</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c36_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c37" playOrder="49">
+			<navLabel><text>37. Solving the Riddle of Eating Disorders</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c37_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c38" playOrder="50">
+			<navLabel><text>38. Mental Health&#x2014;The Nutrition Connection</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c38_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p05" playOrder="51">
+			<navLabel><text>Part 5 - Nutrition for All Ages</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p05_r1.htm"/>
+		<navPoint class="chapter" id="c39" playOrder="52">
+			<navLabel><text>39. Birthrights and Wrongs</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c39_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c40" playOrder="53">
+			<navLabel><text>40. Superkids&#x2014;Nourishing the Next Generation</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c40_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c41" playOrder="54">
+			<navLabel><text>41. Puberty, PMS, Menopause, and Andropause</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c41_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c42" playOrder="55">
+			<navLabel><text>42. Preventing the Problems of Old Age</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c42_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p06" playOrder="56">
+			<navLabel><text>Part 6 - Your Personal Nutrition Program</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p06_r1.htm"/>
+		<navPoint class="chapter" id="c43" playOrder="57">
+			<navLabel><text>43. Working Out Your Optimum Nutrition</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c43_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c44" playOrder="58">
+			<navLabel><text>44. Your Optimum Diet</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c44_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c45" playOrder="59">
+			<navLabel><text>45. Your Optimum Supplement Program</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c45_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c46" playOrder="60">
+			<navLabel><text>46. Everything You Need to Know about Supplements</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c46_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c47" playOrder="61">
+			<navLabel><text>47. Building Your Own Supplement Program</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c47_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c48" playOrder="62">
+			<navLabel><text>48. Choosing the Best Supplements</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c48_r1.htm"/>
+		</navPoint>
+		<navPoint class="chapter" id="c49" playOrder="63">
+			<navLabel><text>49. Vitamins and Minerals&#x2014;How Much Is Safe?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c49_r1.htm"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p07" playOrder="64">
+			<navLabel><text>Part 7 - A to Z of Nutritional Healing</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p07_r1.htm"/>
+		<navPoint class="section" id="c50-s01" playOrder="65">
+			<navLabel><text>Acne</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s01"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s02" playOrder="66">
+			<navLabel><text>Alcoholism</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s02"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s03" playOrder="67">
+			<navLabel><text>Allergies</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s03"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s04" playOrder="68">
+			<navLabel><text>Alzheimer&#x2019;s and dementia</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s04"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s05" playOrder="69">
+			<navLabel><text>Anemia</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s05"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s06" playOrder="70">
+			<navLabel><text>Angina and atherosclerosis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s06"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s07" playOrder="71">
+			<navLabel><text>Arthritis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s07"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s08" playOrder="72">
+			<navLabel><text>Asthma</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s08"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s09" playOrder="73">
+			<navLabel><text>Breast cancer</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s09"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s10" playOrder="74">
+			<navLabel><text>Bronchitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s10"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s11" playOrder="75">
+			<navLabel><text>Burns, cuts, and bruises</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s11"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s12" playOrder="76">
+			<navLabel><text>Cancer</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s12"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s13" playOrder="77">
+			<navLabel><text>Candidiasis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s13"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s14" playOrder="78">
+			<navLabel><text>Chronic fatigue</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s14"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s15" playOrder="79">
+			<navLabel><text>Colds and flu</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s15"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s16" playOrder="80">
+			<navLabel><text>Colitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s16"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s17" playOrder="81">
+			<navLabel><text>Constipation</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s17"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s18" playOrder="82">
+			<navLabel><text>Crohn&#x2019;s disease</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s18"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s19" playOrder="83">
+			<navLabel><text>Cystitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s19"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s20" playOrder="84">
+			<navLabel><text>Depression</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s20"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s21" playOrder="85">
+			<navLabel><text>Dermatitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s21"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s22" playOrder="86">
+			<navLabel><text>Diabetes</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s22"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s23" playOrder="87">
+			<navLabel><text>Diverticulitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s23"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s24" playOrder="88">
+			<navLabel><text>Ear infections</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s24"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s25" playOrder="89">
+			<navLabel><text>Eczema</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s25"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s26" playOrder="90">
+			<navLabel><text>Fibromyalgia</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s26"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s27" playOrder="91">
+			<navLabel><text>Gallstones</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s27"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s28" playOrder="92">
+			<navLabel><text>Gout</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s28"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s29" playOrder="93">
+			<navLabel><text>Hair problems</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s29"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s30" playOrder="94">
+			<navLabel><text>Hangovers</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s30"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s31" playOrder="95">
+			<navLabel><text>Hay fever</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s31"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s32" playOrder="96">
+			<navLabel><text>Headaches and migraines</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s32"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s33" playOrder="97">
+			<navLabel><text>Herpes</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s33"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s34" playOrder="98">
+			<navLabel><text>High blood pressure</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s34"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s36" playOrder="99">
+			<navLabel><text>HIV infection and AIDS</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s36"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s37" playOrder="100">
+			<navLabel><text>Indigestion</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s37"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s38" playOrder="101">
+			<navLabel><text>Infections</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s38"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s39" playOrder="102">
+			<navLabel><text>Infertility</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s39"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s40" playOrder="103">
+			<navLabel><text>Inflammation</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s40"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s41" playOrder="104">
+			<navLabel><text>Irritable bowel syndrome</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s41"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s42" playOrder="105">
+			<navLabel><text>Kidney stones</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s42"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s43" playOrder="106">
+			<navLabel><text>Menopausal symptoms</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s43"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s44" playOrder="107">
+			<navLabel><text>Muscle aches and cramps</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s44"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s45" playOrder="108">
+			<navLabel><text>Obesity</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s45"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s46" playOrder="109">
+			<navLabel><text>Osteoporosis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s46"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s47" playOrder="110">
+			<navLabel><text>PMS</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s47"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s48" playOrder="111">
+			<navLabel><text>Prostate problems</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s48"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s49" playOrder="112">
+			<navLabel><text>Psoriasis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s49"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s50" playOrder="113">
+			<navLabel><text>Schizophrenia</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s50"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s51" playOrder="114">
+			<navLabel><text>Sinusitis</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s51"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s52" playOrder="115">
+			<navLabel><text>Sleeping problems</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s52"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s53" playOrder="116">
+			<navLabel><text>Thyroid problems</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s53"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s54" playOrder="117">
+			<navLabel><text>Ulcers</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s54"/>
+		</navPoint>
+		<navPoint class="section" id="c50-s55" playOrder="118">
+			<navLabel><text>Varicose veins</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c50_r1.htm#c50-s55"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p08" playOrder="119">
+			<navLabel><text>Part 8 - Nutrient Fact File A to Z</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p08_r1.htm"/>
+		<navPoint class="section" id="c51-s01" playOrder="120">
+			<navLabel><text>Vitamins</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c51_r1.htm#c51-s01"/>
+		</navPoint>
+		<navPoint class="section" id="c51-s02" playOrder="121">
+			<navLabel><text>Minerals</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c51_r1.htm#c51-s02"/>
+		</navPoint>
+		<navPoint class="section" id="c51-s03" playOrder="122">
+			<navLabel><text>Essential fats</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c51_r1.htm#c51-s03"/>
+		</navPoint>
+		<navPoint class="section" id="c51-s04" playOrder="123">
+			<navLabel><text>Semiessential nutrients</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c51_r1.htm#c51-s04"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="part" id="p09" playOrder="124">
+			<navLabel><text>Part 9 - Food Fact File</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_p09_r1.htm"/>
+		<navPoint class="section" id="c52-s01" playOrder="125">
+			<navLabel><text>Which protein foods?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s01"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s02" playOrder="126">
+			<navLabel><text>Which fats and oils?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s02"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s03" playOrder="127">
+			<navLabel><text>Which carbohydrates?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s03"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s04" playOrder="128">
+			<navLabel><text>Glycemic load (GL) of common foods</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s04"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s05" playOrder="129">
+			<navLabel><text>Glycemic load (GL) of common drinks</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s05"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s06" playOrder="130">
+			<navLabel><text>How much fiber?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s06"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s07" playOrder="131">
+			<navLabel><text>Balancing acid and alkaline foods</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s07"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s08" playOrder="132">
+			<navLabel><text>Which foods are rich in phytoestrogens?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s08"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s09" playOrder="133">
+			<navLabel><text>Which antioxidant-rich foods?</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s09"/>
+		</navPoint>
+		<navPoint class="section" id="c52-s10" playOrder="134">
+			<navLabel><text>The best fruits and vegetables</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_c52_r1.htm#c52-s10"/>
+		</navPoint>
+		</navPoint>
+		<navPoint class="other" id="bm1" playOrder="135">
+			<navLabel><text>Recommended Reading</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_bm1_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="bm2" playOrder="136">
+			<navLabel><text>Resources</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_bm2_r1.htm"/>
+		</navPoint>
+		<navPoint class="other" id="bm3" playOrder="137">
+			<navLabel><text>References</text></navLabel>
+			<content src="OEBPS/Holf_9780307785886_epub_bm3_r1.htm"/>
+		</navPoint>
+	</navMap>
+</ncx>
