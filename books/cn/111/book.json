@@ -5,6 +5,7 @@
     {
       "title": "山经",
       "slug": "cn/111/1",
+      "open": true,
       "child": [
         { "slug": "cn/111/1/1", "title": "南山经" },
         { "slug": "cn/111/1/2", "title": "西山经" },
@@ -16,6 +17,7 @@
     {
       "slug": "cn/111/2",
       "title": "海经",
+      "open": true,
       "child": [
         { "slug": "cn/111/2/1", "title": "海外南经" },
         { "slug": "cn/111/2/2", "title": "海外西经" },
