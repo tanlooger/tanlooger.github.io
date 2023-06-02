@@ -17,6 +17,7 @@ reg = /\n((资本论- 第.部)|[IVXL]{1,5}[、．].*|[0-9]{1,5}、.*|(第[一二
 reg = /\n(第.部|第.卷|[一二三四五六七八九十]{1,3}|尾声|关于《战争与和平》一书的几句话)\n/g
 
 
+
 const chaps = bookdata.match(reg)
 
 chaps.map(v=>console.log('　　　'+v.trim()))
