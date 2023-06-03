@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-let bookdata = fs.readFileSync('../71/a.txt', 'utf8')
+let bookdata = fs.readFileSync('../72/a.txt', 'utf8')
 
 let reg = /　/g
 // \n\n\n\n\n\n.+(?<![。？\.\-])\n
