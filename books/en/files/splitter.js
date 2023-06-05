@@ -32,7 +32,7 @@ for (i = 0; i < chaps.length - 1; i++) {
   if(chaps[i + 1].trim() === '0')continue
   //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
   const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
-  bookdata2 = bookdata2.substring(nextindex);
+  bookdata2 = bookdata2.substring(nextindex).trim();
 
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
   if (nextindex <= 0) {
@@ -105,7 +105,7 @@ for (i = 0; i < chaps.length; i++) {
   const mdxtext = bookdata.substring(0, nextindex).trim().replace(/^(.*)$/m, "---\n---\n---\ntitle: $1\n---\n\n")
   fs.writeFileSync(allchapter[i].slug.join('/') + ".mdx", mdxtext);
   //fs.writeFileSync(i+'.mdx', bookdata)
-  bookdata = bookdata.substring(nextindex);
+  bookdata = bookdata.substring(nextindex).trim();
   //bookdata = tmp.slice(1).join()
   //preindex = firstindex
 
