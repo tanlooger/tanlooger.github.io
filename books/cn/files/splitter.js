@@ -32,11 +32,11 @@ for (i = 0; i < chaps.length - 1; i++) {
   if(chaps[i + 1].trim() === '0')continue
   //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
   const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
-  bookdata2 = bookdata2.substring(nextindex);
+  bookdata2 = bookdata2.substring(nextindex).trim();
 
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
   if (nextindex <= 0) {
-    console.log(chaps[i + 1] + "　未找到 "+i);
+    console.log(chaps[i + 1] + "　未找到 "+(i+2));
     process.exit(1);
   }
 }
