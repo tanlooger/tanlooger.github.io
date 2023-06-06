@@ -1,0 +1,73 @@
+{
+  "slug": "en/50",
+  "title": "Dune by Frank Herbert",
+  "child": [
+    {
+      "slug": "en/50/1",
+      "title": "BOOK ONE DUNE",
+      "child": [
+        { "slug": "en/50/1/1", "title": "1" },
+        { "slug": "en/50/1/2", "title": "2" },
+        { "slug": "en/50/1/3", "title": "3" },
+        { "slug": "en/50/1/4", "title": "4" },
+        { "slug": "en/50/1/5", "title": "5" },
+        { "slug": "en/50/1/6", "title": "6" },
+        { "slug": "en/50/1/7", "title": "7" },
+        { "slug": "en/50/1/8", "title": "8" },
+        { "slug": "en/50/1/9", "title": "9" },
+        { "slug": "en/50/1/10", "title": "10" },
+        { "slug": "en/50/1/11", "title": "11" },
+        { "slug": "en/50/1/12", "title": "12" },
+        { "slug": "en/50/1/13", "title": "13" },
+        { "slug": "en/50/1/14", "title": "14" },
+        { "slug": "en/50/1/15", "title": "15" },
+        { "slug": "en/50/1/16", "title": "16" },
+        { "slug": "en/50/1/17", "title": "17" },
+        { "slug": "en/50/1/18", "title": "18" },
+        { "slug": "en/50/1/19", "title": "19" },
+        { "slug": "en/50/1/20", "title": "20" },
+        { "slug": "en/50/1/21", "title": "21" },
+        { "slug": "en/50/1/22", "title": "22" }
+      ]
+    },
+    {
+      "slug": "en/50/2",
+      "title": "BOOK TWO MUAD’DIB",
+      "child": [
+        { "slug": "en/50/2/1", "title": "1" },
+        { "slug": "en/50/2/2", "title": "2" },
+        { "slug": "en/50/2/3", "title": "3" },
+        { "slug": "en/50/2/4", "title": "4" },
+        { "slug": "en/50/2/5", "title": "5" },
+        { "slug": "en/50/2/6", "title": "6" },
+        { "slug": "en/50/2/7", "title": "7" },
+        { "slug": "en/50/2/8", "title": "8" },
+        { "slug": "en/50/2/9", "title": "9" },
+        { "slug": "en/50/2/10", "title": "10" },
+        { "slug": "en/50/2/11", "title": "11" },
+        { "slug": "en/50/2/12", "title": "12" },
+        { "slug": "en/50/2/13", "title": "13" },
+        { "slug": "en/50/2/14", "title": "14" },
+        { "slug": "en/50/2/15", "title": "15" }
+      ]
+    },
+    {
+      "slug": "en/50/3",
+      "title": "BOOK THREE THE PROPHET",
+      "child": [
+        { "slug": "en/50/3/1", "title": "1" },
+        { "slug": "en/50/3/2", "title": "2" },
+        { "slug": "en/50/3/3", "title": "3" },
+        { "slug": "en/50/3/4", "title": "4" },
+        { "slug": "en/50/3/5", "title": "5" },
+        { "slug": "en/50/3/6", "title": "6" },
+        { "slug": "en/50/3/7", "title": "7" },
+        { "slug": "en/50/3/8", "title": "8" },
+        { "slug": "en/50/3/9", "title": "9" },
+        { "slug": "en/50/3/10", "title": "10" },
+        { "slug": "en/50/3/11", "title": "11" }
+      ]
+    },
+    { "slug": "en/50/4", "title": "APPENDIXES" }
+  ]
+}
