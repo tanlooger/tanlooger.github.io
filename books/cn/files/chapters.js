@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-let bookdata = fs.readFileSync('../114/a.txt', 'utf8')
+let bookdata = fs.readFileSync('../1/a.txt', 'utf8')
 
 let reg = /　/g
 // \n\n\n\n\n\n.+(?<![。？\.\-])\n
@@ -17,6 +17,7 @@ reg = /\n([一二三四五六七八九十]{1,3} .*)\n/g
 reg = /\n((第.部分)|(第[一二三四五六七八九十]{1,3}章)|([0-9]{1,2}))\n/g
 reg = /\n(卷　上|卷　下|补　遗|附　录|[一二三四五六七八九十]{1,3})\n/g
 reg = /\n(第.篇 .*|[一二三四五六七八九十]{1,3}、.*)\n/g
+reg = /\n(第[一二三四五六七八九十百零]{1,5}回.*|[一二三四五六七八九十]{1,3}、.*)\n/g
 
 
 const chaps = bookdata.match(reg)
