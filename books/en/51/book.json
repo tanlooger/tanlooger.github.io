@@ -1,0 +1,768 @@
+{
+  "slug": "en/51",
+  "title": "Magic Tree House series",
+  "child": [
+    {
+      "slug": "en/51/1",
+      "title": "Book 1 Dinosaurs Before Dark",
+      "child": [
+        { "slug": "en/51/1/1", "title": "1. Into the Woods" },
+        { "slug": "en/51/1/2", "title": "2. The Monster" },
+        { "slug": "en/51/1/3", "title": "3. Where Is Here?" },
+        { "slug": "en/51/1/4", "title": "4. Henry" },
+        { "slug": "en/51/1/5", "title": "5. Gold in the Grass" },
+        { "slug": "en/51/1/6", "title": "6. Dinosaur Valley" },
+        { "slug": "en/51/1/7", "title": "7. Ready, Set, Go!" },
+        { "slug": "en/51/1/8", "title": "8. A Giant Shadow" },
+        { "slug": "en/51/1/9", "title": "9. The Amazing Ride" },
+        { "slug": "en/51/1/10", "title": "10. Home Before Dark" }
+      ]
+    },
+    {
+      "slug": "en/51/2",
+      "title": "Book 2 The Knight at Dawn",
+      "child": [
+        { "slug": "en/51/2/1", "title": "1. The Dark Woods" },
+        { "slug": "en/51/2/2", "title": "2. Leaving Again" },
+        { "slug": "en/51/2/3", "title": "3. Across the Bridge" },
+        { "slug": "en/51/2/4", "title": "4. Into the Castle" },
+        { "slug": "en/51/2/5", "title": "5. Trapped" },
+        { "slug": "en/51/2/6", "title": "6. Ta-da!" },
+        { "slug": "en/51/2/7", "title": "7. A Secret Passage" },
+        { "slug": "en/51/2/8", "title": "8. The Knight" },
+        { "slug": "en/51/2/9", "title": "9. Under the Moon" },
+        { "slug": "en/51/2/10", "title": "10. One Mystery Solved" }
+      ]
+    },
+    {
+      "slug": "en/51/3",
+      "title": "Book 3 Mummies in the Morning",
+      "child": [
+        { "slug": "en/51/3/1", "title": "1. Meow!" },
+        { "slug": "en/51/3/2", "title": "2. Oh, Man. Mummies!" },
+        { "slug": "en/51/3/3", "title": "3. It’s Alive!" },
+        { "slug": "en/51/3/4", "title": "4. Back from the Dead" },
+        { "slug": "en/51/3/5", "title": "5. The Ghost-Queen" },
+        { "slug": "en/51/3/6", "title": "6. The Writing on the Wall" },
+        { "slug": "en/51/3/7", "title": "7. The Scroll" },
+        { "slug": "en/51/3/8", "title": "8. The Mummy" },
+        { "slug": "en/51/3/9", "title": "9. Follow the Leader" },
+        { "slug": "en/51/3/10", "title": "10. Another Clue" }
+      ]
+    },
+    {
+      "slug": "en/51/4",
+      "title": "Book 4 Pirates Past Noon",
+      "child": [
+        { "slug": "en/51/4/1", "title": "1. Too Late!" },
+        { "slug": "en/51/4/2", "title": "2. The Bright Blue Sea" },
+        { "slug": "en/51/4/3", "title": "3. Three Men in a Boat" },
+        { "slug": "en/51/4/4", "title": "4. Vile Booty" },
+        { "slug": "en/51/4/5", "title": "5. The Kid’s Treasure" },
+        { "slug": "en/51/4/6", "title": "6. The Whale’s Eye" },
+        { "slug": "en/51/4/7", "title": "7. Gale’s a-Blowin’" },
+        { "slug": "en/51/4/8", "title": "8. Dig, Dogs, Dig" },
+        { "slug": "en/51/4/9", "title": "9. The Mysterious M" },
+        { "slug": "en/51/4/10", "title": "10. Treasure Again" }
+      ]
+    },
+    {
+      "slug": "en/51/5",
+      "title": "Book 5 Night of the Ninjas",
+      "child": [
+        { "slug": "en/51/5/1", "title": "1. Back into the Woods" },
+        { "slug": "en/51/5/2", "title": "2. The Open Book" },
+        { "slug": "en/51/5/3", "title": "3. E-hy!" },
+        { "slug": "en/51/5/4", "title": "4. Captured" },
+        { "slug": "en/51/5/5", "title": "5. Flames in the Mist" },
+        { "slug": "en/51/5/6", "title": "6. Shadow Warrior" },
+        { "slug": "en/51/5/7", "title": "7. To the East" },
+        { "slug": "en/51/5/8", "title": "8. Dragon Water" },
+        { "slug": "en/51/5/9", "title": "9. Mouse-walk" },
+        { "slug": "en/51/5/10", "title": "10. Night, Peanut" }
+      ]
+    },
+    {
+      "slug": "en/51/6",
+      "title": "Book 6 Afternoon on the Amazon",
+      "child": [
+        { "slug": "en/51/6/1", "title": "1. Where’s Peanut?" },
+        { "slug": "en/51/6/2", "title": "2. Big Bugs" },
+        { "slug": "en/51/6/3", "title": "3. Yikes!" },
+        { "slug": "en/51/6/4", "title": "4. Millions of Them!" },
+        { "slug": "en/51/6/5", "title": "5. Pretty Fish" },
+        { "slug": "en/51/6/6", "title": "6. Monkey Trouble" },
+        { "slug": "en/51/6/7", "title": "7. Freeze!" },
+        { "slug": "en/51/6/8", "title": "8. Vampire Bats?" },
+        { "slug": "en/51/6/9", "title": "9. The Thing" },
+        { "slug": "en/51/6/10", "title": "10. Halfway There" }
+      ]
+    },
+    {
+      "slug": "en/51/7",
+      "title": "Book 7 Sunset of the Sabertooth",
+      "child": [
+        { "slug": "en/51/7/1", "title": "1. The “M” Things" },
+        { "slug": "en/51/7/2", "title": "2. Bones" },
+        { "slug": "en/51/7/3", "title": "3. Brrr!" },
+        { "slug": "en/51/7/4", "title": "4. Cave Kids" },
+        { "slug": "en/51/7/5", "title": "5. Snow Tracks" },
+        { "slug": "en/51/7/6", "title": "6. Song on the Wind" },
+        { "slug": "en/51/7/7", "title": "7. The Sorcerer’s Gift" },
+        { "slug": "en/51/7/8", "title": "8. The Great Parade" },
+        { "slug": "en/51/7/9", "title": "9. Master of the Animals" },
+        { "slug": "en/51/7/10", "title": "10. This Age" }
+      ]
+    },
+    {
+      "slug": "en/51/8",
+      "title": "Book 8 Midnight on the Moon",
+      "child": [
+        { "slug": "en/51/8/1", "title": "1. By Moonlight" },
+        { "slug": "en/51/8/2", "title": "2. Space Motel" },
+        { "slug": "en/51/8/3", "title": "3. Open Sesame!" },
+        { "slug": "en/51/8/4", "title": "4. Moon Rabbits" },
+        { "slug": "en/51/8/5", "title": "5. Hang On!" },
+        { "slug": "en/51/8/6", "title": "6. High Jump" },
+        { "slug": "en/51/8/7", "title": "7. The Moon Man" },
+        { "slug": "en/51/8/8", "title": "8. One Star to Another" },
+        { "slug": "en/51/8/9", "title": "9. Morgan" },
+        { "slug": "en/51/8/10", "title": "10. Earth Life" }
+      ]
+    },
+    {
+      "slug": "en/51/9",
+      "title": "Book 9 Dolphins at Daybreak",
+      "child": [
+        { "slug": "en/51/9/1", "title": "1. Master Librarians" },
+        { "slug": "en/51/9/2", "title": "2. The Reef" },
+        { "slug": "en/51/9/3", "title": "3. Mini-Sub" },
+        { "slug": "en/51/9/4", "title": "4. Fish City" },
+        { "slug": "en/51/9/5", "title": "5. Two Eyes" },
+        { "slug": "en/51/9/6", "title": "6. C-R-A-C-K" },
+        { "slug": "en/51/9/7", "title": "7. Remain Calm" },
+        { "slug": "en/51/9/8", "title": "8. Swim for Your Life!" },
+        { "slug": "en/51/9/9", "title": "9. Ouch!" },
+        { "slug": "en/51/9/10", "title": "10. The True Pearl" }
+      ]
+    },
+    {
+      "slug": "en/51/10",
+      "title": "Book 10 Ghost Town at Sundown",
+      "child": [
+        { "slug": "en/51/10/1", "title": "1. How Wild?" },
+        { "slug": "en/51/10/2", "title": "2. Rattlesnake Flats" },
+        { "slug": "en/51/10/3", "title": "3. Player Piano" },
+        { "slug": "en/51/10/4", "title": "4. Hands Up!" },
+        { "slug": "en/51/10/5", "title": "5. Slim" },
+        { "slug": "en/51/10/6", "title": "6. Split the Wind" },
+        { "slug": "en/51/10/7", "title": "7. Ghost Story" },
+        { "slug": "en/51/10/8", "title": "8. Who Am I?" },
+        { "slug": "en/51/10/9", "title": "9. Lonesome Luke" },
+        { "slug": "en/51/10/10", "title": "10. Echo from the Past" }
+      ]
+    },
+    {
+      "slug": "en/51/11",
+      "title": "Book 11 Lions at Lunchtime",
+      "child": [
+        { "slug": "en/51/11/1", "title": "1. Before Lunch" },
+        { "slug": "en/51/11/2", "title": "2. Jump, Beasts! Jump!" },
+        { "slug": "en/51/11/3", "title": "3. Disaster" },
+        { "slug": "en/51/11/4", "title": "4. Mud Bath" },
+        { "slug": "en/51/11/5", "title": "5. Ha-Ha" },
+        { "slug": "en/51/11/6", "title": "6. Spick-and-Span" },
+        { "slug": "en/51/11/7", "title": "7. Hi, There" },
+        { "slug": "en/51/11/8", "title": "8. Yum" },
+        { "slug": "en/51/11/9", "title": "9. Tiptoe" },
+        { "slug": "en/51/11/10", "title": "10. After Lunch" }
+      ]
+    },
+    {
+      "slug": "en/51/12",
+      "title": "Book 12 Polar Bears Past Bedtime",
+      "child": [
+        { "slug": "en/51/12/1", "title": "1. Are You Serious?" },
+        { "slug": "en/51/12/2", "title": "2. The Howling" },
+        { "slug": "en/51/12/3", "title": "3. Mush!" },
+        { "slug": "en/51/12/4", "title": "4. Snow House" },
+        { "slug": "en/51/12/5", "title": "5. You’re It!" },
+        { "slug": "en/51/12/6", "title": "6. Flying Bears" },
+        { "slug": "en/51/12/7", "title": "7. Spirit Lights" },
+        { "slug": "en/51/12/8", "title": "8. Riddle Solved" },
+        { "slug": "en/51/12/9", "title": "9. Oh, No, One More!" },
+        { "slug": "en/51/12/10", "title": "10. Master Librarians" }
+      ]
+    },
+    {
+      "slug": "en/51/13",
+      "title": "Book 13 Vacation Under the Volcano",
+      "child": [
+        { "slug": "en/51/13/1", "title": "1. A Secret Code" },
+        { "slug": "en/51/13/2", "title": "2. The End Is Near" },
+        { "slug": "en/51/13/3", "title": "3. Gladiators!" },
+        { "slug": "en/51/13/4", "title": "4. Scary Things" },
+        { "slug": "en/51/13/5", "title": "5. Books? Books?" },
+        { "slug": "en/51/13/6", "title": "6. The End Is Here" },
+        { "slug": "en/51/13/7", "title": "7. The Sky Is Falling" },
+        { "slug": "en/51/13/8", "title": "8. Nightmare at Noon" },
+        { "slug": "en/51/13/9", "title": "9. Save Us!" },
+        { "slug": "en/51/13/10", "title": "10. A Simple Explanation" }
+      ]
+    },
+    {
+      "slug": "en/51/14",
+      "title": "Book 14 Day of the Dragon King",
+      "child": [
+        { "slug": "en/51/14/1", "title": "1. The Bamboo Book" },
+        { "slug": "en/51/14/2", "title": "2. The Cowherd" },
+        { "slug": "en/51/14/3", "title": "3. The Silk Weaver" },
+        { "slug": "en/51/14/4", "title": "4. The Great Wall" },
+        { "slug": "en/51/14/5", "title": "5. The Scholar" },
+        { "slug": "en/51/14/6", "title": "6. The Dragon King" },
+        { "slug": "en/51/14/7", "title": "7. The Burning of the Books" },
+        { "slug": "en/51/14/8", "title": "8. The Tomb" },
+        { "slug": "en/51/14/9", "title": "9. The Silk Path" },
+        { "slug": "en/51/14/10", "title": "10. The Ancient Legend" }
+      ]
+    },
+    {
+      "slug": "en/51/15",
+      "title": "Book 15 Viking Ships at Sunrise",
+      "child": [
+        { "slug": "en/51/15/1", "title": "1. Before Dawn" },
+        { "slug": "en/51/15/2", "title": "2. The Steep Climb" },
+        { "slug": "en/51/15/3", "title": "3. Brother Patrick" },
+        { "slug": "en/51/15/4", "title": "4. Books of Wonder" },
+        { "slug": "en/51/15/5", "title": "5. Warships on the Waves" },
+        { "slug": "en/51/15/6", "title": "6. The Vikings Are Coming!" },
+        { "slug": "en/51/15/7", "title": "7. Fogbound" },
+        { "slug": "en/51/15/8", "title": "8. Lost at Sea" },
+        { "slug": "en/51/15/9", "title": "9. Sea Monster!" },
+        { "slug": "en/51/15/10", "title": "10. Sunrise" }
+      ]
+    },
+    {
+      "slug": "en/51/16",
+      "title": "Book 16 Hour of the Olympics",
+      "child": [
+        { "slug": "en/51/16/1", "title": "1. Just One More" },
+        { "slug": "en/51/16/2", "title": "2. Any Girls Here?" },
+        { "slug": "en/51/16/3", "title": "3. The Secret Poet" },
+        { "slug": "en/51/16/4", "title": "4. Not Fair!" },
+        { "slug": "en/51/16/5", "title": "5. Hi, Zeus" },
+        { "slug": "en/51/16/6", "title": "6. Mystery Man" },
+        { "slug": "en/51/16/7", "title": "7. Go! Go! Go!" },
+        { "slug": "en/51/16/8", "title": "8. Save Annie!" },
+        { "slug": "en/51/16/9", "title": "9. Fly Away Home" },
+        { "slug": "en/51/16/10", "title": "10. They’re All Here" }
+      ]
+    },
+    {
+      "slug": "en/51/17",
+      "title": "Book 17 Tonight on the Titanic",
+      "child": [
+        { "slug": "en/51/17/1", "title": "1. A New Mission" },
+        { "slug": "en/51/17/2", "title": "2. The Unsinkable Ship" },
+        { "slug": "en/51/17/3", "title": "3. SOS" },
+        { "slug": "en/51/17/4", "title": "4. Put on Your Life Belts!" },
+        { "slug": "en/51/17/5", "title": "5. William and Lucy" },
+        { "slug": "en/51/17/6", "title": "6. Women and Children First" },
+        { "slug": "en/51/17/7", "title": "7. The Gift" },
+        { "slug": "en/51/17/8", "title": "8. Every Man for Himself" },
+        { "slug": "en/51/17/9", "title": "9. Time Stops" },
+        { "slug": "en/51/17/10", "title": "10. A Touch of Magic" }
+      ]
+    },
+    {
+      "slug": "en/51/18",
+      "title": "Book 18 Buffalo Before Breakfast",
+      "child": [
+        { "slug": "en/51/18/1", "title": "1. Teddy’s Back!" },
+        { "slug": "en/51/18/2", "title": "2. Oceans of Grass" },
+        { "slug": "en/51/18/3", "title": "3. Black Hawk" },
+        { "slug": "en/51/18/4", "title": "4. Good Manners" },
+        { "slug": "en/51/18/5", "title": "5. Sunlight and Midnight" },
+        { "slug": "en/51/18/6", "title": "6. Stampede!" },
+        { "slug": "en/51/18/7", "title": "7. White Buffalo Woman" },
+        { "slug": "en/51/18/8", "title": "8. Sacred Circle" },
+        { "slug": "en/51/18/9", "title": "9. Lakota School" },
+        { "slug": "en/51/18/10", "title": "10. Good Medicine" },
+        { "slug": "en/51/18/11", "title": "The Legend Of White Buffalo Woman" }
+      ]
+    },
+    {
+      "slug": "en/51/19",
+      "title": "Book 19 Tigers at Twilight",
+      "child": [
+        { "slug": "en/51/19/1", "title": "1. How Far Away?" },
+        { "slug": "en/51/19/2", "title": "2. Kah and Ko" },
+        { "slug": "en/51/19/3", "title": "3. Life or Death" },
+        { "slug": "en/51/19/4", "title": "4. Swing Time" },
+        { "slug": "en/51/19/5", "title": "5. Night Walk" },
+        { "slug": "en/51/19/6", "title": "6. Swamp Creature" },
+        { "slug": "en/51/19/7", "title": "7. Trapped!" },
+        { "slug": "en/51/19/8", "title": "8. Wonder Dog" },
+        { "slug": "en/51/19/9", "title": "9. The Hermit" },
+        { "slug": "en/51/19/10", "title": "10. Who Are You, Really?" }
+      ]
+    },
+    {
+      "slug": "en/51/20",
+      "title": "Book 20 Dingoes at Dinnertime",
+      "child": [
+        { "slug": "en/51/20/1", "title": "1. The Last Gift" },
+        { "slug": "en/51/20/2", "title": "2. Sleepyhead" },
+        { "slug": "en/51/20/3", "title": "3. Big Foot" },
+        { "slug": "en/51/20/4", "title": "4. Joey" },
+        { "slug": "en/51/20/5", "title": "5. Wildfire!" },
+        { "slug": "en/51/20/6", "title": "6. Hand to Hand" },
+        { "slug": "en/51/20/7", "title": "7. Rain, Rain, Rain" },
+        { "slug": "en/51/20/8", "title": "8. The Rainbow Serpent" },
+        { "slug": "en/51/20/9", "title": "9. What Boy?" },
+        { "slug": "en/51/20/10", "title": "10. Dreamtime" }
+      ]
+    },
+    {
+      "slug": "en/51/21",
+      "title": "Book 21 Civil War on Sunday",
+      "child": [
+        { "slug": "en/51/21/1", "title": "1. A Light in the Woods" },
+        { "slug": "en/51/21/2", "title": "2. Cruel War" },
+        { "slug": "en/51/21/3", "title": "3. Field Hospital" },
+        { "slug": "en/51/21/4", "title": "4. Freedom Fighters" },
+        { "slug": "en/51/21/5", "title": "5. Angel of the Battlefield" },
+        { "slug": "en/51/21/6", "title": "6. Keep Low!" },
+        { "slug": "en/51/21/7", "title": "7. Helping Hands" },
+        { "slug": "en/51/21/8", "title": "8. Brothers" },
+        { "slug": "en/51/21/9", "title": "9. Don’t Give Up" },
+        { "slug": "en/51/21/10", "title": "10. Home, Sweet Home" }
+      ]
+    },
+    {
+      "slug": "en/51/22",
+      "title": "Book 22 Revolutionary War on Wednesday",
+      "child": [
+        { "slug": "en/51/22/1", "title": "1. Wednesday!" },
+        { "slug": "en/51/22/2", "title": "2. Day or Night?" },
+        { "slug": "en/51/22/3", "title": "3. It’s Time" },
+        { "slug": "en/51/22/4", "title": "4. Commander-in-Chief" },
+        { "slug": "en/51/22/5", "title": "5. The Letter" },
+        { "slug": "en/51/22/6", "title": "6. Crossing the Delaware" },
+        { "slug": "en/51/22/7", "title": "7. Spies!" },
+        { "slug": "en/51/22/8", "title": "8. These Are the Times" },
+        { "slug": "en/51/22/9", "title": "9. Flash!" },
+        { "slug": "en/51/22/10", "title": "10. This Peaceful Place" }
+      ]
+    },
+    {
+      "slug": "en/51/23",
+      "title": "Book 23 Twister on Tuesday",
+      "child": [
+        { "slug": "en/51/23/1", "title": "1. Tuesday!" },
+        { "slug": "en/51/23/2", "title": "2. Signs of Life" },
+        { "slug": "en/51/23/3", "title": "3. One-Room Schoolhouse" },
+        { "slug": "en/51/23/4", "title": "4. Reading Lesson" },
+        { "slug": "en/51/23/5", "title": "5. Bully" },
+        { "slug": "en/51/23/6", "title": "6. Grasshopper Attack?" },
+        { "slug": "en/51/23/7", "title": "7. Twister!" },
+        { "slug": "en/51/23/8", "title": "8. Get Below!" },
+        { "slug": "en/51/23/9", "title": "9. All Clear" },
+        { "slug": "en/51/23/10", "title": "10. The Third Writing" }
+      ]
+    },
+    {
+      "slug": "en/51/24",
+      "title": "Book 24 Earthquake in Early Morning",
+      "child": [
+        { "slug": "en/51/24/1", "title": "1. Tweet-tweet" },
+        { "slug": "en/51/24/2", "title": "2. Thunder Under the Ground" },
+        { "slug": "en/51/24/3", "title": "3. The Great Shake" },
+        { "slug": "en/51/24/4", "title": "4. What’s the Story?" },
+        { "slug": "en/51/24/5", "title": "5. Stop! Stop!" },
+        { "slug": "en/51/24/6", "title": "6. Something to Lend" },
+        { "slug": "en/51/24/7", "title": "7. Dynamite!" },
+        { "slug": "en/51/24/8", "title": "8. Good Luck, San Francisco!" },
+        { "slug": "en/51/24/9", "title": "9. The Wonderful Room" },
+        {
+          "slug": "en/51/24/10",
+          "title": "10. The Mystery of Morgan’s Library"
+        }
+      ]
+    },
+    {
+      "slug": "en/51/25",
+      "title": "Book 25 Stage Fright on a Summer Night",
+      "child": [
+        { "slug": "en/51/25/1", "title": "1. Special Magic" },
+        { "slug": "en/51/25/2", "title": "2. London Bridge" },
+        { "slug": "en/51/25/3", "title": "3. The Bear Garden" },
+        { "slug": "en/51/25/4", "title": "4. A Midsummer Night’s Dream" },
+        { "slug": "en/51/25/5", "title": "5. Stage Fright" },
+        { "slug": "en/51/25/6", "title": "6. Onstage!" },
+        { "slug": "en/51/25/7", "title": "7. In the Forest, in the Night" },
+        { "slug": "en/51/25/8", "title": "8. The Most Important Person" },
+        { "slug": "en/51/25/9", "title": "9. Sweet Sorrow" },
+        { "slug": "en/51/25/10", "title": "10. Our Will?" }
+      ]
+    },
+    {
+      "slug": "en/51/26",
+      "title": "Book 26 Good Morning, Gorillas",
+      "child": [
+        { "slug": "en/51/26/1", "title": "1. Dark and Rainy" },
+        { "slug": "en/51/26/2", "title": "2. Cloud Forest" },
+        { "slug": "en/51/26/3", "title": "3. Bu-bu" },
+        { "slug": "en/51/26/4", "title": "4. Nightmare" },
+        { "slug": "en/51/26/5", "title": "5. Silverback" },
+        { "slug": "en/51/26/6", "title": "6. Good Morning, Gorillas" },
+        { "slug": "en/51/26/7", "title": "7. Eating Out" },
+        { "slug": "en/51/26/8", "title": "8. A Special Language" },
+        { "slug": "en/51/26/9", "title": "9. Good-bye, Gorillas" },
+        { "slug": "en/51/26/10", "title": "10. A Special Magic" }
+      ]
+    },
+    {
+      "slug": "en/51/27",
+      "title": "Book 27 Thanksgiving on Thursday",
+      "child": [
+        { "slug": "en/51/27/1", "title": "1. What Feast?" },
+        { "slug": "en/51/27/2", "title": "2. Shh!" },
+        { "slug": "en/51/27/3", "title": "3. Wow?" },
+        { "slug": "en/51/27/4", "title": "4. We Fish!" },
+        { "slug": "en/51/27/5", "title": "5. Eels and Clams" },
+        { "slug": "en/51/27/6", "title": "6. Good Work" },
+        { "slug": "en/51/27/7", "title": "7. Arm Exercises" },
+        { "slug": "en/51/27/8", "title": "8. The Feast" },
+        { "slug": "en/51/27/9", "title": "9. Good Day" },
+        { "slug": "en/51/27/10", "title": "10. Thankful" }
+      ]
+    },
+    {
+      "slug": "en/51/28",
+      "title": "Book 28 High Tide in Hawaii",
+      "child": [
+        { "slug": "en/51/28/1", "title": "1. A Ship?" },
+        { "slug": "en/51/28/2", "title": "2. Aloha!" },
+        { "slug": "en/51/28/3", "title": "3. Sleepover" },
+        { "slug": "en/51/28/4", "title": "4. Garden Paradise" },
+        { "slug": "en/51/28/5", "title": "5. GO!" },
+        { "slug": "en/51/28/6", "title": "6. Shake-up" },
+        { "slug": "en/51/28/7", "title": "7. Ride for Your Lives!" },
+        { "slug": "en/51/28/8", "title": "8. The Big Wave" },
+        { "slug": "en/51/28/9", "title": "9. Telling the Story" },
+        { "slug": "en/51/28/10", "title": "10. Everyday Magic" }
+      ]
+    },
+    {
+      "slug": "en/51/29",
+      "title": "Book 29 Christmas in Camelot",
+      "child": [
+        { "slug": "en/51/29/1", "title": "1. A Royal Invitation" },
+        { "slug": "en/51/29/2", "title": "2. This Is Camelot?" },
+        { "slug": "en/51/29/3", "title": "3. The Knights of the Round Table" },
+        { "slug": "en/51/29/4", "title": "4. Who Will Go?" },
+        { "slug": "en/51/29/5", "title": "5. Rhymes of the Christmas Knight" },
+        { "slug": "en/51/29/6", "title": "6. A White Comet" },
+        { "slug": "en/51/29/7", "title": "7. A Good Trick" },
+        { "slug": "en/51/29/8", "title": "8. The Otherworld" },
+        { "slug": "en/51/29/9", "title": "9. The Lost Knights" },
+        { "slug": "en/51/29/10", "title": "10. The Knights’ Gifts" },
+        { "slug": "en/51/29/11", "title": "11. The Crystal Cave" },
+        { "slug": "en/51/29/12", "title": "12. Fire with Fire" },
+        { "slug": "en/51/29/13", "title": "13. Your Horses Are Waiting" },
+        { "slug": "en/51/29/14", "title": "14. Return" },
+        { "slug": "en/51/29/15", "title": "15. Christmas Magic" },
+        { "slug": "en/51/29/16", "title": "16. Welcome Home" },
+        { "slug": "en/51/29/17", "title": "A Note from the Author" }
+      ]
+    },
+    {
+      "slug": "en/51/30",
+      "title": "Book 30 Haunted Castle on Hallows Eve",
+      "child": [
+        { "slug": "en/51/30/1", "title": "1 All Hallows Eve" },
+        { "slug": "en/51/30/2", "title": "2 The Heart of the Oak" },
+        { "slug": "en/51/30/3", "title": "3 Rok" },
+        { "slug": "en/51/30/4", "title": "4 The Castle" },
+        { "slug": "en/51/30/5", "title": "5 Ghosts!" },
+        { "slug": "en/51/30/6", "title": "6 Merlin’s Diamond" },
+        { "slug": "en/51/30/7", "title": "7 One, Two, Three!" },
+        { "slug": "en/51/30/8", "title": "8 SPREE! SPREE!" },
+        { "slug": "en/51/30/9", "title": "9 A Piece of a Star" },
+        { "slug": "en/51/30/10", "title": "10 Where Is It?" },
+        { "slug": "en/51/30/11", "title": "11 Or Else!" },
+        { "slug": "en/51/30/12", "title": "12 A New Day" },
+        { "slug": "en/51/30/13", "title": "13 Jack and Annie’s Magic" },
+        { "slug": "en/51/30/14", "title": "A Note from the Author" }
+      ]
+    },
+    {
+      "slug": "en/51/31",
+      "title": "Book 31 Summer of the Sea Serpent",
+      "child": [
+        { "slug": "en/51/31/1", "title": "1. Summer Solstice" },
+        { "slug": "en/51/31/2", "title": "2. The Water Knight" },
+        { "slug": "en/51/31/3", "title": "3. Cave of the Spider Queen" },
+        { "slug": "en/51/31/4", "title": "4. Web Walk" },
+        { "slug": "en/51/31/5", "title": "5. Barrh! Barrh!" },
+        { "slug": "en/51/31/6", "title": "6. The Selkie" },
+        { "slug": "en/51/31/7", "title": "7. Cove of the Stormy Coast" },
+        { "slug": "en/51/31/8", "title": "8. Cloak of the Old Gray Ghost" },
+        { "slug": "en/51/31/9", "title": "9. The Sword of Light" },
+        { "slug": "en/51/31/10", "title": "10. The Ancient Question" },
+        { "slug": "en/51/31/11", "title": "11. Sword and Rhyme" },
+        { "slug": "en/51/31/12", "title": "12. The Isle of Avalon" },
+        { "slug": "en/51/31/13", "title": "A Note from the Author" }
+      ]
+    },
+    {
+      "slug": "en/51/32",
+      "title": "Book 32 Winter of the Ice Wizard",
+      "child": [
+        { "slug": "en/51/32/1", "title": "1. Winter Solstice" },
+        { "slug": "en/51/32/2", "title": "2. Land-Behind-the-Clouds" },
+        { "slug": "en/51/32/3", "title": "3. The Ice Wizard" },
+        { "slug": "en/51/32/4", "title": "4. Take My Sleigh" },
+        { "slug": "en/51/32/5", "title": "5. The Norns" },
+        { "slug": "en/51/32/6", "title": "6. In the Hollow Hill" },
+        { "slug": "en/51/32/7", "title": "7. The Frost Giant" },
+        { "slug": "en/51/32/8", "title": "8. Return of the Eye" },
+        { "slug": "en/51/32/9", "title": "9. Wisdom of the Heart" },
+        { "slug": "en/51/32/10", "title": "A Note from the Author" }
+      ]
+    },
+    {
+      "slug": "en/51/33",
+      "title": "Book 33 Carnival at Candlelight",
+      "child": [
+        { "slug": "en/51/33/1", "title": "1. A Book of Magic" },
+        { "slug": "en/51/33/2", "title": "2. Carnival" },
+        { "slug": "en/51/33/3", "title": "3. The Grand Lady, of the Lagoon" },
+        { "slug": "en/51/33/4", "title": "4. Rats!" },
+        { "slug": "en/51/33/5", "title": "5. Lorenzo" },
+        { "slug": "en/51/33/6", "title": "6. Disaster" },
+        { "slug": "en/51/33/7", "title": "7. The King and the Ruler" },
+        { "slug": "en/51/33/8", "title": "8. Home by Day" },
+        { "slug": "en/51/33/9", "title": "9. The Painting" },
+        { "slug": "en/51/33/10", "title": "More Facts About Venice" }
+      ]
+    },
+    {
+      "slug": "en/51/34",
+      "title": "Book 34 Season of the Sandstorms",
+      "child": [
+        { "slug": "en/51/34/1", "title": "1. The Golden Age" },
+        { "slug": "en/51/34/2", "title": "2. Nowhere" },
+        { "slug": "en/51/34/3", "title": "3. Mamoon" },
+        { "slug": "en/51/34/4", "title": "4. Ships of the Desert" },
+        { "slug": "en/51/34/5", "title": "5. Bandits!" },
+        { "slug": "en/51/34/6", "title": "6. Sandblasted" },
+        { "slug": "en/51/34/7", "title": "7. Behind the Third Wall" },
+        { "slug": "en/51/34/8", "title": "8. Room of the Tree" },
+        { "slug": "en/51/34/9", "title": "9. House of Wisdom" },
+        { "slug": "en/51/34/10", "title": "10. Before the Moon Rises" },
+        { "slug": "en/51/34/11", "title": "More Facts About Baghdad" }
+      ]
+    },
+    {
+      "slug": "en/51/35",
+      "title": "Book 35 Night of the New Magicians",
+      "child": [
+        { "slug": "en/51/35/1", "title": "1. Four New Magicians" },
+        { "slug": "en/51/35/2", "title": "2. A Living Encyclopedia" },
+        { "slug": "en/51/35/3", "title": "3. Magic? Magicians?" },
+        { "slug": "en/51/35/4", "title": "4. Wizard of Menlo Park" },
+        { "slug": "en/51/35/5", "title": "5. Hellooo?" },
+        { "slug": "en/51/35/6", "title": "6. Invisible Enemies" },
+        { "slug": "en/51/35/7", "title": "7. Start Pedaling!" },
+        { "slug": "en/51/35/8", "title": "8. Secrets" },
+        { "slug": "en/51/35/9", "title": "9. The Sorcerer" },
+        { "slug": "en/51/35/10", "title": "10. Good Night, Magicians!" },
+        { "slug": "en/51/35/11", "title": "Author’s Note" }
+      ]
+    },
+    {
+      "slug": "en/51/36",
+      "title": "Book 36 Blizzard of the Blue Moon",
+      "child": [
+        { "slug": "en/51/36/1", "title": "1. The Last Unicorn" },
+        { "slug": "en/51/36/2", "title": "2. Who Are They?" },
+        { "slug": "en/51/36/3", "title": "3. Lost in Central Park" },
+        { "slug": "en/51/36/4", "title": "4. Hard Times" },
+        { "slug": "en/51/36/5", "title": "5. The Cloisters" },
+        { "slug": "en/51/36/6", "title": "6. The Hunt of the Unicorn" },
+        { "slug": "en/51/36/7", "title": "7. Dianthus" },
+        { "slug": "en/51/36/8", "title": "8. Back to Life" },
+        { "slug": "en/51/36/9", "title": "9. It’s Them!" },
+        { "slug": "en/51/36/10", "title": "10. The Wand of Dianthus" },
+        {
+          "slug": "en/51/36/11",
+          "title": "More Facts for Jack and Annie and You!"
+        }
+      ]
+    },
+    {
+      "slug": "en/51/37",
+      "title": "Book 37 Dragon of the Red Dawn",
+      "child": [
+        { "slug": "en/51/37/1", "title": "1. For Merlin’s Sake" },
+        { "slug": "en/51/37/2", "title": "2. The Imperial Garden" },
+        { "slug": "en/51/37/3", "title": "3. Basho" },
+        { "slug": "en/51/37/4", "title": "4. Sushi and Sumo" },
+        { "slug": "en/51/37/5", "title": "5. An Excellent Student?" },
+        { "slug": "en/51/37/6", "title": "6. The Banana Tree" },
+        { "slug": "en/51/37/7", "title": "7. Clang, Clang, Clang!" },
+        { "slug": "en/51/37/8", "title": "8. In the Red Dawn" },
+        { "slug": "en/51/37/9", "title": "9. Flowers of Edo" },
+        { "slug": "en/51/37/10", "title": "10. Journey of a Thousand Miles" },
+        { "slug": "en/51/37/11", "title": "More About Basho, Edo, and Haiku" }
+      ]
+    },
+    {
+      "slug": "en/51/38",
+      "title": "Book 38 Monday with a Mad Genius",
+      "child": [
+        { "slug": "en/51/38/1", "title": "1. Old Friends" },
+        { "slug": "en/51/38/2", "title": "2. Looking for Leonardo" },
+        { "slug": "en/51/38/3", "title": "3. Ten Types of Noses" },
+        { "slug": "en/51/38/4", "title": "4. Battle Scene" },
+        { "slug": "en/51/38/5", "title": "5. Knock, Knock" },
+        { "slug": "en/51/38/6", "title": "6. Thousands of Ideas" },
+        { "slug": "en/51/38/7", "title": "7. The Great Bird" },
+        { "slug": "en/51/38/8", "title": "8. Wings!" },
+        { "slug": "en/51/38/9", "title": "9. The Smile" },
+        { "slug": "en/51/38/10", "title": "10. Questions" },
+        { "slug": "en/51/38/11", "title": "More About Leonardo da Vinci" }
+      ]
+    },
+    {
+      "slug": "en/51/39",
+      "title": "Book 39 Dark Day in the Deep Sea",
+      "child": [
+        { "slug": "en/51/39/1", "title": "1. Back to the Sea" },
+        { "slug": "en/51/39/2", "title": "2. Pirates Again?" },
+        { "slug": "en/51/39/3", "title": "3. A Creature Named Henry" },
+        { "slug": "en/51/39/4", "title": "4. Off the Ship!" },
+        { "slug": "en/51/39/5", "title": "5. Ooze" },
+        { "slug": "en/51/39/6", "title": "6. Pea Soup" },
+        { "slug": "en/51/39/7", "title": "7. Help!" },
+        { "slug": "en/51/39/8", "title": "8. Monster of the Deep" },
+        { "slug": "en/51/39/9", "title": "9. Think! Think!" },
+        { "slug": "en/51/39/10", "title": "10. The Heart of the Ocean" },
+        { "slug": "en/51/39/11", "title": "11. Good-bye, Mates" },
+        { "slug": "en/51/39/12", "title": "Author’s Notes" }
+      ]
+    },
+    {
+      "slug": "en/51/40",
+      "title": "Book 40 Eve of the Emperor Penguin",
+      "child": [
+        { "slug": "en/51/40/1", "title": "1. Smile" },
+        { "slug": "en/51/40/2", "title": "2. Lots of Ice" },
+        { "slug": "en/51/40/3", "title": "3. Short Grown-ups" },
+        { "slug": "en/51/40/4", "title": "4. Happy Campers" },
+        { "slug": "en/51/40/5", "title": "5. Lava Bombs" },
+        { "slug": "en/51/40/6", "title": "6. All Fall Down" },
+        { "slug": "en/51/40/7", "title": "7. The Emperor" },
+        { "slug": "en/51/40/8", "title": "8. A Good Story" },
+        { "slug": "en/51/40/9", "title": "9. Penny and Merlin" },
+        { "slug": "en/51/40/10", "title": "10. The Secret" },
+        { "slug": "en/51/40/11", "title": "More Facts About Antarctica" }
+      ]
+    },
+    {
+      "slug": "en/51/41",
+      "title": "Book 41 Moonlight on the Magic",
+      "child": [
+        { "slug": "en/51/41/1", "title": "1. To the Summer Palace" },
+        { "slug": "en/51/41/2", "title": "2. Put On Your Wig!" },
+        { "slug": "en/51/41/3", "title": "3. Her Imperial Majesty" },
+        { "slug": "en/51/41/4", "title": "4. Jack of Frog Creek!" },
+        { "slug": "en/51/41/5", "title": "5. Bad Manners" },
+        { "slug": "en/51/41/6", "title": "6. Under the Moon" },
+        { "slug": "en/51/41/7", "title": "7. Follow Me" },
+        { "slug": "en/51/41/8", "title": "8. The Hall of Mirrors" },
+        { "slug": "en/51/41/9", "title": "9. Me and the Clown" },
+        { "slug": "en/51/41/10", "title": "10. Joy" },
+        {
+          "slug": "en/51/41/11",
+          "title": "More Facts About Mozart and His Time"
+        }
+      ]
+    },
+    {
+      "slug": "en/51/42",
+      "title": "Book 42 Leprechaun in Late Winter",
+      "child": [
+        { "slug": "en/51/42/1", "title": "1. Way Down Yonder in New Orleans" },
+        { "slug": "en/51/42/2", "title": "2. Money Blues" },
+        { "slug": "en/51/42/3", "title": "3. Coal Cart Blues" },
+        { "slug": "en/51/42/4", "title": "4. Potato Head Blues" },
+        { "slug": "en/51/42/5", "title": "5. Go Long, Mule" },
+        { "slug": "en/51/42/6", "title": "6. Find Me at the Greasy Spoon" },
+        { "slug": "en/51/42/7", "title": "7. Skid-Dat-De-Dat!" },
+        { "slug": "en/51/42/8", "title": "8. Heebie Jeebies" },
+        { "slug": "en/51/42/9", "title": "9. Working Man Blues" },
+        { "slug": "en/51/42/10", "title": "10. Thanks a Million" },
+        { "slug": "en/51/42/11", "title": "11. Swing that Music" },
+        { "slug": "en/51/42/12", "title": "More Facts from Jack and Annie" }
+      ]
+    },
+    {
+      "slug": "en/51/43",
+      "title": "Book 43 Leprechaun in Late Winter",
+      "child": [
+        { "slug": "en/51/43/1", "title": "1. A Beautiful Word" },
+        { "slug": "en/51/43/2", "title": "2. The Big House" },
+        { "slug": "en/51/43/3", "title": "3. Miss Augusta" },
+        { "slug": "en/51/43/4", "title": "4. What Are You Good For?" },
+        { "slug": "en/51/43/5", "title": "5. A Fireside Tale" },
+        { "slug": "en/51/43/6", "title": "6. A Late–Winter’s Daydream" },
+        { "slug": "en/51/43/7", "title": "7. Willy" },
+        { "slug": "en/51/43/8", "title": "8. The Hollow Hill" },
+        { "slug": "en/51/43/9", "title": "9. Skunks or Weasels?" },
+        { "slug": "en/51/43/10", "title": "10. Fare-thee-wells" },
+        { "slug": "en/51/43/11", "title": "11. Lady Gregory" },
+        { "slug": "en/51/43/12", "title": "More Facts from Jack and Annie" }
+      ]
+    },
+    {
+      "slug": "en/51/44",
+      "title": "Book 44 A Ghost Tale for Christmas Time",
+      "child": [
+        { "slug": "en/51/44/1", "title": "1. Did You See That?" },
+        { "slug": "en/51/44/2", "title": "2. Two Gentlemen from Frog Creek" },
+        { "slug": "en/51/44/3", "title": "3. Riches to Rags" },
+        { "slug": "en/51/44/4", "title": "4. Out! Out! Out!" },
+        { "slug": "en/51/44/5", "title": "5. Stop, Thief!" },
+        { "slug": "en/51/44/6", "title": "6. To Jail" },
+        { "slug": "en/51/44/7", "title": "7. Bah, Humbug!" },
+        { "slug": "en/51/44/8", "title": "8. A Terrible Story" },
+        { "slug": "en/51/44/9", "title": "9. The Three Ghosts" },
+        { "slug": "en/51/44/10", "title": "10. A Christmas Carol" },
+        { "slug": "en/51/44/11", "title": "11. Gifts to the World" },
+        { "slug": "en/51/44/12", "title": "More Facts About Charles Dickens" }
+      ]
+    },
+    {
+      "slug": "en/51/45",
+      "title": "Book 45 A Crazy Day With Cobras",
+      "child": [
+        { "slug": "en/51/45/1", "title": "1. A Terrible Mistake" },
+        { "slug": "en/51/45/2", "title": "2. The Red Fort" },
+        { "slug": "en/51/45/3", "title": "3. Complete Respect" },
+        { "slug": "en/51/45/4", "title": "4. The Great Mogul" },
+        { "slug": "en/51/45/5", "title": "5. Not Funny" },
+        { "slug": "en/51/45/6", "title": "6. Morning Breeze" },
+        { "slug": "en/51/45/7", "title": "7. Something Very Weird" },
+        { "slug": "en/51/45/8", "title": "8. SHHHHHH-WISSSSSST!" },
+        { "slug": "en/51/45/9", "title": "9. Camouflage" },
+        { "slug": "en/51/45/10", "title": "10. Caught in the Wild" },
+        { "slug": "en/51/45/11", "title": "11. Heart to Heart" },
+        { "slug": "en/51/45/12", "title": "12. The Meaning of the Emerald" },
+        { "slug": "en/51/45/13", "title": "Author’s Note" }
+      ]
+    }
+  ]
+}
