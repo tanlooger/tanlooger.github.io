@@ -1,0 +1,12 @@
+{
+  "slug": "cn/127",
+  "title": "古本竹书纪年",
+  "child": [
+    { "slug": "cn/127/1", "title": "五帝" },
+    { "slug": "cn/127/2", "title": "夏" },
+    { "slug": "cn/127/3", "title": "商" },
+    { "slug": "cn/127/4", "title": "周" },
+    { "slug": "cn/127/5", "title": "晋" },
+    { "slug": "cn/127/6", "title": "魏" }
+  ]
+}
