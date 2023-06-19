@@ -24,7 +24,10 @@ const chaps = /(.*?)\n\n/s.exec(bookdata)[0].trim().split("\n");
 
 
 bookdata = bookdata.replace(chaps[0], chaps[0]+'\n```')
-bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```')
+//bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```')
+const pos = chaps.join('\n').length+4
+bookdata = [bookdata.slice(0, pos), '\n```', bookdata.slice(pos)].join("");
+
 
 let i = 0;
 let bookdata2 = bookdata
