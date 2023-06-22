@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-let bookdata = fs.readFileSync('../52/a.txt', 'utf8')
+let bookdata = fs.readFileSync('../56/a.txt', 'utf8')
 
 let reg = /　/g
 // \n\n\n\n\n\n.+(?<![。？\.\-])\n
@@ -12,6 +12,7 @@ reg = /\nTHE .* DAY：.*\n/g
 reg = /\n((Book (One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven)))|([0-9]{1,3})\n/g
 reg = /\n((BOOK (ONE|TWO|THREE) .*)|([0-9]{1,2})|APPENDIXES)\n/g
 reg = /\n([0-9]{1,2} .*)\n/g
+reg = /\n([a-z\-]{3,30})\n/g
 
 
 

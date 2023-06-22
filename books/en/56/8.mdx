@@ -1,0 +1,165 @@
+---
+---
+---
+title: eight
+---
+
+
+
+
+
+
+
+Masayuki Kuroda was leaning forward in his chair now, looking at the face of Anna Bloom on his screen. “The Americans have a technique that does work to scrub most of Webmind’s packets,” he said into the little camera at the top of his monitor. “Now all they have to do is get the Ciscos and Junipers of the world to upload revised firmware that would cause their routers to reject all packets with suspicious time-to-live counters.”
+
+“Oh, I don’t think you have to worry about that,” Anna said.
+
+“Why not?” asked Masayuki.
+
+“Most of the routers on the Internet are running the same protocols they’ve been using for decades,” she replied. “The reason is simple: they work. Everyone’s afraid of monkeying with them. You know the old adage—if it ain’t broke, don’t fix it. Plus there are thousands of different models of routers and switches; you’d need a different upgrade package for each one.”
+
+“Oh,” said Masayuki.
+
+Anna nodded. “In 2009, an Internet provider in the Czech Republic tried to update the software for routers there,” she said. “A small error he introduced propagated right across the Web, causing traffic to slow to a crawl for over an hour. Can you imagine the lawsuits if Cisco or Juniper mucked up the whole net—if, say, the new firmware had a bug that caused it to delete all packets, or modified the contents of random packets?”
+
+“Well,” said Masayuki, “obviously, they’d test—”
+
+“They can’t,” said Anna. “Look, before Microsoft rolls out a new version of Windows, they have tens of thousands of beta testers try it out on their individual computers, so that bugs can be found and fixed prior to the release going public—and, still, as soon as it does, thousands of additional bugs immediately come to light. You can test router software on small networks—a few hundred or even a few thousand machines—but there’s no way to test what will happen when the software goes live on the Internet. There’s no system anywhere on the planet that duplicates the Internet’s complexity, no test bed for running large-scale experiments to see what would happen if we changed this or tweaked that. The Internet is a house of cards, and no one wants to send it all tumbling down.”
+
+“What about the Global Environment for Network Innovations?” asked Webmind’s disembodied voice.
+
+“What’s that?” asked Masayuki.
+
+Anna said, “GENI is a shadow network proposed by the American National Science Foundation in 2005, precisely to address the need for a test bed for new ideas and algorithms before they’re turned loose on the real Internet. But it’s years away from completion—and unless it ends up having a Webmind of its own, there’ll be no mutant packets acting like cellular automata on it to perform tests on.”
+
+“So Webmind is safe?” asked Masayuki, sounding relieved.
+
+Anna raised a hand, palm out. “Oh, no, no. I didn’t say that. If the US government wants to bring you down, Webmind, they’ve got an easy way. That test they did to see if they could eliminate you: it was doubtless only phase one. You said they used an AT&T switching station?”
+
+“Yes,” Webmind replied.
+
+“Proof of concept, and with AT&T equipment.”
+
+“That’s significant?” asked Kuroda.
+
+Anna made a forced laugh. “Oh, yes indeed. AT&T has a secret facility that nobody speaks about publicly; employees in the know just call it ‘The Room.’ It has multiple routers with ten-gigabit ports, and, quite deliberately, a significant portion of the global Internet backbone traffic goes through it. Of course, the NSA has access to The Room. Had his small-scale test succeeded, Colonel Hume doubtless would have modified those big routers to scrub your mutant packets. They wouldn’t necessarily get them all, but they’d take out a big percentage of them. Of course, if you hit The Room with a denial-of-service attack scaled up from the one you used against the initial switching station, you’d choke the whole Internet—and Internet cartographers like me would be able to pinpoint the target as being on US soil; there’s no way the Americans could keep under wraps that they’d tried to kill you.”
+
+“For the moment,” Webmind said, “the president has rescinded his order to eliminate me.”
+
+“I’m sure,” said Anna. “Still, The Room exists—and someday, they might use it this way.”
+
+“I hope the US government will come to value me,” Webmind said.
+
+“Perhaps it will,” said Anna, “but there’s another way to kill you—and it’s decentralized.”
+
+“Yes?” Webmind said.
+
+“It’s called BGP hijacking. BGP is short for Border Gateway Protocol—it’s the core routing protocol of the Internet. BGP messages are shared between routers all the time, suggesting the best route for specific packets to take. Do all your mutant packets have the same source address?”
+
+“Not as far as we know,” Webmind said.
+
+“Good, that’ll make it harder. Still, they must have some distinguishing characteristic—some way to tell if their hop counters are broken. One could spoof a BGP message that says the best place to send your specific packets is a dead address.”
+
+“A black hole?” said Masayuki.
+
+“Exactly—an IP address that specifies a host that isn’t running or to which no host has been assigned. The packets would essentially just disappear.”
+
+“That is not unlike the method I use to sequester spam,” Webmind said. “But it hadn’t occurred to me that it could be used against me.”
+
+“Welcome to the world of human beings,” Anna said. “We can turn anything into a weapon.”
+
+It was almost 2:00 A.M. when Hume pulled to a stop outside Chase’s house. The neighborhood was nice—posh, even. And the house was large and sprawling; Chase clearly did all right for himself. He had a couple of small satellite dishes on the roof, and there seemed to be a big, commercial air-conditioning unit at the side of the house; guy probably had a server farm in the basement.
+
+He also probably had a sawed-off shotgun or a .357 magnum under his desk, and he likely didn’t answer the doorbell when it rang this late at night. Although Hume could remove his blue Air Force uniform jacket before going in, he was pretty much stuck with the uniform shirt and pants, not to mention the precise one-centimeter buzz cut.
+
+It looked like Chase was still up: light was seeping around the edges of the living-room curtains.
+
+There was no indication that Webmind tapped regular voice lines—at least not yet. Hume had stopped at a 7-Eleven along the way and bought with cash a disposable pay-as-you-go cell phone. He used it now to call Chase at the unlisted number that was in his dossier.
+
+The phone rang three times, then a gruff voice said, “Better be good.”
+
+“Mr. Chase, my name is Hume, and I’m in a car out front of your house.”
+
+“No shit. Whatcha want?”
+
+“I can’t imagine you’re not sitting at a computer, Mr. Chase, so google me. Peyton Hume.” He spelled the names out.
+
+“Impressive initials,” said Chase, after a moment. “USAF. DARPA. RAND. WATCH. But it don’t tell me what you want.”
+
+“I want to talk to you about Webmind.”
+
+He half expected the curtain to be drawn a little and a face to peek out at him, but doubtless Chase had security cameras. “No parking on my street after midnight, man. Get a ticket. Pull into the driveway.”
+
+Hume did that, got out of the car, and headed through the chill night air to the door; mercifully, the rain had stopped. By the time he was on the stoop, Chase had opened the door and was waiting for him.
+
+“You packing?” asked Chase.
+
+Hume did have a gun, but he’d left it in the glove compartment. “No.”
+
+“Don’t move.”
+
+The man turned and looked at a monitor in the hallway, which was showing an infrared scan indeed revealing that he wasn’t carrying a weapon.
+
+Chase stood aside and gestured toward the living room. “In.”
+
+One wall was covered with shelving units displaying vintage computing equipment, much of which had been obsolete even before Chase was born: a plastic Digi-Comp I, a mail-order Altair 8800, a Novation CAT acoustic coupler, an Osborne 1, a KayPro 2, an Apple ][, a first-generation IBM PC and a PCjr with the original Chiclet keyboard, a TRS-80 Model 1 and a Model 100, an original Palm Pilot, an Apple Lisa and a 128K Mac, and more. The second wall had something Hume hadn’t seen for decades although there was a time when countless computing facilities had displayed it: a giant line-printer printout on tractor-feed paper of a black-and-white photo of Raquel Welch, made entirely of ASCII characters; this one had been neatly framed.
+
+Another wall had a long workbench, with a dozen LCD monitors on it, and four ergonomic keyboards spaced at regular intervals. In front of it was a wheeled office chair on a long, clear plastic mat; Chase could slide along, stopping at whichever screen he wished.
+
+Chase was tall, black, and heroin-addict thin, with long dreadlocks. There was a gold ring through his right eyebrow and a series of silver loops going down the curve of his left ear.
+
+“You ever kill anyone?” Chase asked. He had a Jamaican accent.
+
+Hume raised his eyebrows. “Yes. In Iraq.”
+
+“That’s a bad war, man.”
+
+“I didn’t come here to discuss politics,” said Hume.
+
+“Maybe Webmind stop all the wars,” said Chase.
+
+“Maybe humanity should be able to determine its own destiny,” said Hume.
+
+“And you don’t think we be able do that much longer, so?”
+
+“Yes,” said Hume.
+
+Chase nodded. “You right, maybe. Beer?”
+
+“Thanks, no. I’ve got a long drive home.”
+
+Hume knew that Chase was twenty-four. He’d come to the States three years ago—the required paperwork magically appearing; more proof that he was one of the best hackers in the business. In other circumstances, someone else might have gone off the reservation to hire a former black-ops sniper, but for this, a digital assassin was called for.
+
+“So, what you want from me?” said Chase.
+
+“Webmind must be stopped,” Hume said. “But the government is going to waste too much time deciding what to do, so it has to be done by guys like you.”
+
+“There ain’t no guys like me, flyboy,” said Chase.
+
+Hume frowned but said nothing.
+
+“You don’t say to Einstein, ‘Guys like you.’ I’m Mozart; I’m Michael Jordan.”
+
+“Which is why I came to you,” Hume said. “The public doesn’t know this, but Webmind is instantiated as cellular automata; each cell consists of a mutant packet with a TTL counter that never decrements to zero. What’s needed is a virus that can find and delete those packets. Write me that code.”
+
+“Why I wanna do that, man?”
+
+Hume knew the only answer that would matter. “For the cred.” Hacking into a bank was so last millennium. Compromising military systems had been done, quite literally, to death. But this! No one had ever taken out an AI before. To be the one who’d managed that would ensure immortality—a name, or at least a pseudonym, that would live forever.
+
+“Need more,” said Chase.
+
+Hume frowned. “Money? I don’t have—”
+
+“Not money, man.” He waved at the row of monitors. “I need money, I take money.”
+
+“What then?”
+
+“Wanna see WATCH—see what you guys got.”
+
+“I can’t possibly—”
+
+“Too bad. Cuz you right: you need me.”
+
+Hume thought for a moment, then: “Deal.”
+
+Chase nodded. “Gimme seventy-two hours. Sky gonna fall on Webmind.”
