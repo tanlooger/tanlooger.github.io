@@ -4,10 +4,7 @@
   "child": [
     {
         "slug": "en/57/0",
-        "title": "",
-        "child": [
-          { "slug": "en/57/0/1", "title": "1 Introduction" }
-        ]
+        "title": "1 Introduction"
     },
     {
       "slug": "en/57/1",
