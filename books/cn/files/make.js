@@ -13,7 +13,7 @@ const arr = [
 const CHAPTER = 4
 
 //const data = fs.readFileSync('a/'+CHAPTER+'.txt', 'utf8');
-const data = fs.readFileSync('../84/'+'a.txt', 'utf8');
+const data = fs.readFileSync('../150/'+'a.txt', 'utf8');
 //const data = ''
 
  //const re = /(第[一二三四五六七八九十]{1,3}章)/g
@@ -50,32 +50,32 @@ const data = fs.readFileSync('../84/'+'a.txt', 'utf8');
 
 console.log('adsfsd '+myArray.length)
 
-//for(let i=1; i<=11; i++){
-  for(let i=1; i<=myArray.length; i++){
+for(let i=151; i<=200; i++){
+  //for(let i=1; i<=myArray.length; i++){
     //console.log(i)
-  const chapter = myArray[i].split("adfdsdeo97j")
+  //const chapter = myArray[i].split("adfdsdeo97j")
 
 
   json.push({
-    "slug": "cn/84/"+CHAPTER+'/'+i,
+    //"slug": "cn/84/"+CHAPTER+'/'+i,
     //"slug": "cn/84/"+i,
     //"title": arr[i],
     //"title": "",
     //"title": i+'.'+chapter[0],
-    "title": chapter[0],
+    //"title": chapter[0],
     //"child": []
   })
 
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: 睡前消息"+i+"期：\n---\n\n日睡前消息文字版第"+i+"期");
   //fs.writeFileSync(CHAPTER+'/'+i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
-  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
+  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0].replace('●','').trim()+"\n---\n\n"+chapter[1].trim());
   // fs.mkdirSync(i.toString())
   //if(!fs.existsSync('a'))fs.mkdirSync('a')
    //fs.writeFileSync('a/'+i+'.txt', chapter[0]+'\n\n'+ chapter[1].trim());
-  fs.writeFileSync('bookchap.json', JSON.stringify(json));
+  //fs.writeFileSync('bookchap.json', JSON.stringify(json));
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+chapter[0]+"\n---\n\n");
   //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: "+arr[i]+"\n---\n\n");
-  //fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
+  fs.writeFileSync(i+'.mdx', "---\n---\n---\ntitle: \n---\n\n");
 
 }
 
