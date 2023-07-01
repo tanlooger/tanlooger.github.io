@@ -4,6 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const { exec, spawn } = require('child_process');
 
+// [^？。，、“”\d：（）《》！；\-——]$
+
 //console.log(process.argv.slice(2))
 //process.exit(0)
 
@@ -12,7 +14,7 @@ const relevels = process.argv.slice(3)   // [3, 4, 9]
 //console.log(relevels)
 //process.exit(0)
 
-let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
+let bookdata = fs.readFileSync(`../${bookid}/a.mdx`, "utf8");
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
 //console.log(content)
@@ -124,8 +126,8 @@ for (i = 0; i < chaps.length; i++) {
 
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
-fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
-fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
+fs.copyFileSync(`../${bookid}/a.mdx`, allchapter[0].slug+'/a.mdx');
+//fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
 const cmd = "cp -r ../"+bookid+"/*.pdf "+allchapter[0].slug
 exec(cmd); // 复制文件夹，目标目录可以自动创建
 const cmd2 = "cp -r ../"+bookid+"/*.epub "+allchapter[0].slug
