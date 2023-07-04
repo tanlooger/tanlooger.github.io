@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-let bookdata = fs.readFileSync('../61/a.txt', 'utf8')
+let bookdata = fs.readFileSync('../64/a.txt', 'utf8')
 
 let reg = /　/g
 // \n\n\n\n\n\n.+(?<![。？\.\-])\n
@@ -15,6 +15,7 @@ reg = /\n([a-z\-]{3,30})\n/g
 reg = /\n([0-9]{1,2} .*)\n/g
 reg = /\n([0-9]{1,2})\n/g
 reg = /\n(PART .*|CHAPTER .*)\n/g
+reg = /\n(\d{1,3} .*)\n/g
 
 
 
