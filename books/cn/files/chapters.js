@@ -4,6 +4,8 @@ const fs = require('fs');
 const bookid = 176
 let bookdata = fs.readFileSync('../'+bookid+'/a.txt', 'utf8')
 
+// [^？。，、“”\d：（）《》！；\-——]$
+
 let reg = /　/g
 // \n\n\n\n\n\n.+(?<![。？\.\-])\n
 reg = /\n((第.部分.*)|(第[一二三四五六七八九十]{1,3}章.*)|([0-9]{1,2})|([一二三四五六七八九十]、.*))\n/g
