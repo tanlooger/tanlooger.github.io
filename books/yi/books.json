@@ -16,7 +16,7 @@
   },
   {
     "bookid": 4,
-    "title": "我的奋斗—希特勒自传",
+    "title": "我的奋斗：希特勒自传 - Golden Gee译",
     "description": "必至日耳曼人民繁殖到人口膨胀时，才伸出手去向外掠取领土。一是对于社会责任应有深挚的情感，一是须痛下决心，除去一切不可救药的赘疣。日耳曼奥地利人的眼界，实较帝国中其他种族的眼界为广。因为获得新领土以及容纳过剩的人口，这利益是未可限量的。德国的灰色钢盔，不畏缩，不规避，将成为历史上永垂不朽的纪念品。战争最要紧的便是在使战事早些结束，而最能达到目的的，便是最残酷的方法。在官厅之中，满是犹太人。差不多每一个书记都是犹太人，而每一个犹太人，也都是书记。我们所以必须奋斗的原因，就是在保障我种族的繁殖。我绝不应该加入当时的热火现成的大政党。犹太人阴险狡诈的全副精神和马克斯主义的斗争机关。犹太民族虽然有着显著的智力，然而没有真正的文化，其次没有他们所特有的文化。"
   },
   {
@@ -46,7 +46,7 @@
   { "bookid": 21, "title": "枪炮、病菌与钢铁-王道还、廖月娟译", "description": "" },
   { "bookid": 22, "title": "时间地图：大历史，130亿年前至今-晏可佳译", "description": "" },
   { "bookid": 23, "title": "改革与新思维-岑鼎山、何宏江等译", "description": "" },
-  { "bookid": 24, "title": "共产党宣言-中央编译局译", "description": "" },
+  { "bookid": 24, "title": "共产党宣言-中央编译局", "description": "" },
   { "bookid": 25, "title": "十日谈-方平、王科一译", "description": "" },
   { "bookid": 26, "title": "革命的年代：1789—1848-王章辉译", "description": "" },
   { "bookid": 27, "title": "资本的年代：1848—1875-张晓华译", "description": "" },
@@ -69,7 +69,7 @@
   { "bookid": 44, "title": "技术垄断：文化向技术投降-何道宽译", "description": "" },
   { "bookid": 45, "title": "文明史：人类五千年文明的传承与交流-常绍民等译", "description": "" },
   { "bookid": 46, "title": "断裂的年代：20世纪的文化与社会-林华译", "description": "" },
-  { "bookid": 47, "title": "没有思想的世界-舍其", "description": "" },
+  { "bookid": 47, "title": "没有思想的世界-舍其译", "description": "" },
   { "bookid": 48, "title": "犹太文明-胡浩、刘丽娟、张瑞译", "description": "" },
   { "bookid": 49, "title": "现实主义者的乌托邦：如何建构一个理想世界-曾小楚译", "description": "" },
   { "bookid": 50, "title": "科学的隐忧-汪婕舒译", "description": "" },
@@ -80,7 +80,7 @@
   { "bookid": 55, "title": "认知工具-李宸、肖应婷译", "description": "" },
   { "bookid": 56, "title": "万物大历史-孙岳译", "description": "" },
   { "bookid": 57, "title": "锥形帐篷的起源-孙薇译", "description": "" },
-  { "bookid": 58, "title": "黑暗大陆：20世纪的欧洲-赵博文", "description": "" },
+  { "bookid": 58, "title": "黑暗大陆：20世纪的欧洲-赵博文译", "description": "" },
   { "bookid": 59, "title": "乌合之众-冯克利译", "description": "" },
   { "bookid": 60, "title": "乌合之众-董强译", "description": "" },
   { "bookid": 61, "title": "乌合之众：大众心理学研究-戴光年译", "description": "" },
