@@ -1,1 +1,50 @@
-{"slug":"en/1984","title":"1984 By George Orwell","child":[{"slug":"en/1984/1","title":"Part One","child":[{"slug":"en/1984/1/1","title":"Chapter 1"},{"slug":"en/1984/1/2","title":"Chapter 2"},{"slug":"en/1984/1/3","title":"Chapter 3"},{"slug":"en/1984/1/4","title":"Chapter 4"},{"slug":"en/1984/1/5","title":"Chapter 5"},{"slug":"en/1984/1/6","title":"Chapter 6"},{"slug":"en/1984/1/7","title":"Chapter 7"},{"slug":"en/1984/1/8","title":"Chapter 8"}]},{"slug":"en/1984/2","title":"Part Two","child":[{"slug":"en/1984/2/1","title":"Chapter 1"},{"slug":"en/1984/2/2","title":"Chapter 2"},{"slug":"en/1984/2/3","title":"Chapter 3"},{"slug":"en/1984/2/4","title":"Chapter 4"},{"slug":"en/1984/2/5","title":"Chapter 5"},{"slug":"en/1984/2/6","title":"Chapter 6"},{"slug":"en/1984/2/7","title":"Chapter 7"},{"slug":"en/1984/2/8","title":"Chapter 8"},{"slug":"en/1984/2/9","title":"Chapter 9"}]},{"slug":"en/1984/3","title":"Part Three","child":[{"slug":"en/1984/3/1","title":"Chapter 1"},{"slug":"en/1984/3/2","title":"Chapter 2"},{"slug":"en/1984/3/3","title":"Chapter 3"},{"slug":"en/1984/3/4","title":"Chapter 4"},{"slug":"en/1984/3/5","title":"Chapter 5"},{"slug":"en/1984/3/6","title":"Chapter 6"}]}]}
+{
+  "slug": "en/1984",
+  "title": "1984 By George Orwell",
+  "child": [
+    {
+      "slug": "en/1984/1",
+      "title": "Part One",
+      "open": true,
+      "child": [
+        { "slug": "en/1984/1/1", "title": "Chapter 1" },
+        { "slug": "en/1984/1/2", "title": "Chapter 2" },
+        { "slug": "en/1984/1/3", "title": "Chapter 3" },
+        { "slug": "en/1984/1/4", "title": "Chapter 4" },
+        { "slug": "en/1984/1/5", "title": "Chapter 5" },
+        { "slug": "en/1984/1/6", "title": "Chapter 6" },
+        { "slug": "en/1984/1/7", "title": "Chapter 7" },
+        { "slug": "en/1984/1/8", "title": "Chapter 8" }
+      ]
+    },
+    {
+      "slug": "en/1984/2",
+      "title": "Part Two",
+      "open": true,
+      "child": [
+        { "slug": "en/1984/2/1", "title": "Chapter 1" },
+        { "slug": "en/1984/2/2", "title": "Chapter 2" },
+        { "slug": "en/1984/2/3", "title": "Chapter 3" },
+        { "slug": "en/1984/2/4", "title": "Chapter 4" },
+        { "slug": "en/1984/2/5", "title": "Chapter 5" },
+        { "slug": "en/1984/2/6", "title": "Chapter 6" },
+        { "slug": "en/1984/2/7", "title": "Chapter 7" },
+        { "slug": "en/1984/2/8", "title": "Chapter 8" },
+        { "slug": "en/1984/2/9", "title": "Chapter 9" }
+      ]
+    },
+    {
+      "slug": "en/1984/3",
+      "title": "Part Three",
+      "open": true,
+      "child": [
+        { "slug": "en/1984/3/1", "title": "Chapter 1" },
+        { "slug": "en/1984/3/2", "title": "Chapter 2" },
+        { "slug": "en/1984/3/3", "title": "Chapter 3" },
+        { "slug": "en/1984/3/4", "title": "Chapter 4" },
+        { "slug": "en/1984/3/5", "title": "Chapter 5" },
+        { "slug": "en/1984/3/6", "title": "Chapter 6" }
+      ]
+    }
+  ]
+}
