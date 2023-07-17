@@ -15,6 +15,11 @@ const relevels = process.argv.slice(3)   // [3, 4, 9]
 //process.exit(0)
 
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
+//bookdata = bookdata.replace(/\r\n/g,'\n')
+if(/\r/.test(bookdata)){
+  console.log('\\r\\n to \\n')
+  process.exit(1)
+}
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
 //console.log(content)
