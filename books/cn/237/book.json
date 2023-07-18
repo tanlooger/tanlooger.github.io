@@ -1,0 +1,58 @@
+{
+  "slug": "cn/237",
+  "title": "邓析子",
+  "child": [
+    {
+      "slug": "cn/237/1",
+      "title": "无厚篇",
+      "open": true,
+      "child": [
+        { "slug": "cn/237/1/1", "title": "一" },
+        { "slug": "cn/237/1/2", "title": "二" },
+        { "slug": "cn/237/1/3", "title": "三" },
+        { "slug": "cn/237/1/4", "title": "四" },
+        { "slug": "cn/237/1/5", "title": "五" },
+        { "slug": "cn/237/1/6", "title": "六" },
+        { "slug": "cn/237/1/7", "title": "七" },
+        { "slug": "cn/237/1/8", "title": "八" },
+        { "slug": "cn/237/1/9", "title": "九" },
+        { "slug": "cn/237/1/10", "title": "十" },
+        { "slug": "cn/237/1/11", "title": "十一" },
+        { "slug": "cn/237/1/12", "title": "十二" },
+        { "slug": "cn/237/1/13", "title": "十三" },
+        { "slug": "cn/237/1/14", "title": "十四" },
+        { "slug": "cn/237/1/15", "title": "十五" },
+        { "slug": "cn/237/1/16", "title": "十六" },
+        { "slug": "cn/237/1/17", "title": "十七" },
+        { "slug": "cn/237/1/18", "title": "十八" },
+        { "slug": "cn/237/1/19", "title": "十九" },
+        { "slug": "cn/237/1/20", "title": "二十" }
+      ]
+    },
+    {
+      "slug": "cn/237/2",
+      "title": "转辞篇",
+      "open": true,
+      "child": [
+        { "slug": "cn/237/2/1", "title": "一" },
+        { "slug": "cn/237/2/2", "title": "二" },
+        { "slug": "cn/237/2/3", "title": "三" },
+        { "slug": "cn/237/2/4", "title": "四" },
+        { "slug": "cn/237/2/5", "title": "五" },
+        { "slug": "cn/237/2/6", "title": "六" },
+        { "slug": "cn/237/2/7", "title": "七" },
+        { "slug": "cn/237/2/8", "title": "八" },
+        { "slug": "cn/237/2/9", "title": "九" },
+        { "slug": "cn/237/2/10", "title": "十" },
+        { "slug": "cn/237/2/11", "title": "十一" },
+        { "slug": "cn/237/2/12", "title": "十二" },
+        { "slug": "cn/237/2/13", "title": "十三" },
+        { "slug": "cn/237/2/14", "title": "十四" },
+        { "slug": "cn/237/2/15", "title": "十五" },
+        { "slug": "cn/237/2/16", "title": "十六" },
+        { "slug": "cn/237/2/17", "title": "十七" },
+        { "slug": "cn/237/2/18", "title": "十八" }
+      ]
+    }
+  ]
+}
