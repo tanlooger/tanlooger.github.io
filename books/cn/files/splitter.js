@@ -132,12 +132,15 @@ for (i = 0; i < chaps.length; i++) {
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
 fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
-fs.copyFileSync(`../${bookid}/b.txt`, allchapter[0].slug+'/a.txt');
+//fs.copyFileSync(`../${bookid}/b.txt`, allchapter[0].slug+'/a.txt');
 //fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
+
 const cmd = "cp -r ../"+bookid+"/*.pdf "+allchapter[0].slug
 exec(cmd); // 复制文件夹，目标目录可以自动创建
 const cmd2 = "cp -r ../"+bookid+"/*.epub "+allchapter[0].slug
 exec(cmd2); 
+const cmd3 = "cp -r ../"+bookid+"/b.txt "+allchapter[0].slug
+exec(cmd3); // 复制文件夹，目标目录可以自动创建
 
 //chaps.map(v=>console.log(v.trim()))
 
