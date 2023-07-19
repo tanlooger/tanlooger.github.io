@@ -1,1 +1,50 @@
-{"slug":"cn/243","title":"在细雨中呼喊 - 余华","child":[{"slug":"cn/243/1","title":"第一章","child":[{"slug":"cn/243/1/1","title":"南门"},{"slug":"cn/243/1/2","title":"婚礼"},{"slug":"cn/243/1/3","title":"死去"},{"slug":"cn/243/1/4","title":"出生"}]},{"slug":"cn/243/2","title":"第二章","child":[{"slug":"cn/243/2/1","title":"友情"},{"slug":"cn/243/2/2","title":"战栗"},{"slug":"cn/243/2/3","title":"苏宇之死"},{"slug":"cn/243/2/4","title":"年幼的朋友"}]},{"slug":"cn/243/3","title":"第三章","child":[{"slug":"cn/243/3/1","title":"遥远"},{"slug":"cn/243/3/2","title":"风烛残年"},{"slug":"cn/243/3/3","title":"消失"},{"slug":"cn/243/3/4","title":"祖父打败了父亲"}]},{"slug":"cn/243/4","title":"第四章","child":[{"slug":"cn/243/4/1","title":"威胁"},{"slug":"cn/243/4/2","title":"抛弃"},{"slug":"cn/243/4/3","title":"诬陷"},{"slug":"cn/243/4/4","title":"回到南门"}]}]}
+{
+  "slug": "cn/243",
+  "title": "在细雨中呼喊 - 余华",
+  "child": [
+    {
+      "slug": "cn/243/1",
+      "title": "第一章",
+      "open": true,
+      "child": [
+        { "slug": "cn/243/1/1", "title": "南门" },
+        { "slug": "cn/243/1/2", "title": "婚礼" },
+        { "slug": "cn/243/1/3", "title": "死去" },
+        { "slug": "cn/243/1/4", "title": "出生" }
+      ]
+    },
+    {
+      "slug": "cn/243/2",
+      "title": "第二章",
+      "open": true,
+      "child": [
+        { "slug": "cn/243/2/1", "title": "友情" },
+        { "slug": "cn/243/2/2", "title": "战栗" },
+        { "slug": "cn/243/2/3", "title": "苏宇之死" },
+        { "slug": "cn/243/2/4", "title": "年幼的朋友" }
+      ]
+    },
+    {
+      "slug": "cn/243/3",
+      "title": "第三章",
+      "open": true,
+      "child": [
+        { "slug": "cn/243/3/1", "title": "遥远" },
+        { "slug": "cn/243/3/2", "title": "风烛残年" },
+        { "slug": "cn/243/3/3", "title": "消失" },
+        { "slug": "cn/243/3/4", "title": "祖父打败了父亲" }
+      ]
+    },
+    {
+      "slug": "cn/243/4",
+      "title": "第四章",
+      "open": true,
+      "child": [
+        { "slug": "cn/243/4/1", "title": "威胁" },
+        { "slug": "cn/243/4/2", "title": "抛弃" },
+        { "slug": "cn/243/4/3", "title": "诬陷" },
+        { "slug": "cn/243/4/4", "title": "回到南门" }
+      ]
+    }
+  ]
+}
