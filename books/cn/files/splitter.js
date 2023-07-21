@@ -39,15 +39,15 @@ bookdata = [bookdata.slice(0, pos), '\n```', bookdata.slice(pos)].join("");
 
 let i = 0;
 let bookdata2 = bookdata
-for (i = 0; i < chaps.length - 1; i++) {
-  if(chaps[i + 1].trim() === '0')continue
-  //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
-  const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
-  bookdata2 = bookdata2.substring(nextindex).trim();
+for (i = 1; i < chaps.length; i++) {
+
+  const nextindex = bookdata2.indexOf("\n" + chaps[i].trim() + "\n")
+  bookdata2 = bookdata2.substring(nextindex+chaps[i].length);
+
 
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
-  if (nextindex <= 0) {
-    console.log(chaps[i + 1] + "　未找到 "+(i+2));
+  if (nextindex < 0) {
+    console.log(chaps[i] + "　未找到 "+(i+1));
     process.exit(1);
   }
 }
@@ -97,9 +97,12 @@ for (i = 0; i < chaps.length; i++) {
 
 
 
-  const nextindex = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n") : bookdata.length;
+  const nextindex1 = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n") : bookdata.length;
 
-  if(nextindex < 0){
+  const nextindex = nextindex1 != 0 ? nextindex1 : i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n", chaps[nextChapsIndex].length) : bookdata.length;
+
+
+  if(nextindex <= 0){
     console.log(i+' nextindex wrong '+nextindex+chaps[i].trim())
     if (fs.existsSync('cn'))fs.rmdirSync('cn', { recursive: true, force: true })
     process.exit(1)

@@ -2,6 +2,9 @@ const { AssertionError } = require("assert");
 const { assert } = require("console");
 const fs = require("fs");
 const path = require("path");
+const { exec, spawn } = require('child_process');
+
+// [^？。，、“”\d：（）《》！；\-——]$
 
 //console.log(process.argv.slice(2))
 //process.exit(0)
@@ -12,6 +15,11 @@ const relevels = process.argv.slice(3)   // [3, 4, 9]
 //process.exit(0)
 
 let bookdata = fs.readFileSync(`../${bookid}/a.txt`, "utf8");
+//bookdata = bookdata.replace(/\r\n/g,'\n')
+if(/\r/.test(bookdata)){
+  console.log('\\r\\n to \\n')
+  process.exit(1)
+}
 
 //const [prologue, content] = bookdata.split('>>>正文开始<<<')
 //console.log(content)
@@ -24,19 +32,22 @@ const chaps = /(.*?)\n\n/s.exec(bookdata)[0].trim().split("\n");
 
 
 bookdata = bookdata.replace(chaps[0], chaps[0]+'\n```')
-bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```')
+//bookdata = bookdata.replace(chaps[chaps.length-1], chaps[chaps.length-1]+'\n```')
+const pos = chaps.join('\n').length+4
+bookdata = [bookdata.slice(0, pos), '\n```', bookdata.slice(pos)].join("");
+
 
 let i = 0;
 let bookdata2 = bookdata
-for (i = 0; i < chaps.length - 1; i++) {
-  if(chaps[i + 1].trim() === '0')continue
-  //const firstindex = bookdata.indexOf("\n" + chaps[i + 1].trim() + "\n");
-  const nextindex = i<chaps.length-1 ? bookdata2.indexOf("\n" + chaps[i + 1].trim() + "\n") : bookdata2.length;
-  bookdata2 = bookdata2.substring(nextindex);
+for (i = 1; i < chaps.length; i++) {
+
+  const nextindex = bookdata2.indexOf("\n" + chaps[i].trim() + "\n")
+  bookdata2 = bookdata2.substring(nextindex+chaps[i].length);
+
 
   //assert(firstindex > 0, chaps[i+1]+'　的位置要大于0')
-  if (nextindex <= 0) {
-    console.log(chaps[i + 1] + "　未找到");
+  if (nextindex < 0) {
+    console.log(chaps[i] + "　未找到 "+(i+1));
     process.exit(1);
   }
 }
@@ -86,9 +97,12 @@ for (i = 0; i < chaps.length; i++) {
 
 
 
-  const nextindex = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n") : bookdata.length;
+  const nextindex1 = i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n") : bookdata.length;
 
-  if(nextindex < 0){
+  const nextindex = nextindex1 != 0 ? nextindex1 : i<chaps.length-1 ? bookdata.indexOf("\n" + chaps[nextChapsIndex].trim() + "\n", chaps[nextChapsIndex].length) : bookdata.length;
+
+
+  if(nextindex <= 0){
     console.log(i+' nextindex wrong '+nextindex+chaps[i].trim())
     if (fs.existsSync('yi'))fs.rmdirSync('yi', { recursive: true, force: true })
     process.exit(1)
@@ -121,6 +135,15 @@ for (i = 0; i < chaps.length; i++) {
 fs.writeFileSync(allchapter[0].slug+"/book.json", JSON.stringify(getTrees()[0]));
 
 fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
+//fs.copyFileSync(`../${bookid}/b.txt`, allchapter[0].slug+'/a.txt');
+//fs.copyFileSync(`../${bookid}/a.txt`, allchapter[0].slug+'/a.txt');
+
+const cmd = "cp -r ../"+bookid+"/*.pdf "+allchapter[0].slug
+exec(cmd); // 复制文件夹，目标目录可以自动创建
+const cmd2 = "cp -r ../"+bookid+"/*.epub "+allchapter[0].slug
+exec(cmd2); 
+const cmd3 = "cp -r ../"+bookid+"/b.txt "+allchapter[0].slug
+exec(cmd3); // 复制文件夹，目标目录可以自动创建
 
 //chaps.map(v=>console.log(v.trim()))
 
