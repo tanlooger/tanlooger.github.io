@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-let bookdata = fs.readFileSync('../143/a.txt', 'utf8')
+let bookdata = fs.readFileSync('../144/a.txt', 'utf8')
 
 // 不以“夫”开头，不以“妇”结尾
 // ^[^夫].*(?<!妇)\n
