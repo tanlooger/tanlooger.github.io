@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //const bookid = process.argv[2];
-const bookid = 286
+const bookid = 289
 let bookdata = fs.readFileSync('../'+bookid+'/a.txt', 'utf8')
 //bookdata = bookdata.replace(/\r\n/g,'\n')
 if(/\r/.test(bookdata)){
