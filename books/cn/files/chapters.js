@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //const bookid = process.argv[2];
-const bookid = 292
+const bookid = 313
 let bookdata = fs.readFileSync('../'+bookid+'/a.txt', 'utf8')
 //bookdata = bookdata.replace(/\r\n/g,'\n')
 if(/\r/.test(bookdata)){
@@ -50,6 +50,7 @@ reg = /\n(一九[五六][一二三四五六七八九十百零〇]年|[一二三�
 reg = /\n(第[一二三四五六七八九十百零]{1,5}章 .*|[0-9]{1,5} .*)\n/g
 reg = /\n(([一二三四五六七八九十]{1,3} .*)|([0-9]{1,5}))\n/g
 reg = /\n(附录[一二三四五].*|第[一二三四五六七八九十百零]{1,5}章.*|[一二三四五六七八九十〇]{1,3}、.*)\n/g
+reg = /\n(一九四.年|[一二三四五六七八九十百零〇]{1,2}月|[一二三四五六七八九十百〇零]{1,2}月[〇一二三四五六七八九十百零]{1,3}日　星期[一二三四五六七八九十百零〇])\n/g
 
 
 
