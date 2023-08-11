@@ -1,1 +1,51 @@
-{"slug":"cn/320","title":"大地的谎言 - 小僧","child":[{"slug":"cn/320/1","title":"第一章 曾通","child":[{"slug":"cn/320/1/1","title":"一"},{"slug":"cn/320/1/2","title":"二"},{"slug":"cn/320/1/3","title":"三"},{"slug":"cn/320/1/4","title":"四"},{"slug":"cn/320/1/5","title":"五"},{"slug":"cn/320/1/6","title":"六"},{"slug":"cn/320/1/7","title":"七"},{"slug":"cn/320/1/8","title":"八"}]},{"slug":"cn/320/2","title":"第二章 狱长","child":[{"slug":"cn/320/2/1","title":"一"},{"slug":"cn/320/2/2","title":"二"},{"slug":"cn/320/2/3","title":"三"},{"slug":"cn/320/2/4","title":"四"},{"slug":"cn/320/2/5","title":"五"},{"slug":"cn/320/2/6","title":"六"},{"slug":"cn/320/2/7","title":"七"},{"slug":"cn/320/2/8","title":"八"}]},{"slug":"cn/320/3","title":"第三章 侯风","child":[{"slug":"cn/320/3/1","title":"一"},{"slug":"cn/320/3/2","title":"二"},{"slug":"cn/320/3/3","title":"三"},{"slug":"cn/320/3/4","title":"四"},{"slug":"cn/320/3/5","title":"五"},{"slug":"cn/320/3/6","title":"六"},{"slug":"cn/320/3/7","title":"七"},{"slug":"cn/320/3/8","title":"八"}]}]}
+{
+  "slug": "cn/320",
+  "title": "大地的谎言 - 小僧",
+  "child": [
+    {
+      "slug": "cn/320/1",
+      "title": "第一章 曾通",
+      "open": true,
+      "child": [
+        { "slug": "cn/320/1/1", "title": "一" },
+        { "slug": "cn/320/1/2", "title": "二" },
+        { "slug": "cn/320/1/3", "title": "三" },
+        { "slug": "cn/320/1/4", "title": "四" },
+        { "slug": "cn/320/1/5", "title": "五" },
+        { "slug": "cn/320/1/6", "title": "六" },
+        { "slug": "cn/320/1/7", "title": "七" },
+        { "slug": "cn/320/1/8", "title": "八" }
+      ]
+    },
+    {
+      "slug": "cn/320/2",
+      "title": "第二章 狱长",
+      "open": true,
+      "child": [
+        { "slug": "cn/320/2/1", "title": "一" },
+        { "slug": "cn/320/2/2", "title": "二" },
+        { "slug": "cn/320/2/3", "title": "三" },
+        { "slug": "cn/320/2/4", "title": "四" },
+        { "slug": "cn/320/2/5", "title": "五" },
+        { "slug": "cn/320/2/6", "title": "六" },
+        { "slug": "cn/320/2/7", "title": "七" },
+        { "slug": "cn/320/2/8", "title": "八" }
+      ]
+    },
+    {
+      "slug": "cn/320/3",
+      "title": "第三章 侯风",
+      "open": true,
+      "child": [
+        { "slug": "cn/320/3/1", "title": "一" },
+        { "slug": "cn/320/3/2", "title": "二" },
+        { "slug": "cn/320/3/3", "title": "三" },
+        { "slug": "cn/320/3/4", "title": "四" },
+        { "slug": "cn/320/3/5", "title": "五" },
+        { "slug": "cn/320/3/6", "title": "六" },
+        { "slug": "cn/320/3/7", "title": "七" },
+        { "slug": "cn/320/3/8", "title": "八" }
+      ]
+    }
+  ]
+}
