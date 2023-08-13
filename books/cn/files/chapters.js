@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //const bookid = process.argv[2];
-const bookid = 322
+const bookid = 331
 let bookdata = fs.readFileSync('../'+bookid+'/a.txt', 'utf8')
 //bookdata = bookdata.replace(/\r\n/g,'\n')
 if(/\r/.test(bookdata)){
@@ -51,7 +51,7 @@ reg = /\n(第[一二三四五六七八九十百零]{1,5}章 .*|[0-9]{1,5} .*)\n/
 reg = /\n(([一二三四五六七八九十]{1,3} .*)|([0-9]{1,5}))\n/g
 reg = /\n(附录[一二三四五].*|第[一二三四五六七八九十百零]{1,5}章.*|[一二三四五六七八九十〇]{1,3}、.*)\n/g
 reg = /\n(第.{1,3}回 .* .*)\n/g
-reg = /\n(第[一二三四五六七八九十百零]{1,5}章|[一二三四五六七八九十〇]{1,3})\n/g
+reg = /\n(苍老的浮云|种在走廊上的苹果树|痕|辉煌的日子|历程|第[一二三四五六七八九十百零]{1,5}章|[一二三四五六七八九十〇]{1,3})\n/g
 
 
 
