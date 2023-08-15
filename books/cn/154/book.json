@@ -5,6 +5,7 @@
     {
       "slug": "cn/154/1",
       "title": "卷一 童年与青年",
+      "open": true,
       "child": [
         { "slug": "cn/154/1/1", "title": "第一章 文忠公" },
         { "slug": "cn/154/1/2", "title": "第二章 眉山" },
@@ -16,6 +17,7 @@
     {
       "slug": "cn/154/2",
       "title": "卷二 壮年",
+      "open": true,
       "child": [
         { "slug": "cn/154/2/6", "title": "第六章 神、鬼、人" },
         { "slug": "cn/154/2/7", "title": "第七章 王安石变法" },
@@ -31,6 +33,7 @@
     {
       "slug": "cn/154/3",
       "title": "卷三 老练",
+      "open": true,
       "child": [
         { "slug": "cn/154/3/15", "title": "第十五章 东坡居士" },
         { "slug": "cn/154/3/16", "title": "第十六章 赤壁赋" },
@@ -46,6 +49,7 @@
     {
       "slug": "cn/154/4",
       "title": "卷四 流放岁月",
+      "open": true,
       "child": [
         { "slug": "cn/154/4/24", "title": "第二十四章 二度迫害" },
         { "slug": "cn/154/4/25", "title": "第二十五章 岭南流放" },
