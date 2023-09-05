@@ -1,0 +1,91 @@
+{
+  "slug": "en/80",
+  "title": "The Three-Body Problem by Cixin Liu",
+  "child": [
+    {
+      "slug": "en/80/1",
+      "title": "Part I Silent Spring",
+      "open": true,
+      "child": [
+        { "slug": "en/80/1/1", "title": "1 The Madness Years" },
+        { "slug": "en/80/1/2", "title": "2 Silent Spring" },
+        { "slug": "en/80/1/3", "title": "3 Red Coast I" }
+      ]
+    },
+    {
+      "slug": "en/80/2",
+      "title": "Part II Three Body",
+      "open": true,
+      "child": [
+        { "slug": "en/80/2/4", "title": "4 The Frontiers of Science" },
+        { "slug": "en/80/2/5", "title": "5 A Game of Pool" },
+        { "slug": "en/80/2/6", "title": "6 The Shooter and the Farmer" },
+        {
+          "slug": "en/80/2/7",
+          "title": "7 Three Body: King Wen of Zhou and the Long Night"
+        },
+        { "slug": "en/80/2/8", "title": "8 Ye Wenjie" },
+        { "slug": "en/80/2/9", "title": "9 The Universe Flickers" },
+        { "slug": "en/80/2/10", "title": "10 Da Shi" },
+        {
+          "slug": "en/80/2/11",
+          "title": "11 Three Body: Mozi and Fiery Flames"
+        },
+        { "slug": "en/80/2/12", "title": "12 Red Coast II" },
+        { "slug": "en/80/2/13", "title": "13 Red Coast III" },
+        { "slug": "en/80/2/14", "title": "14 Red Coast IV" },
+        {
+          "slug": "en/80/2/15",
+          "title": "15 Three Body: Copernicus, Universal Football, and Tri-Solar Day"
+        },
+        { "slug": "en/80/2/16", "title": "16 The Three-Body Problem" },
+        {
+          "slug": "en/80/2/17",
+          "title": "17 Three Body: Newton, Von Neumann, the First Emperor, and Tri-Solar Syzygy"
+        },
+        { "slug": "en/80/2/18", "title": "18 Meet-up" },
+        {
+          "slug": "en/80/2/19",
+          "title": "19 Three Body: Einstein, the Pendulum Monument, and the Great Rip"
+        },
+        { "slug": "en/80/2/20", "title": "20 Three Body: Expedition" }
+      ]
+    },
+    {
+      "slug": "en/80/3",
+      "title": "Part III Sunset for Humanity",
+      "open": true,
+      "child": [
+        { "slug": "en/80/3/21", "title": "21 Rebels of Earth" },
+        { "slug": "en/80/3/22", "title": "22 Red Coast V" },
+        { "slug": "en/80/3/23", "title": "23 Red Coast VI" },
+        { "slug": "en/80/3/24", "title": "24 Rebellion" },
+        {
+          "slug": "en/80/3/25",
+          "title": "25 The Deaths of Lei Zhicheng and Yang Weining"
+        },
+        { "slug": "en/80/3/26", "title": "26 No One Repents" },
+        { "slug": "en/80/3/27", "title": "27 Evans" },
+        { "slug": "en/80/3/28", "title": "28 The Second Red Coast Base" },
+        { "slug": "en/80/3/29", "title": "29 The Earth-Trisolaris Movement" },
+        { "slug": "en/80/3/30", "title": "30 Two Protons" },
+        { "slug": "en/80/3/31", "title": "31 Operation Guzheng" },
+        { "slug": "en/80/3/32", "title": "32 Trisolaris: The Listener" },
+        { "slug": "en/80/3/33", "title": "33 Trisolaris: Sophon" },
+        { "slug": "en/80/3/34", "title": "34 Bugs" },
+        { "slug": "en/80/3/35", "title": "35 The Ruins" }
+      ]
+    },
+    { "slug": "en/80/4", "title": "Preview" },
+    {
+      "slug": "en/80/5",
+      "title": "Author’s Postscript for the American Edition"
+    },
+    { "slug": "en/80/6", "title": "Translator’s Postscript" },
+    { "slug": "en/80/7", "title": "Notes" },
+    { "slug": "en/80/8", "title": "About The Three-Body Problem" },
+    { "slug": "en/80/9", "title": "Reviews" },
+    { "slug": "en/80/10", "title": "About Cixin Liu" },
+    { "slug": "en/80/11", "title": "About The Three-Body Problem Series" }
+  ]
+}
