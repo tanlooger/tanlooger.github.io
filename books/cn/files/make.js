@@ -50,7 +50,7 @@ const data = fs.readFileSync('../150/'+'a.txt', 'utf8');
 
 console.log('adsfsd '+myArray.length)
 
-for(let i=461; i<=490; i++){
+for(let i=491; i<=499; i++){
   //for(let i=1; i<=myArray.length; i++){
     //console.log(i)
   //const chapter = myArray[i].split("adfdsdeo97j")
