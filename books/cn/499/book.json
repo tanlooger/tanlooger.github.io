@@ -1,0 +1,58 @@
+{
+  "slug": "cn/499",
+  "title": "浮木 - 杨本芬",
+  "child": [
+    {
+      "slug": "cn/499/1",
+      "title": "第一章 家",
+      "open": true,
+      "child": [
+        { "slug": "cn/499/1/1", "title": "写给杨锐" },
+        { "slug": "cn/499/1/2", "title": "田四" },
+        { "slug": "cn/499/1/3", "title": "哥哥" },
+        { "slug": "cn/499/1/4", "title": "一百元钱" },
+        { "slug": "cn/499/1/5", "title": "看电影" },
+        { "slug": "cn/499/1/6", "title": "江西柴刀" },
+        { "slug": "cn/499/1/7", "title": "纳凉" },
+        { "slug": "cn/499/1/8", "title": "大乖" },
+        { "slug": "cn/499/1/9", "title": "来富" },
+        { "slug": "cn/499/1/10", "title": "看牙齿" },
+        { "slug": "cn/499/1/11", "title": "搬家" },
+        { "slug": "cn/499/1/12", "title": "妈妈在阳春街的日子" },
+        { "slug": "cn/499/1/13", "title": "手术" },
+        { "slug": "cn/499/1/14", "title": "看望妈妈" }
+      ]
+    },
+    {
+      "slug": "cn/499/2",
+      "title": "第二章 乡",
+      "open": true,
+      "child": [
+        { "slug": "cn/499/2/1", "title": "文秀" },
+        { "slug": "cn/499/2/2", "title": "陈家冲人家" },
+        { "slug": "cn/499/2/3", "title": "李娭毑" },
+        { "slug": "cn/499/2/4", "title": "定坤叔" },
+        { "slug": "cn/499/2/5", "title": "消失的货郎" },
+        { "slug": "cn/499/2/6", "title": "老四" },
+        { "slug": "cn/499/2/7", "title": "福婶" },
+        { "slug": "cn/499/2/8", "title": "郎中" }
+      ]
+    },
+    {
+      "slug": "cn/499/3",
+      "title": "第三章 我",
+      "open": true,
+      "child": [
+        { "slug": "cn/499/3/1", "title": "1984年" },
+        { "slug": "cn/499/3/2", "title": "苹果园历险记" },
+        { "slug": "cn/499/3/3", "title": "讨债路上" },
+        { "slug": "cn/499/3/4", "title": "和秋秋在一起的日子" },
+        { "slug": "cn/499/3/5", "title": "路遇骗子" },
+        { "slug": "cn/499/3/6", "title": "金刚和牡丹" },
+        { "slug": "cn/499/3/7", "title": "小庐山" },
+        { "slug": "cn/499/3/8", "title": "晚年小景" }
+      ]
+    },
+    { "slug": "cn/499/4", "title": "代后记 成为作家" }
+  ]
+}
