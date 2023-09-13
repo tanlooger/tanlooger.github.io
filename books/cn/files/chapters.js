@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //const bookid = process.argv[2];
-const bookid = 504
+const bookid = 506
 let bookdata = fs.readFileSync('../'+bookid+'/a.txt', 'utf8')
 //bookdata = bookdata.replace(/\r\n/g,'\n')
 if(/\r/.test(bookdata)){
@@ -53,7 +53,7 @@ reg = /\n(第[一二三四五六七八九十百零]{1,5}[篇章] .*|[0-9]{1,5})\
 reg = /\n(([一二三四五六七八九十]{1,3}、.*)|([0-9]{1,5}))\n/g
 reg = /\n(第\d{1,5}章 .*|第[一二三四五六七八九十百零]{1,5}[卷] .*)\n/g
 reg = /\n(.{1,50}[^？。，IⅡⅢV、“”\d：…（）\n《》！；\-——」])\n/g
-reg = /\n(才人武照|太子弘|昭仪武照|太子贤|天后武照|睿宗|女皇|第.章 .*|[一二三四五六七八九十〇]{1,3}|[0-9]{1,3})\n/g
+reg = /\n(第.章|第.章 .*|[一二三四五六七八九十〇]{1,3}|[0-9]{1,3})\n/g
 
 
 
