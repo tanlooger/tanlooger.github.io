@@ -1794,12 +1794,12 @@
   },
   {
     "bookid": 359,
-    "title": "初刻拍案惊奇 - 凌濛初",
+    "title": "三言二拍：初刻拍案惊奇 - 凌濛初",
     "description": ""
   },
   {
     "bookid": 360,
-    "title": "二刻拍案惊奇 - 凌濛初",
+    "title": "三言二拍：二刻拍案惊奇 - 凌濛初",
     "description": ""
   },
   {
@@ -2598,7 +2598,57 @@
     "description": ""
   },
   {
-    "bookid": 52,
+    "bookid": 520,
+    "title": "三言二拍：警世通言 - 冯梦龙",
+    "description": ""
+  },
+  {
+    "bookid": 521,
+    "title": "三言二拍：醒世恒言 - 冯梦龙",
+    "description": ""
+  },
+  {
+    "bookid": 522,
+    "title": "三言二拍：喻世明言 - 冯梦龙",
+    "description": ""
+  },
+  {
+    "bookid": 523,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 524,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 525,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 526,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 527,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 528,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 529,
+    "title": "",
+    "description": ""
+  },
+  {
+    "bookid": 53,
     "title": "",
     "description": ""
   }
