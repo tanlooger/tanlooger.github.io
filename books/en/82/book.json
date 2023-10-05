@@ -1,0 +1,29 @@
+{
+  "slug": "en/82",
+  "title": "Building Nextjs Application",
+  "child": [
+    {
+      "slug": "en/82/1",
+      "title": "Routing Fundamentals",
+      "open": true,
+      "child": [
+        { "slug": "en/82/1/1", "title": "Defining Routes" },
+        { "slug": "en/82/1/2", "title": "Pages and Layouts" },
+        { "slug": "en/82/1/3", "title": "Linking and Navigating" },
+        { "slug": "en/82/1/4", "title": "Route Groups" },
+        { "slug": "en/82/1/5", "title": "Dynamic Routes" },
+        { "slug": "en/82/1/6", "title": "Loading UI and Streaming" },
+        { "slug": "en/82/1/7", "title": "Error Handling" },
+        { "slug": "en/82/1/8", "title": "Parallel Routes" },
+        { "slug": "en/82/1/9", "title": "Intercepting Routes" },
+        { "slug": "en/82/1/10", "title": "Route Handlers" },
+        { "slug": "en/82/1/11", "title": "Middleware" },
+        {
+          "slug": "en/82/1/12",
+          "title": "Project Organization and File Colocation"
+        },
+        { "slug": "en/82/1/13", "title": "Internationalization" }
+      ]
+    }
+  ]
+}
