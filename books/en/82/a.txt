@@ -2523,124 +2523,81 @@ Parallel Routes
 
 Parallel Routing allows you to simultaneously or conditionally render one or more pages in the same layout. For highly dynamic sections of an app, such as dashboards and feeds on social sites, Parallel Routing can be used to implement complex routing patterns.
 
-
-
 For example, you can simultaneously render the team and analytics pages.
 
-
-
-Parallel Routes Diagram
-
-
+![Parallel Routes Diagram](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fparallel-routes.png&w=1920&q=75&dpl=dpl_Efk2BVQgNNJBW8p2ed7NhSw9w44E)
 
 Parallel Routing allows you to define independent error and loading states for each route as they're being streamed in independently.
 
-
-
-Parallel routes enable custom error and loading states
-
-
+![Parallel routes enable custom error and loading states](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fparallel-routes-cinematic-universe.png&w=1920&q=75&dpl=dpl_Efk2BVQgNNJBW8p2ed7NhSw9w44E)
 
 Parallel Routing also allows you to conditionally render a slot based on certain conditions, such as authentication state. This enables fully separated code on the same URL.
 
-
-
-Conditional routes diagram
+![Conditional routes diagram](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fconditional-routes-ui.png&w=1920&q=75&dpl=dpl_Efk2BVQgNNJBW8p2ed7NhSw9w44E)
 
 
 
-Convention
+## Convention
 
 Parallel routes are created using named slots. Slots are defined with the @folder convention, and are passed to the same-level layout as props.
 
-
-
-Slots are not route segments and do not affect the URL structure. The file path /@team/members would be accessible at /members.
-
-
+> Slots are not route segments and do not affect the URL structure. The file path /@team/members would be accessible at /members.
 
 For example, the following file structure defines two explicit slots: @analytics and @team.
 
-
-
-Parallel Routes File-system Structure
-
-
+![Parallel Routes File-system Structure](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fparallel-routes-file-system.png&w=1920&q=75&dpl=dpl_Efk2BVQgNNJBW8p2ed7NhSw9w44E)
 
 The folder structure above means that the component in app/layout.js now accepts the @analytics and @team slots props, and can render them in parallel alongside the children prop:
 
-
-
 app/layout.tsx
-
-
 
 TypeScript
 
-
-```
+```JavaScript
 export default function Layout(props: {
-
   children: React.ReactNode
-
   analytics: React.ReactNode
-
   team: React.ReactNode
-
 }) {
-
   return (
-
     <>
-
       {props.children}
-
       {props.team}
-
       {props.analytics}
-
     </>
-
   )
-
 }
 ```
 
-Good to know: The children prop is an implicit slot that does not need to be mapped to a folder. This means app/page.js is equivalent to app/@children/page.js.
+> Good to know: The children prop is an implicit slot that does not need to be mapped to a folder. This means app/page.js is equivalent to app/@children/page.js.
 
 
-
-Unmatched Routes
+## Unmatched Routes
 
 By default, the content rendered within a slot will match the current URL.
-
-
 
 In the case of an unmatched slot, the content that Next.js renders differs based on the routing technique and folder structure.
 
 
 
-default.js
+### default.js
 
 You can define a default.js file to render as a fallback when Next.js cannot recover a slot's active state based on the current URL.
-
-
 
 Consider the following folder structure. The @team slot has a settings directory, but @analytics does not.
 
 
-
-Parallel Routes unmatched routes
-
+![Parallel Routes unmatched routes](https://nextjs.org/_next/image?url=%2Fdocs%2Flight%2Fparallel-routes-unmatched-routes.png&w=1920&q=75&dpl=dpl_Efk2BVQgNNJBW8p2ed7NhSw9w44E)
 
 
-Navigation
+
+### Navigation
 
 On navigation, Next.js will render the slot's previously active state, even if it doesn't match the current URL.
 
 
 
-Reload
+### Reload
 
 On reload, Next.js will first try to render the unmatched slot's default.js file. If that's not available, a 404 gets rendered.
 
@@ -2691,7 +2648,7 @@ When a user navigates to @auth/login, or /login in the URL bar, loginSegments wi
 
 
 
-Examples
+## Examples
 
 Modals
 
