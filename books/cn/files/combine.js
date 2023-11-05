@@ -6,14 +6,22 @@ const bookid = process.argv[2];
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 55; i++) {
-    let data = fs.readFileSync('../' + bookid + '/' + i + '.mdx', 'utf8');
-    //console.log(data.match(/title: .*/g)[0].replace('title: ', '　'))
+  for (let i = 1; i <= 700; i++) {
+    const pname = '../' + bookid + '/' + i + '.mdx'
+    let data = ''
+    try{
+      data = fs.readFileSync(pname, 'utf8');
+          //console.log(data.match(/title: .*/g)[0].replace('title: ', '　'))
     data = data.replace(/---\n---\n---\ntitle: (.*)\n---/, '$1')
 
     titles = [...titles, '　'+data.substring(0, data.indexOf('\n'))]
 
-    fs.appendFileSync("cn/" + bookid + ".txt", data, (err) => {
+    }catch(e){
+      data = '\n\n\n\n睡前消息'+i+'期：\n\n\n\n'
+      titles = [...titles, '　'+'睡前消息'+i+'期：']
+    }
+
+    fs.appendFileSync("cn/" + bookid + ".txt", "\n\n\n\n"+data, (err) => {
 
       if (err) {
         console.log(err);

@@ -37,7 +37,7 @@ const getFilesRecursively = (directory) => {
   }
 };
 
-getFilesRecursively('./17/2')
+getFilesRecursively('../44')
 
 files.map(f=>{
   //const newpath = f.substring(0, f.lastIndexOf('/'))+'.mdx'
