@@ -6,7 +6,7 @@ const bookid = process.argv[2];
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 700; i++) {
+  for (let i = 1; i <= 12; i++) {
     const pname = '../' + bookid + '/' + i + '.mdx'
     let data = ''
     try{
@@ -14,11 +14,14 @@ function c() {
           //console.log(data.match(/title: .*/g)[0].replace('title: ', '　'))
     data = data.replace(/---\n---\n---\ntitle: (.*)\n---/, '$1')
 
-    titles = [...titles, '　'+data.substring(0, data.indexOf('\n'))]
+
+    titles = [...titles, '　'+data.substring(0, data.indexOf('\n', 0))]
 
     }catch(e){
       data = '\n\n\n\n睡前消息'+i+'期：\n\n\n\n'
       titles = [...titles, '　'+'睡前消息'+i+'期：']
+     // console.log(e)
+     // process.exit(1)
     }
 
     fs.appendFileSync("cn/" + bookid + ".txt", "\n\n\n\n"+data, (err) => {
