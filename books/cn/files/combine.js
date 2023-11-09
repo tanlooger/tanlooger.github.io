@@ -6,7 +6,7 @@ const bookid = process.argv[2];
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 12; i++) {
+  for (let i = 1; i <= 3; i++) {
     const pname = '../' + bookid + '/' + i + '.mdx'
     let data = ''
     try{
