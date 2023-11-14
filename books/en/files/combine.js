@@ -6,7 +6,7 @@ const bookid = process.argv[2];
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 40; i++) {
     const pname = '../' + bookid + '/' + i + '.txt'
     let data = ''
     try{
@@ -24,7 +24,7 @@ function c() {
      // process.exit(1)
     }
 
-    fs.appendFileSync("yi/" + bookid + ".txt", "\n\n\n\n"+data, (err) => {
+    fs.appendFileSync("en/" + bookid + ".txt", "\n\n\n\n"+data, (err) => {
 
       if (err) {
         console.log(err);
@@ -36,8 +36,8 @@ function c() {
     });
   }
 
-  let data = fs.readFileSync('yi/' + bookid + '.txt', 'utf8');
-  fs.writeFileSync( 'yi/' + bookid + '.txt', titles.join('\n') + '\n\n'+data)
+  let data = fs.readFileSync('en/' + bookid + '.txt', 'utf8');
+  fs.writeFileSync( 'en/' + bookid + '.txt', titles.join('\n') + '\n\n'+data)
 
 }
 
@@ -56,8 +56,8 @@ c()
  */
 function* G(filename, buffer){
   try{
-      let fileHandle = yield fs.promises.open(filename, "r+")
-      let _buffer = yield fileHandle.readFile()
+      let fileHandle = eneld fs.promises.open(filename, "r+")
+      let _buffer = eneld fileHandle.readFile()
       buffer = Buffer.concat([buffer, _buffer])
       return fileHandle.write(buffer, 0, buffer.length, 0)
   }catch(err){
