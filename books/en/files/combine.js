@@ -6,8 +6,8 @@ const bookid = process.argv[2];
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 40; i++) {
-    const pname = '../' + bookid + '/' + i + '.txt'
+  for (let i = 1; i <= 14; i++) {
+    const pname = '../' + bookid + '/' + i + '.mdx'
     let data = ''
     try{
       data = fs.readFileSync(pname, 'utf8');
@@ -56,8 +56,8 @@ c()
  */
 function* G(filename, buffer){
   try{
-      let fileHandle = eneld fs.promises.open(filename, "r+")
-      let _buffer = eneld fileHandle.readFile()
+      let fileHandle =  fs.promises.open(filename, "r+")
+      let _buffer =  fileHandle.readFile()
       buffer = Buffer.concat([buffer, _buffer])
       return fileHandle.write(buffer, 0, buffer.length, 0)
   }catch(err){
