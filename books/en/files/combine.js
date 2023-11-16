@@ -1,12 +1,13 @@
 var fs = require("fs");
 
 const bookid = process.argv[2];
+const lastindex = process.argv[3];
 
 
 function c() {
   let titles = []
 
-  for (let i = 1; i <= 14; i++) {
+  for (let i = 1; i <= lastindex; i++) {
     const pname = '../' + bookid + '/' + i + '.mdx'
     let data = ''
     try{
